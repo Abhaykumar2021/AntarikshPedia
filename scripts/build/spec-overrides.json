@@ -1,0 +1,412 @@
+{
+  "sputnik-1-1957": {
+    "launch_vehicle": "Sputnik-PS 8K71PS",
+    "orbit_type": "Geocentric",
+    "duration": "162 days"
+  },
+  "sputnik-2-1957": {
+    "launch_vehicle": "Sputnik-PS 8K71PS",
+    "orbit_type": "Geocentric",
+    "duration": "162 days"
+  },
+  "explorer-1-1958": {
+    "launch_date": "1958-02-01",
+    "launch_vehicle": "Juno I",
+    "orbit_type": "Geocentric orbit",
+    "duration": "120 days (planned) 111 days (achieved)"
+  },
+  "explorer-3-1958": {
+    "launch_date": "1958-02-01",
+    "launch_vehicle": "Juno I",
+    "orbit_type": "Geocentric orbit",
+    "duration": "120 days (planned) 111 days (achieved)"
+  },
+  "pioneer-1-1958": {
+    "launch_vehicle": "Thor DM 18-Able I"
+  },
+  "sputnik-3-object-d-1958": {
+    "launch_vehicle": "Sputnik-PS 8K71PS",
+    "orbit_type": "Geocentric",
+    "duration": "162 days"
+  },
+  "vanguard-1-1958": {
+    "launch_date": "1958-03-17",
+    "launch_vehicle": "Vanguard TV-4",
+    "orbit_type": "Geocentric orbit",
+    "duration": "90 days (planned) (in orbit)"
+  },
+  "explorer-6-1959": {
+    "launch_date": "1959-08-07",
+    "launch_vehicle": "Thor DM-18 Able III",
+    "orbit_type": "Geocentric orbit",
+    "duration": "60 days (achieved)"
+  },
+  "luna-1-1959": {
+    "launch_date": "1959-09-12",
+    "launch_vehicle": "Luna 8K72 s",
+    "mass_kg": 390,
+    "duration": "2 days, 14 hours, 22 minutes, 41 seconds"
+  },
+  "gemini-4-1965": {
+    "orbit_type": "Geocentric",
+    "duration": "4&nbsp;days, 1&nbsp;hour, 56&nbsp;minutes, 12&nbsp;seconds"
+  },
+  "venera-7-1970": {
+    "launch_vehicle": "Molniya-M",
+    "orbit_type": "Heliocentric",
+    "duration": "Cruise: Lander: 23 minutes"
+  },
+  "luna-19-1971": {
+    "duration": "1958–1976"
+  },
+  "venera-9-1975": {
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Cytherocentric",
+    "duration": "Orbiter: Lander: Launch to last contact: 292 days"
+  },
+  "viking-1-1975": {
+    "launch_vehicle": "Titan IIIE",
+    "mass_kg": 3530,
+    "orbit_type": "Areocentric"
+  },
+  "voyager-1-2-1977": {
+    "launch_vehicle": "Titan IIIE"
+  },
+  "giotto-1985": {
+    "launch_vehicle": "Ariane 1 V-14",
+    "mass_kg": 960,
+    "orbit_type": "Heliocentric"
+  },
+  "sakigake-1985": {
+    "launch_vehicle": "Mu-3SII",
+    "orbit_type": "Heliocentric"
+  },
+  "sampex-1992": {
+    "launch_date": "1992-07-03",
+    "launch_vehicle": "Scout G-1",
+    "orbit_type": "Geocentric orbit",
+    "duration": "3 years (planned) (science mission)"
+  },
+  "topex-poseidon-1992": {
+    "launch_vehicle": "Ariane 42P",
+    "orbit_type": "Geocentric"
+  },
+  "trace-1998": {
+    "launch_date": "1998-04-02",
+    "launch_vehicle": "Pegasus XL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "1 year (planned) (achieved)"
+  },
+  "chandra-x-ray-observatory-1999": {
+    "orbit_type": "Highly elliptical",
+    "duration": "Planned: 5 years Elapsed:"
+  },
+  "fuse-1999": {
+    "launch_date": "1999-06-24",
+    "launch_vehicle": "Delta II 7320-10",
+    "orbit_type": "Geocentric orbit",
+    "duration": "3.5 years (planned) (achieved)"
+  },
+  "terra-1999": {
+    "launch_vehicle": "Atlas IIASAC-141",
+    "orbit_type": "Geocentric",
+    "duration": "{{unbulleted|6 years (planned) | (elapsed) }}"
+  },
+  "smart-1-2003": {
+    "launch_vehicle": "Ariane 5G",
+    "orbit_type": "Selenocentric",
+    "duration": "2 years, 11 months, 6 days, 6 hours, 27 minutes, 36 seconds"
+  },
+  "chang-e-1-2007": {
+    "launch_date": "2007-10-24",
+    "launch_vehicle": "Chang Zheng 3A",
+    "orbit_type": "Selenocentric",
+    "duration": "1 year (planned) (final)"
+  },
+  "dawn-2007": {
+    "launch_vehicle": "Delta II 7925HD-327",
+    "orbit_type": "Ceres"
+  },
+  "kaguya-selene-2007": {
+    "launch_vehicle": "H-IIA 2022 F13",
+    "orbit_type": "Selenocentric",
+    "duration": "1 year and 9 months (launch date to decay date)"
+  },
+  "juno-2011": {
+    "launch_date": "2011-08-05",
+    "launch_vehicle": "Atlas V 551"
+  },
+  "phobos-grunt-2011": {
+    "launch_date": "2011-11-08",
+    "launch_vehicle": "Zenit-2SB41",
+    "orbit_type": "Geocentric orbit",
+    "duration": "3 years (planned) Failed in Earth orbit"
+  },
+  "tiangong-1-2011": {
+    "launch_date": "2011-09-29"
+  },
+  "curiosity-msl-2012": {
+    "launch_vehicle": "Atlas V 541"
+  },
+  "osiris-rex-2016": {
+    "launch_date": "2016-09-08",
+    "launch_vehicle": "Atlas V 411",
+    "orbit_type": "Bennu-centric",
+    "duration": "7 years (planned) at asteroid (actual) (elapsed)"
+  },
+  "tiangong-2-2016": {
+    "launch_date": "2016-09-15"
+  },
+  "nicer-2017": {
+    "launch_date": "2017-06-03",
+    "launch_vehicle": "Falcon 9 Full Thrust",
+    "orbit_type": "Geocentric orbit"
+  },
+  "bepicolombo-2018": {
+    "launch_date": "2018-10-20",
+    "launch_vehicle": "Ariane 5 ECA"
+  },
+  "nauka-and-prichal-2021": {
+    "launch_date": "2021-11-24"
+  },
+  "solar-orbiter-2021": {
+    "launch_vehicle": "Atlas V 411",
+    "orbit_type": "Elliptic orbit",
+    "duration": "7 years (nominal) + 3 years (extended) Elapsed:"
+  },
+  "artemis-i-2022": {
+    "launch_date": "2022-11-16",
+    "launch_vehicle": "Space Launch System",
+    "orbit_type": "Selenocentric"
+  },
+  "hera-2024": {
+    "launch_date": "2024-10-07",
+    "launch_vehicle": "Falcon 9 Block 5 B1061-23"
+  },
+  "im-1-odysseus-2024": {
+    "launch_vehicle": "Falcon 9 Block 5 F9-299",
+    "duration": "Launch to Landing: 13 days On surface: 30 minutes (lifespan)"
+  },
+  "pace-2024": {
+    "launch_vehicle": "Falcon 9 Block 5 B1081-4",
+    "orbit_type": "Geocentric orbit",
+    "duration": "3-10 years (planned) (in progress)"
+  },
+  "slim-2024": {
+    "launch_vehicle": "H-IIA 202"
+  },
+  "pioneer-2-1958": {
+    "launch_vehicle": "Thor DM 18-Able I"
+  },
+  "luna-2-1959": {
+    "launch_vehicle": "Luna 8K72",
+    "orbit_type": "Heliocentric",
+    "duration": "Approximately 62 hours"
+  },
+  "luna-3-1959": {
+    "launch_date": "1959-09-12",
+    "launch_vehicle": "Luna 8K72 s",
+    "mass_kg": 390,
+    "duration": "2 days, 14 hours, 22 minutes, 41 seconds"
+  },
+  "korabl-sputnik-2-1960": {
+    "launch_vehicle": "Vostok-L 8K72",
+    "orbit_type": "Geocentric",
+    "duration": "1&nbsp;day"
+  },
+  "venera-1-1961": {
+    "launch_vehicle": "Molniya 8K78",
+    "orbit_type": "Heliocentric",
+    "duration": "7 days"
+  },
+  "ariel-1-1962": {
+    "launch_vehicle": "Thor DM-19 Delta",
+    "orbit_type": "Geocentric"
+  },
+  "mariner-2-1962": {
+    "launch_vehicle": "Atlas LV-3 Agena-B",
+    "orbit_type": "Heliocentric"
+  },
+  "mariner-9-1971": {
+    "launch_vehicle": "Atlas SLV-3C Centaur-D",
+    "orbit_type": "Areocentric"
+  },
+  "mars-3-1971": {
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Areocentric"
+  },
+  "apollo-17-1972": {
+    "launch_vehicle": "Saturn V SA-512",
+    "duration": "12&nbsp;days, 13&nbsp;hours, 51&nbsp;minutes, 59&nbsp;seconds"
+  },
+  "solar-maximum-mission-1980": {
+    "launch_date": "1980-02-14",
+    "launch_vehicle": "Delta 3910D-151",
+    "orbit_type": "Geocentric"
+  },
+  "hinotori-1981": {
+    "launch_vehicle": "Mu-3S",
+    "orbit_type": "Geocentric"
+  },
+  "sts-1-columbia-1981": {
+    "orbit_type": "Geocentric orbit"
+  },
+  "iras-1982": {
+    "launch_vehicle": "Delta 3910",
+    "orbit_type": "Geocentric"
+  },
+  "mars-observer-1992": {
+    "orbit_type": "Areocentric"
+  },
+  "clementine-1994": {
+    "launch_vehicle": "Titan II",
+    "mass_kg": 424,
+    "orbit_type": "Selenocentric",
+    "duration": "115&nbsp;days"
+  },
+  "wind-1994": {
+    "launch_date": "1994-11-01",
+    "launch_vehicle": "Delta II 7925-10",
+    "orbit_type": "Heliocentric orbit",
+    "duration": "3 years (planned) ''(in progress) ''"
+  },
+  "sirtf-spitzer-2003": {
+    "launch_vehicle": "Delta II 7920H",
+    "orbit_type": "Heliocentric",
+    "duration": "Planned: 2.5 to 5+ years Primary mission: Final:"
+  },
+  "luna-10-1966": {
+    "launch_date": "1966-01-31",
+    "launch_vehicle": "Molniya-M 8K78M s",
+    "orbit_type": "Geocentric",
+    "duration": "6 days, 11 hours, 10 minutes"
+  },
+  "isee-3-1978": {
+    "launch_date": "1978-08-12",
+    "launch_vehicle": "Thor-Delta 2914",
+    "orbit_type": "Heliocentric orbit"
+  },
+  "rosat-1990": {
+    "launch_vehicle": "Delta II 6920-10",
+    "duration": "8 years and 8 months"
+  },
+  "ulysses-1990": {
+    "launch_date": "1990-10-06",
+    "orbit_type": "Heliocentric orbit"
+  },
+  "yohkoh-1991": {
+    "launch_vehicle": "Mu-3S-II",
+    "orbit_type": "Geocentric"
+  },
+  "swift-2004": {
+    "launch_date": "2026-07-03",
+    "launch_vehicle": "Pegasus XL",
+    "orbit_type": "Geocentric orbit"
+  },
+  "hinode-2005": {
+    "launch_vehicle": "H-IIA 202",
+    "mass_kg": 310,
+    "orbit_type": "Heliocentric orbit"
+  },
+  "mars-orbiter-mission-mangalyaan-2013": {
+    "launch_vehicle": "PSLV-XL C25",
+    "duration": "Planned:6 monthsFinal:"
+  },
+  "hayabusa2-2014": {
+    "launch_date": "2014-12-03",
+    "launch_vehicle": "H-IIA 202",
+    "mass_kg": 600,
+    "duration": "6 years (planned) ( elapsed)"
+  },
+  "oco-2-2014": {
+    "launch_vehicle": "Delta II 7320-10C",
+    "orbit_type": "Geocentric",
+    "duration": "2 years (nominal) Elapsed:"
+  },
+  "aditya-l1-2023": {
+    "launch_vehicle": "PSLV-XL C57",
+    "orbit_type": "Sun–Earth L1 orbit",
+    "duration": "5.2 years (planned) (elapsed)"
+  },
+  "chandrayaan-3-2023": {
+    "launch_vehicle": "LVM3 M4"
+  },
+  "euclid-2023": {
+    "launch_date": "2023-07-01",
+    "launch_vehicle": "Falcon 9",
+    "orbit_type": "Sun–Earth L2",
+    "duration": "6 years (nominal) (in progress)"
+  },
+  "tiros-1-1960": {
+    "launch_vehicle": "Thor DM 18-Able II",
+    "orbit_type": "Geocentric",
+    "duration": "75&nbsp;days (90 days planned)"
+  },
+  "mariner-4-1965": {
+    "launch_vehicle": "Atlas LV-3 Agena-D",
+    "orbit_type": "Heliocentric"
+  },
+  "voskhod-2-1965": {
+    "mass_kg": 5686
+  },
+  "luna-9-1966": {
+    "launch_date": "1966-01-31",
+    "launch_vehicle": "Molniya-M 8K78M s",
+    "orbit_type": "Geocentric",
+    "duration": "6 days, 11 hours, 10 minutes"
+  },
+  "surveyor-1-1966": {
+    "launch_vehicle": "Atlas LV-3C Centaur-D AC-10",
+    "duration": "7 months, 8 days (launch to last contact)"
+  },
+  "cos-b-1975": {
+    "launch_date": "1975-08-09",
+    "launch_vehicle": "Delta 2913",
+    "mass_kg": 2775,
+    "orbit_type": "Geocentric orbit",
+    "duration": "2.5 years (planned) (achieved)"
+  },
+  "seasat-1978": {
+    "launch_vehicle": "Atlas E",
+    "orbit_type": "Geocentric"
+  },
+  "hubble-space-telescope-1990": {
+    "launch_date": "1990-04-24",
+    "orbit_type": "Geocentric orbit"
+  },
+  "rxte-1995": {
+    "launch_date": "1995-12-30",
+    "launch_vehicle": "Delta II 7920-10",
+    "orbit_type": "Geocentric orbit",
+    "duration": "16 years (achieved)"
+  },
+  "shenzhou-5-2003": {
+    "launch_date": "2003-10-15",
+    "launch_vehicle": "Long March 2F",
+    "orbit_type": "Geocentric orbit"
+  },
+  "astrosat-2015": {
+    "launch_vehicle": "PSLV-C30",
+    "orbit_type": "Near-equatorial",
+    "duration": "Planned: 5 years Elapsed :"
+  },
+  "lisa-pathfinder-2015": {
+    "launch_vehicle": "Vega",
+    "orbit_type": "Sun–Earth L1",
+    "duration": "576 days"
+  },
+  "psyche-2023": {
+    "launch_date": "2023-10-13",
+    "launch_vehicle": "Falcon Heavy",
+    "duration": "Cruise: (in progress) Science: 21 months in orbit"
+  },
+  "xrism-2023": {
+    "launch_date": "2023-09-06",
+    "launch_vehicle": "H-IIA 202",
+    "orbit_type": "Geocentric orbit",
+    "duration": "3 years (planned) (elapsed)"
+  },
+  "chang-e-6-2024": {
+    "launch_vehicle": "Long March 5"
+  }
+}

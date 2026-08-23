@@ -1,0 +1,196 @@
+/* ============================================================
+   Homepage — journey strip & on-this-day (uses tokens/base/components)
+   ============================================================ */
+
+/* hero */
+.journey-hero {
+  min-height: 78vh;
+  display: grid;
+  align-content: center;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding: var(--space-8) var(--space-5) var(--space-6);
+}
+
+.journey-hero h1 {
+  font-size: var(--text-hero);
+  text-transform: uppercase;
+  line-height: 0.98;
+  margin-top: var(--space-4);
+}
+
+.journey-hero .hook {
+  color: var(--color-muted);
+  font-size: var(--text-lg);
+  max-width: 58ch;
+  margin-top: var(--space-5);
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-top: var(--space-6);
+}
+
+.facts-wrap { padding-block: var(--space-5); }
+
+/* on this day */
+.otd {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding: var(--space-6) var(--space-5) 0;
+}
+
+.otd-empty {
+  color: var(--color-muted);
+}
+
+/* journey milestones */
+.journey-strip {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding: var(--space-8) var(--space-5) var(--space-6);
+  text-align: center;
+}
+
+.milestones {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: var(--space-4);
+  margin-block: var(--space-6);
+  counter-reset: milestone;
+}
+
+.milestone a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  height: 100%;
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--era-accent, var(--color-accent));
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-align: left;
+  transition:
+    transform var(--transition-med),
+    border-color var(--transition-med),
+    box-shadow var(--transition-med);
+}
+
+.milestone a:hover {
+  transform: translateY(-5px);
+  border-color: var(--era-accent, var(--color-accent));
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 20px var(--accent-soft);
+}
+
+.m-year {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.2em;
+  color: var(--era-accent, var(--color-accent));
+}
+
+.milestone img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.m-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-md);
+}
+
+.m-outcome {
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+}
+
+.center-cta { margin-top: var(--space-5); }
+
+/* mission page shared bits reused by vision/catalog pages */
+.page-head { padding-block: var(--space-7) var(--space-5); }
+
+.mp-section {
+  padding-block: var(--space-6);
+  max-width: 860px;
+  margin-inline: auto;
+}
+
+.mp-section h2 {
+  font-size: var(--text-xl);
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+
+.context-note {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+.chain {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  justify-content: center;
+}
+
+.chain li:not(.chain-arrow) {
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--pill);
+  font-family: var(--font-display);
+  font-weight: 600;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.chain li:not(.chain-arrow):hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 18px var(--accent-glow);
+}
+
+.chain-arrow {
+  color: var(--color-muted);
+}
+
+.principle-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+
+.principle-card.now {
+  border-color: rgba(232, 163, 61, 0.55);
+}
+
+.phase-tag {
+  display: inline-block;
+  margin-bottom: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.standard blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: var(--space-4);
+  font-size: var(--text-lg);
+}
+
+.standard-note {
+  color: var(--color-muted);
+  margin-block: var(--space-4) var(--space-5);
+}

@@ -1,0 +1,75 @@
+---
+layout: base.njk
+section: home
+permalink: /
+extraStyles:
+  - landing-journey.css
+---
+
+{#- ============================================================
+   Homepage: the scroll-driven journey from Sputnik to JWST,
+   ending at the flip-book timeline. "On this day" appears
+   between hero and journey when there is a match.
+   ============================================================ -#}
+
+<section class="journey-hero">
+  <p class="hero-kicker">A connected encyclopedia</p>
+  <h1>Humanity's journey<br>into space</h1>
+  <p class="hook">
+    It began with a beep in 1957. {{ missions | length }} missions later,
+    golden mirrors are photographing the first light of the universe.
+    Follow the whole story — every launch is a doorway.
+  </p>
+  <div class="hero-actions">
+    <a class="btn btn-solid" href="/timeline/">Open the Timeline</a>
+    <a class="btn" href="#on-this-day" id="otd-link">On this day ↓</a>
+  </div>
+  <dl class="facts-strip" aria-label="Dataset statistics">
+    <div><dt>Missions</dt><dd>{{ missions | length }}</dd></div>
+    <div><dt>Eras</dt><dd>6</dd></div>
+    <div><dt>Countries &amp; entities</dt><dd>{{ countries | length }}</dd></div>
+    <div><dt>Years covered</dt><dd>{{ (missions | last).year - (missions | first).year + 1 }}</dd></div>
+  </dl>
+</section>
+
+{% set otd = missions | onThisDay %}
+<section class="otd reveal" id="on-this-day">
+  {% if otd and otd.length > 0 %}
+  <h2 class="section-title">On this day in space history</h2>
+  <div class="card-grid">
+    {% for m in otd %}
+      {% include "partials/mission-card.njk" %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <h2 class="section-title">On this day in space history</h2>
+  <p class="otd-empty mono-tag">
+    No launches recorded for today's date — explore the full timeline instead.
+  </p>
+  {% endif %}
+</section>
+
+<section class="journey-strip">
+  <h2 class="section-title reveal">Sixty-eight years. One long journey.</h2>
+  {% set highlightIds = ['sputnik-1-1957', 'sputnik-2-1957', 'vostok-1-1961', 'apollo-11-1969', 'zarya-international-space-station-assembly-begins-1998', 'james-webb-space-telescope-2021'] %}
+  <ol class="milestones">
+    {% for hid in highlightIds %}
+      {% set m = missions | missionById(hid) %}
+      {% if m %}
+    <li class="milestone reveal" style="--era-accent: {{ m.era | eraAccent }}">
+      <a href="/missions/{{ m.id }}/">
+        <span class="m-year">{{ m.year }}</span>
+        {% if m.media %}<img src="/{{ m.media.thumb }}" alt="{{ m.name }}" loading="lazy">{% endif %}
+        <span class="m-name">{{ m.name }}</span>
+        <span class="m-outcome">{{ m.outcome }}</span>
+      </a>
+    </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+  <div class="reveal center-cta">
+    <a class="btn btn-solid" href="/timeline/">Begin the journey — page one</a>
+  </div>
+</section>
+
+<script type="module" src="/scripts/home.js"></script>

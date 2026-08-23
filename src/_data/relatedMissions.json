@@ -1,0 +1,3764 @@
+{
+  "sputnik-1-1957": [
+    {
+      "id": "sputnik-2-1957",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-3-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-3-object-d-1958",
+      "type": "same_target"
+    }
+  ],
+  "sputnik-2-1957": [
+    {
+      "id": "sputnik-1-1957",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-3-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-3-object-d-1958",
+      "type": "same_target"
+    }
+  ],
+  "explorer-1-1958": [
+    {
+      "id": "explorer-3-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-3-object-d-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "vanguard-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-1-1957",
+      "type": "same_target"
+    }
+  ],
+  "explorer-3-1958": [
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-3-object-d-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "vanguard-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-1-1957",
+      "type": "same_target"
+    }
+  ],
+  "pioneer-1-1958": [
+    {
+      "id": "pioneer-2-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-1-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-2-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-3-1959",
+      "type": "same_target"
+    }
+  ],
+  "pioneer-2-1958": [
+    {
+      "id": "pioneer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-1-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-2-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-3-1959",
+      "type": "same_target"
+    }
+  ],
+  "sputnik-3-object-d-1958": [
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-3-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "vanguard-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-1-1957",
+      "type": "same_target"
+    }
+  ],
+  "vanguard-1-1958": [
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-3-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-3-object-d-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-1-1957",
+      "type": "same_target"
+    }
+  ],
+  "explorer-6-1959": [
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-3-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "sputnik-3-object-d-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "vanguard-1-1958",
+      "type": "same_target"
+    }
+  ],
+  "luna-1-1959": [
+    {
+      "id": "luna-2-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-3-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "pioneer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "pioneer-2-1958",
+      "type": "same_target"
+    }
+  ],
+  "luna-2-1959": [
+    {
+      "id": "luna-1-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-3-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "pioneer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "pioneer-2-1958",
+      "type": "same_target"
+    }
+  ],
+  "luna-3-1959": [
+    {
+      "id": "luna-1-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-2-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "pioneer-1-1958",
+      "type": "same_target"
+    },
+    {
+      "id": "pioneer-2-1958",
+      "type": "same_target"
+    }
+  ],
+  "korabl-sputnik-2-1960": [
+    {
+      "id": "tiros-1-1960",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-6-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    }
+  ],
+  "tiros-1-1960": [
+    {
+      "id": "korabl-sputnik-2-1960",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-6-1959",
+      "type": "same_target"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "explorer-1-1958",
+      "type": "same_target"
+    }
+  ],
+  "ranger-1-1961": [
+    {
+      "id": "ranger-2-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-1-1961",
+      "type": "competitor"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "competitor"
+    },
+    {
+      "id": "korabl-sputnik-2-1960",
+      "type": "competitor"
+    }
+  ],
+  "ranger-2-1961": [
+    {
+      "id": "ranger-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-1-1961",
+      "type": "competitor"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "competitor"
+    },
+    {
+      "id": "korabl-sputnik-2-1960",
+      "type": "competitor"
+    }
+  ],
+  "venera-1-1961": [
+    {
+      "id": "mariner-2-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-4-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-7-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-4-1965",
+      "type": "same_program"
+    }
+  ],
+  "vostok-1-1961": [
+    {
+      "id": "korabl-sputnik-2-1960",
+      "type": "same_target"
+    },
+    {
+      "id": "tiros-1-1960",
+      "type": "same_target"
+    },
+    {
+      "id": "ariel-1-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "oso-1-1962",
+      "type": "same_target"
+    }
+  ],
+  "ariel-1-1962": [
+    {
+      "id": "oso-1-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "syncom-2-1963",
+      "type": "same_target"
+    },
+    {
+      "id": "korabl-sputnik-2-1960",
+      "type": "same_target"
+    }
+  ],
+  "mariner-2-1962": [
+    {
+      "id": "venera-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-4-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-7-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-4-1965",
+      "type": "same_program"
+    }
+  ],
+  "oso-1-1962": [
+    {
+      "id": "ariel-1-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "syncom-2-1963",
+      "type": "same_target"
+    },
+    {
+      "id": "korabl-sputnik-2-1960",
+      "type": "same_target"
+    }
+  ],
+  "syncom-2-1963": [
+    {
+      "id": "ariel-1-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "oso-1-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "ogo-1-1964",
+      "type": "same_target"
+    },
+    {
+      "id": "vostok-1-1961",
+      "type": "same_target"
+    }
+  ],
+  "ogo-1-1964": [
+    {
+      "id": "syncom-2-1963",
+      "type": "same_target"
+    },
+    {
+      "id": "gemini-4-1965",
+      "type": "same_target"
+    },
+    {
+      "id": "voskhod-2-1965",
+      "type": "same_target"
+    },
+    {
+      "id": "ariel-1-1962",
+      "type": "same_target"
+    }
+  ],
+  "ranger-7-1964": [
+    {
+      "id": "luna-10-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-9-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "surveyor-1-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-orbiter-5-1967",
+      "type": "same_target"
+    }
+  ],
+  "gemini-4-1965": [
+    {
+      "id": "voskhod-2-1965",
+      "type": "same_target"
+    },
+    {
+      "id": "ogo-1-1964",
+      "type": "same_target"
+    },
+    {
+      "id": "syncom-2-1963",
+      "type": "same_target"
+    },
+    {
+      "id": "ariel-1-1962",
+      "type": "same_target"
+    }
+  ],
+  "mariner-4-1965": [
+    {
+      "id": "mariner-6-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-9-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-3-1971",
+      "type": "same_target"
+    }
+  ],
+  "voskhod-2-1965": [
+    {
+      "id": "gemini-4-1965",
+      "type": "same_target"
+    },
+    {
+      "id": "ogo-1-1964",
+      "type": "same_target"
+    },
+    {
+      "id": "syncom-2-1963",
+      "type": "same_target"
+    },
+    {
+      "id": "ariel-1-1962",
+      "type": "same_target"
+    }
+  ],
+  "luna-10-1966": [
+    {
+      "id": "luna-9-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "surveyor-1-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-orbiter-5-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "ranger-7-1964",
+      "type": "same_target"
+    }
+  ],
+  "luna-9-1966": [
+    {
+      "id": "luna-10-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "surveyor-1-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-orbiter-5-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "ranger-7-1964",
+      "type": "same_target"
+    }
+  ],
+  "surveyor-1-1966": [
+    {
+      "id": "luna-10-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-9-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-orbiter-5-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "ranger-7-1964",
+      "type": "same_target"
+    }
+  ],
+  "lunar-orbiter-5-1967": [
+    {
+      "id": "luna-10-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-9-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "surveyor-1-1966",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-8-1968",
+      "type": "same_target"
+    }
+  ],
+  "venera-4-1967": [
+    {
+      "id": "venera-7-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-2-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-1-1961",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-9-1975",
+      "type": "same_target"
+    }
+  ],
+  "apollo-8-1968": [
+    {
+      "id": "zond-5-1968",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-orbiter-5-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-11-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-10-1966",
+      "type": "same_target"
+    }
+  ],
+  "zond-5-1968": [
+    {
+      "id": "apollo-8-1968",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-orbiter-5-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-11-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-10-1966",
+      "type": "same_target"
+    }
+  ],
+  "apollo-11-1969": [
+    {
+      "id": "apollo-8-1968",
+      "type": "same_target"
+    },
+    {
+      "id": "zond-5-1968",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-16-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "lunokhod-1-1970",
+      "type": "same_target"
+    }
+  ],
+  "mariner-6-1969": [
+    {
+      "id": "mariner-7-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-9-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-3-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-4-1965",
+      "type": "same_target"
+    }
+  ],
+  "mariner-7-1969": [
+    {
+      "id": "mariner-6-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-9-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-3-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-4-1965",
+      "type": "same_target"
+    }
+  ],
+  "luna-16-1970": [
+    {
+      "id": "lunokhod-1-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-11-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-19-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-8-1968",
+      "type": "same_target"
+    }
+  ],
+  "lunokhod-1-1970": [
+    {
+      "id": "luna-16-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-11-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-19-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-8-1968",
+      "type": "same_target"
+    }
+  ],
+  "uhuru-1970": [
+    {
+      "id": "salyut-1-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "copernicus-oao-3-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "landsat-1-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    }
+  ],
+  "venera-7-1970": [
+    {
+      "id": "venera-4-1967",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-9-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-2-1962",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-11-1978",
+      "type": "same_target"
+    }
+  ],
+  "luna-19-1971": [
+    {
+      "id": "luna-16-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "lunokhod-1-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-17-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-11-1969",
+      "type": "same_target"
+    }
+  ],
+  "mariner-9-1971": [
+    {
+      "id": "mars-3-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-6-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "viking-1-1975",
+      "type": "same_target"
+    }
+  ],
+  "mars-3-1971": [
+    {
+      "id": "mariner-9-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-6-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "viking-1-1975",
+      "type": "same_target"
+    }
+  ],
+  "salyut-1-1971": [
+    {
+      "id": "uhuru-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "copernicus-oao-3-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "landsat-1-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    }
+  ],
+  "apollo-17-1972": [
+    {
+      "id": "luna-19-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-16-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "lunokhod-1-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-11-1969",
+      "type": "same_target"
+    }
+  ],
+  "copernicus-oao-3-1972": [
+    {
+      "id": "landsat-1-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "salyut-1-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    },
+    {
+      "id": "uhuru-1970",
+      "type": "same_target"
+    }
+  ],
+  "landsat-1-1972": [
+    {
+      "id": "copernicus-oao-3-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "salyut-1-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    },
+    {
+      "id": "uhuru-1970",
+      "type": "same_target"
+    }
+  ],
+  "pioneer-10-1972": [
+    {
+      "id": "pioneer-11-1973",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-10-1974",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-6-1969",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_program"
+    }
+  ],
+  "pioneer-11-1973": [
+    {
+      "id": "pioneer-10-1972",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-10-1974",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-6-1969",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_program"
+    }
+  ],
+  "skylab-1973": [
+    {
+      "id": "copernicus-oao-3-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "landsat-1-1972",
+      "type": "same_target"
+    },
+    {
+      "id": "salyut-1-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "same_target"
+    }
+  ],
+  "helios-1-1974": [
+    {
+      "id": "mariner-10-1974",
+      "type": "competitor"
+    },
+    {
+      "id": "pioneer-11-1973",
+      "type": "competitor"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "competitor"
+    },
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "competitor"
+    }
+  ],
+  "mariner-10-1974": [
+    {
+      "id": "pioneer-11-1973",
+      "type": "same_program"
+    },
+    {
+      "id": "pioneer-10-1972",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-6-1969",
+      "type": "same_program"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_program"
+    }
+  ],
+  "apollo-soyuz-test-project-1975": [
+    {
+      "id": "aryabhata-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "cos-b-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "sas-3-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    }
+  ],
+  "aryabhata-1975": [
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "cos-b-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "sas-3-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    }
+  ],
+  "cos-b-1975": [
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "aryabhata-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "sas-3-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    }
+  ],
+  "sas-3-1975": [
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "aryabhata-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "cos-b-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "skylab-1973",
+      "type": "same_target"
+    }
+  ],
+  "venera-9-1975": [
+    {
+      "id": "venera-11-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-7-1970",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-13-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-4-1967",
+      "type": "same_target"
+    }
+  ],
+  "viking-1-1975": [
+    {
+      "id": "mariner-9-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-3-1971",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-6-1969",
+      "type": "same_target"
+    },
+    {
+      "id": "mariner-7-1969",
+      "type": "same_target"
+    }
+  ],
+  "heao-1-1977": [
+    {
+      "id": "seasat-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "aryabhata-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "cos-b-1975",
+      "type": "same_target"
+    }
+  ],
+  "voyager-1-2-1977": [
+    {
+      "id": "isee-3-1978",
+      "type": "competitor"
+    },
+    {
+      "id": "venera-11-1978",
+      "type": "competitor"
+    },
+    {
+      "id": "apollo-soyuz-test-project-1975",
+      "type": "competitor"
+    },
+    {
+      "id": "aryabhata-1975",
+      "type": "competitor"
+    }
+  ],
+  "isee-3-1978": [
+    {
+      "id": "seasat-1978",
+      "type": "competitor"
+    },
+    {
+      "id": "venera-11-1978",
+      "type": "competitor"
+    },
+    {
+      "id": "heao-1-1977",
+      "type": "competitor"
+    },
+    {
+      "id": "voyager-1-2-1977",
+      "type": "competitor"
+    }
+  ],
+  "seasat-1978": [
+    {
+      "id": "heao-1-1977",
+      "type": "same_target"
+    },
+    {
+      "id": "bhaskara-1-1979",
+      "type": "same_target"
+    },
+    {
+      "id": "einstein-observatory-1979",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    }
+  ],
+  "venera-11-1978": [
+    {
+      "id": "venera-9-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-13-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-15-16-1983",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-7-1970",
+      "type": "same_target"
+    }
+  ],
+  "bhaskara-1-1979": [
+    {
+      "id": "einstein-observatory-1979",
+      "type": "same_target"
+    },
+    {
+      "id": "seasat-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    },
+    {
+      "id": "heao-1-1977",
+      "type": "same_target"
+    }
+  ],
+  "einstein-observatory-1979": [
+    {
+      "id": "bhaskara-1-1979",
+      "type": "same_target"
+    },
+    {
+      "id": "seasat-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    },
+    {
+      "id": "heao-1-1977",
+      "type": "same_target"
+    }
+  ],
+  "solar-maximum-mission-1980": [
+    {
+      "id": "bhaskara-1-1979",
+      "type": "same_target"
+    },
+    {
+      "id": "einstein-observatory-1979",
+      "type": "same_target"
+    },
+    {
+      "id": "hinotori-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "sts-1-columbia-1981",
+      "type": "same_target"
+    }
+  ],
+  "hinotori-1981": [
+    {
+      "id": "sts-1-columbia-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    },
+    {
+      "id": "iras-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "bhaskara-1-1979",
+      "type": "same_target"
+    }
+  ],
+  "sts-1-columbia-1981": [
+    {
+      "id": "hinotori-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    },
+    {
+      "id": "iras-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "bhaskara-1-1979",
+      "type": "same_target"
+    }
+  ],
+  "iras-1982": [
+    {
+      "id": "hinotori-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "sts-1-columbia-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "tenma-1983",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    }
+  ],
+  "venera-13-1982": [
+    {
+      "id": "venera-15-16-1983",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-11-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-9-1975",
+      "type": "same_target"
+    },
+    {
+      "id": "magellan-1989",
+      "type": "same_target"
+    }
+  ],
+  "tenma-1983": [
+    {
+      "id": "iras-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "hinotori-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "sts-1-columbia-1981",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-maximum-mission-1980",
+      "type": "same_target"
+    }
+  ],
+  "venera-15-16-1983": [
+    {
+      "id": "venera-13-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-11-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "magellan-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-9-1975",
+      "type": "same_target"
+    }
+  ],
+  "soviet-vega-1-1984": [
+    {
+      "id": "soviet-vega-2-1984",
+      "type": "same_target"
+    },
+    {
+      "id": "tenma-1983",
+      "type": "competitor"
+    },
+    {
+      "id": "venera-15-16-1983",
+      "type": "competitor"
+    },
+    {
+      "id": "giotto-1985",
+      "type": "competitor"
+    }
+  ],
+  "soviet-vega-2-1984": [
+    {
+      "id": "soviet-vega-1-1984",
+      "type": "same_target"
+    },
+    {
+      "id": "tenma-1983",
+      "type": "competitor"
+    },
+    {
+      "id": "venera-15-16-1983",
+      "type": "competitor"
+    },
+    {
+      "id": "giotto-1985",
+      "type": "competitor"
+    }
+  ],
+  "giotto-1985": [
+    {
+      "id": "sakigake-1985",
+      "type": "same_target"
+    },
+    {
+      "id": "suisei-1985",
+      "type": "same_target"
+    },
+    {
+      "id": "soviet-vega-1-1984",
+      "type": "competitor"
+    },
+    {
+      "id": "soviet-vega-2-1984",
+      "type": "competitor"
+    }
+  ],
+  "sakigake-1985": [
+    {
+      "id": "giotto-1985",
+      "type": "same_target"
+    },
+    {
+      "id": "suisei-1985",
+      "type": "same_target"
+    },
+    {
+      "id": "soviet-vega-1-1984",
+      "type": "competitor"
+    },
+    {
+      "id": "soviet-vega-2-1984",
+      "type": "competitor"
+    }
+  ],
+  "suisei-1985": [
+    {
+      "id": "giotto-1985",
+      "type": "same_target"
+    },
+    {
+      "id": "sakigake-1985",
+      "type": "same_target"
+    },
+    {
+      "id": "soviet-vega-1-1984",
+      "type": "competitor"
+    },
+    {
+      "id": "soviet-vega-2-1984",
+      "type": "competitor"
+    }
+  ],
+  "kvant-1-1986": [
+    {
+      "id": "mir-1986",
+      "type": "competitor"
+    },
+    {
+      "id": "giotto-1985",
+      "type": "competitor"
+    },
+    {
+      "id": "sakigake-1985",
+      "type": "competitor"
+    },
+    {
+      "id": "suisei-1985",
+      "type": "competitor"
+    }
+  ],
+  "mir-1986": [
+    {
+      "id": "ginga-1987",
+      "type": "same_target"
+    },
+    {
+      "id": "tenma-1983",
+      "type": "same_target"
+    },
+    {
+      "id": "cobe-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hipparcos-1989",
+      "type": "same_target"
+    }
+  ],
+  "ginga-1987": [
+    {
+      "id": "mir-1986",
+      "type": "same_target"
+    },
+    {
+      "id": "cobe-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hipparcos-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    }
+  ],
+  "phobos-1-1988": [
+    {
+      "id": "phobos-2-1988",
+      "type": "same_target"
+    },
+    {
+      "id": "magellan-1989",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-observer-1992",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-global-surveyor-1996",
+      "type": "same_program"
+    }
+  ],
+  "phobos-2-1988": [
+    {
+      "id": "phobos-1-1988",
+      "type": "same_target"
+    },
+    {
+      "id": "magellan-1989",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-observer-1992",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-global-surveyor-1996",
+      "type": "same_program"
+    }
+  ],
+  "cobe-1989": [
+    {
+      "id": "hipparcos-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "rosat-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "ginga-1987",
+      "type": "same_target"
+    }
+  ],
+  "galileo-1989": [
+    {
+      "id": "hipparcos-1989",
+      "type": "competitor"
+    },
+    {
+      "id": "phobos-1-1988",
+      "type": "competitor"
+    },
+    {
+      "id": "phobos-2-1988",
+      "type": "competitor"
+    },
+    {
+      "id": "hiten-1990",
+      "type": "competitor"
+    }
+  ],
+  "hipparcos-1989": [
+    {
+      "id": "cobe-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "rosat-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "ginga-1987",
+      "type": "same_target"
+    }
+  ],
+  "magellan-1989": [
+    {
+      "id": "venera-15-16-1983",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-13-1982",
+      "type": "same_target"
+    },
+    {
+      "id": "venera-11-1978",
+      "type": "same_target"
+    },
+    {
+      "id": "phobos-1-1988",
+      "type": "same_program"
+    }
+  ],
+  "hiten-1990": [
+    {
+      "id": "clementine-1994",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-prospector-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "competitor"
+    },
+    {
+      "id": "rosat-1990",
+      "type": "competitor"
+    }
+  ],
+  "hubble-space-telescope-1990": [
+    {
+      "id": "rosat-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "cobe-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hipparcos-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "yohkoh-1991",
+      "type": "same_target"
+    }
+  ],
+  "rosat-1990": [
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "cobe-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "hipparcos-1989",
+      "type": "same_target"
+    },
+    {
+      "id": "yohkoh-1991",
+      "type": "same_target"
+    }
+  ],
+  "ulysses-1990": [
+    {
+      "id": "soho-1995",
+      "type": "same_program"
+    },
+    {
+      "id": "soho-1996",
+      "type": "same_program"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_program"
+    },
+    {
+      "id": "hiten-1990",
+      "type": "competitor"
+    }
+  ],
+  "yohkoh-1991": [
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "rosat-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "sampex-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "topex-poseidon-1992",
+      "type": "same_target"
+    }
+  ],
+  "mars-observer-1992": [
+    {
+      "id": "mars-global-surveyor-1996",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-pathfinder-sojourner-1997",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    }
+  ],
+  "sampex-1992": [
+    {
+      "id": "topex-poseidon-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "yohkoh-1991",
+      "type": "same_target"
+    },
+    {
+      "id": "sross-c2-1993",
+      "type": "same_target"
+    },
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    }
+  ],
+  "topex-poseidon-1992": [
+    {
+      "id": "sampex-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "yohkoh-1991",
+      "type": "same_target"
+    },
+    {
+      "id": "sross-c2-1993",
+      "type": "same_target"
+    },
+    {
+      "id": "hubble-space-telescope-1990",
+      "type": "same_target"
+    }
+  ],
+  "sross-c2-1993": [
+    {
+      "id": "sampex-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "topex-poseidon-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "yohkoh-1991",
+      "type": "same_target"
+    },
+    {
+      "id": "rxte-1995",
+      "type": "same_target"
+    }
+  ],
+  "clementine-1994": [
+    {
+      "id": "hiten-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-prospector-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "sross-c2-1993",
+      "type": "competitor"
+    }
+  ],
+  "wind-1994": [
+    {
+      "id": "soho-1995",
+      "type": "same_target"
+    },
+    {
+      "id": "soho-1996",
+      "type": "same_target"
+    },
+    {
+      "id": "ace-1997",
+      "type": "same_target"
+    },
+    {
+      "id": "sross-c2-1993",
+      "type": "competitor"
+    }
+  ],
+  "rxte-1995": [
+    {
+      "id": "sross-c2-1993",
+      "type": "same_target"
+    },
+    {
+      "id": "sampex-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "topex-poseidon-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_target"
+    }
+  ],
+  "soho-1995": [
+    {
+      "id": "wind-1994",
+      "type": "same_target"
+    },
+    {
+      "id": "soho-1996",
+      "type": "same_target"
+    },
+    {
+      "id": "ace-1997",
+      "type": "same_target"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_program"
+    }
+  ],
+  "mars-global-surveyor-1996": [
+    {
+      "id": "mars-pathfinder-sojourner-1997",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-observer-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    }
+  ],
+  "near-shoemaker-1996": [
+    {
+      "id": "soho-1996",
+      "type": "competitor"
+    },
+    {
+      "id": "soho-1995",
+      "type": "competitor"
+    },
+    {
+      "id": "cassini-huygens-1997",
+      "type": "competitor"
+    },
+    {
+      "id": "zarya-international-space-station-assembly-begins-1998",
+      "type": "competitor"
+    }
+  ],
+  "soho-1996": [
+    {
+      "id": "soho-1995",
+      "type": "same_target"
+    },
+    {
+      "id": "ace-1997",
+      "type": "same_target"
+    },
+    {
+      "id": "wind-1994",
+      "type": "same_target"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_program"
+    }
+  ],
+  "ace-1997": [
+    {
+      "id": "soho-1996",
+      "type": "same_target"
+    },
+    {
+      "id": "soho-1995",
+      "type": "same_target"
+    },
+    {
+      "id": "wind-1994",
+      "type": "same_target"
+    },
+    {
+      "id": "cassini-huygens-1997",
+      "type": "competitor"
+    }
+  ],
+  "cassini-huygens-1997": [
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_program"
+    },
+    {
+      "id": "ace-1997",
+      "type": "competitor"
+    },
+    {
+      "id": "mars-pathfinder-sojourner-1997",
+      "type": "competitor"
+    },
+    {
+      "id": "mars-global-surveyor-1996",
+      "type": "competitor"
+    }
+  ],
+  "mars-pathfinder-sojourner-1997": [
+    {
+      "id": "mars-global-surveyor-1996",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-observer-1992",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    }
+  ],
+  "deep-space-1-1998": [
+    {
+      "id": "zarya-international-space-station-assembly-begins-1998",
+      "type": "competitor"
+    },
+    {
+      "id": "cassini-huygens-1997",
+      "type": "competitor"
+    },
+    {
+      "id": "soho-1996",
+      "type": "competitor"
+    },
+    {
+      "id": "cluster-ii-2000",
+      "type": "competitor"
+    }
+  ],
+  "lunar-prospector-1998": [
+    {
+      "id": "clementine-1994",
+      "type": "same_target"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "hiten-1990",
+      "type": "same_target"
+    },
+    {
+      "id": "chang-e-1-2007",
+      "type": "same_target"
+    }
+  ],
+  "trace-1998": [
+    {
+      "id": "zarya-international-space-station-assembly-begins-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "chandra-x-ray-observatory-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "fuse-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "terra-1999",
+      "type": "same_target"
+    }
+  ],
+  "zarya-international-space-station-assembly-begins-1998": [
+    {
+      "id": "trace-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "chandra-x-ray-observatory-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "fuse-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "terra-1999",
+      "type": "same_target"
+    }
+  ],
+  "chandra-x-ray-observatory-1999": [
+    {
+      "id": "fuse-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "terra-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "zarya-international-space-station-assembly-begins-1998",
+      "type": "same_target"
+    }
+  ],
+  "fuse-1999": [
+    {
+      "id": "chandra-x-ray-observatory-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "terra-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "zarya-international-space-station-assembly-begins-1998",
+      "type": "same_target"
+    }
+  ],
+  "terra-1999": [
+    {
+      "id": "chandra-x-ray-observatory-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "fuse-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "trace-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "zarya-international-space-station-assembly-begins-1998",
+      "type": "same_target"
+    }
+  ],
+  "cluster-ii-2000": [
+    {
+      "id": "image-2000",
+      "type": "same_target"
+    },
+    {
+      "id": "chandra-x-ray-observatory-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "fuse-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "terra-1999",
+      "type": "same_target"
+    }
+  ],
+  "image-2000": [
+    {
+      "id": "cluster-ii-2000",
+      "type": "same_target"
+    },
+    {
+      "id": "chandra-x-ray-observatory-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "fuse-1999",
+      "type": "same_target"
+    },
+    {
+      "id": "terra-1999",
+      "type": "same_target"
+    }
+  ],
+  "genesis-2001": [
+    {
+      "id": "cluster-ii-2000",
+      "type": "competitor"
+    },
+    {
+      "id": "integral-2002",
+      "type": "competitor"
+    },
+    {
+      "id": "hayabusa-2003",
+      "type": "competitor"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "competitor"
+    }
+  ],
+  "mars-odyssey-2001": [
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "spirit-opportunity-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-pathfinder-sojourner-1997",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_target"
+    }
+  ],
+  "timed-2001": [
+    {
+      "id": "cluster-ii-2000",
+      "type": "same_target"
+    },
+    {
+      "id": "image-2000",
+      "type": "same_target"
+    },
+    {
+      "id": "aqua-2002",
+      "type": "same_target"
+    },
+    {
+      "id": "integral-2002",
+      "type": "same_target"
+    }
+  ],
+  "aqua-2002": [
+    {
+      "id": "integral-2002",
+      "type": "same_target"
+    },
+    {
+      "id": "timed-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "shenzhou-5-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "cluster-ii-2000",
+      "type": "same_target"
+    }
+  ],
+  "integral-2002": [
+    {
+      "id": "aqua-2002",
+      "type": "same_target"
+    },
+    {
+      "id": "timed-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "shenzhou-5-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "cluster-ii-2000",
+      "type": "same_target"
+    }
+  ],
+  "hayabusa-2003": [
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "competitor"
+    },
+    {
+      "id": "sirtf-spitzer-2003",
+      "type": "competitor"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "competitor"
+    },
+    {
+      "id": "shenzhou-5-2003",
+      "type": "competitor"
+    }
+  ],
+  "mars-express-beagle-2-2003": [
+    {
+      "id": "spirit-opportunity-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "phoenix-2008",
+      "type": "same_target"
+    }
+  ],
+  "sirtf-spitzer-2003": [
+    {
+      "id": "herschel-2009",
+      "type": "same_program"
+    },
+    {
+      "id": "hayabusa-2003",
+      "type": "competitor"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "competitor"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "competitor"
+    }
+  ],
+  "smart-1-2003": [
+    {
+      "id": "chang-e-1-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "kaguya-selene-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "lunar-prospector-1998",
+      "type": "same_target"
+    },
+    {
+      "id": "chandrayaan-1-2008",
+      "type": "same_target"
+    }
+  ],
+  "shenzhou-5-2003": [
+    {
+      "id": "aqua-2002",
+      "type": "same_target"
+    },
+    {
+      "id": "integral-2002",
+      "type": "same_target"
+    },
+    {
+      "id": "swift-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "timed-2001",
+      "type": "same_target"
+    }
+  ],
+  "rosetta-2004": [
+    {
+      "id": "rosetta-philae-2014",
+      "type": "same_target"
+    },
+    {
+      "id": "spaceshipone-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "spirit-opportunity-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "stardust-sample-return-2004",
+      "type": "competitor"
+    }
+  ],
+  "spaceshipone-2004": [
+    {
+      "id": "rosetta-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "spirit-opportunity-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "stardust-sample-return-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "swift-2004",
+      "type": "competitor"
+    }
+  ],
+  "spirit-opportunity-2004": [
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_target"
+    },
+    {
+      "id": "phoenix-2008",
+      "type": "same_target"
+    }
+  ],
+  "stardust-sample-return-2004": [
+    {
+      "id": "rosetta-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "spaceshipone-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "swift-2004",
+      "type": "competitor"
+    },
+    {
+      "id": "hayabusa-2003",
+      "type": "competitor"
+    }
+  ],
+  "swift-2004": [
+    {
+      "id": "shenzhou-5-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "hinode-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "aqua-2002",
+      "type": "same_target"
+    },
+    {
+      "id": "integral-2002",
+      "type": "same_target"
+    }
+  ],
+  "hinode-2005": [
+    {
+      "id": "swift-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "calipso-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "corot-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "shenzhou-5-2003",
+      "type": "same_target"
+    }
+  ],
+  "huygens-landing-2005": [
+    {
+      "id": "hinode-2005",
+      "type": "competitor"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "competitor"
+    },
+    {
+      "id": "venus-express-2005",
+      "type": "competitor"
+    },
+    {
+      "id": "rosetta-2004",
+      "type": "competitor"
+    }
+  ],
+  "mars-reconnaissance-orbiter-2005": [
+    {
+      "id": "spirit-opportunity-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "phoenix-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_target"
+    }
+  ],
+  "venus-express-2005": [
+    {
+      "id": "akatsuki-2010",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-odyssey-2001",
+      "type": "same_program"
+    },
+    {
+      "id": "juno-2011",
+      "type": "same_program"
+    }
+  ],
+  "calipso-2006": [
+    {
+      "id": "corot-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "hinode-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "themis-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "swift-2004",
+      "type": "same_target"
+    }
+  ],
+  "corot-2006": [
+    {
+      "id": "calipso-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "hinode-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "themis-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "swift-2004",
+      "type": "same_target"
+    }
+  ],
+  "chang-e-1-2007": [
+    {
+      "id": "kaguya-selene-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "chandrayaan-1-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "grail-2011",
+      "type": "same_target"
+    }
+  ],
+  "dawn-2007": [
+    {
+      "id": "chang-e-1-2007",
+      "type": "competitor"
+    },
+    {
+      "id": "kaguya-selene-2007",
+      "type": "competitor"
+    },
+    {
+      "id": "calipso-2006",
+      "type": "competitor"
+    },
+    {
+      "id": "corot-2006",
+      "type": "competitor"
+    }
+  ],
+  "kaguya-selene-2007": [
+    {
+      "id": "chang-e-1-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "chandrayaan-1-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "same_target"
+    },
+    {
+      "id": "grail-2011",
+      "type": "same_target"
+    }
+  ],
+  "themis-2007": [
+    {
+      "id": "calipso-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "corot-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "fermi-gamma-ray-space-telescope-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "hinode-2005",
+      "type": "same_target"
+    }
+  ],
+  "chandrayaan-1-2008": [
+    {
+      "id": "chang-e-1-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "kaguya-selene-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "grail-2011",
+      "type": "same_target"
+    },
+    {
+      "id": "smart-1-2003",
+      "type": "same_target"
+    }
+  ],
+  "fermi-gamma-ray-space-telescope-2008": [
+    {
+      "id": "themis-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "calipso-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "corot-2006",
+      "type": "same_target"
+    },
+    {
+      "id": "cryosat-2-2010",
+      "type": "same_target"
+    }
+  ],
+  "phoenix-2008": [
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "spirit-opportunity-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "curiosity-msl-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-express-beagle-2-2003",
+      "type": "same_target"
+    }
+  ],
+  "herschel-2009": [
+    {
+      "id": "planck-2009",
+      "type": "same_target"
+    },
+    {
+      "id": "gaia-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "sirtf-spitzer-2003",
+      "type": "same_program"
+    }
+  ],
+  "kepler-2009": [
+    {
+      "id": "gaia-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "astrosat-2015",
+      "type": "same_program"
+    },
+    {
+      "id": "herschel-2009",
+      "type": "competitor"
+    },
+    {
+      "id": "planck-2009",
+      "type": "competitor"
+    }
+  ],
+  "planck-2009": [
+    {
+      "id": "herschel-2009",
+      "type": "same_target"
+    },
+    {
+      "id": "gaia-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "kepler-2009",
+      "type": "competitor"
+    }
+  ],
+  "akatsuki-2010": [
+    {
+      "id": "venus-express-2005",
+      "type": "same_target"
+    },
+    {
+      "id": "juno-2011",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-orbiter-mission-mangalyaan-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_program"
+    }
+  ],
+  "cryosat-2-2010": [
+    {
+      "id": "tiangong-1-2011",
+      "type": "same_target"
+    },
+    {
+      "id": "fermi-gamma-ray-space-telescope-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "nustar-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "themis-2007",
+      "type": "same_target"
+    }
+  ],
+  "ikaros-2010": [
+    {
+      "id": "cryosat-2-2010",
+      "type": "competitor"
+    },
+    {
+      "id": "herschel-2009",
+      "type": "competitor"
+    },
+    {
+      "id": "kepler-2009",
+      "type": "competitor"
+    },
+    {
+      "id": "planck-2009",
+      "type": "competitor"
+    }
+  ],
+  "grail-2011": [
+    {
+      "id": "chang-e-3-yutu-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "chandrayaan-1-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "chang-e-1-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "kaguya-selene-2007",
+      "type": "same_target"
+    }
+  ],
+  "juno-2011": [
+    {
+      "id": "akatsuki-2010",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-orbiter-mission-mangalyaan-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-reconnaissance-orbiter-2005",
+      "type": "same_program"
+    },
+    {
+      "id": "venus-express-2005",
+      "type": "same_program"
+    }
+  ],
+  "phobos-grunt-2011": [
+    {
+      "id": "grail-2011",
+      "type": "competitor"
+    },
+    {
+      "id": "juno-2011",
+      "type": "competitor"
+    },
+    {
+      "id": "tiangong-1-2011",
+      "type": "competitor"
+    },
+    {
+      "id": "akatsuki-2010",
+      "type": "competitor"
+    }
+  ],
+  "tiangong-1-2011": [
+    {
+      "id": "cryosat-2-2010",
+      "type": "same_target"
+    },
+    {
+      "id": "nustar-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "iris-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "fermi-gamma-ray-space-telescope-2008",
+      "type": "same_target"
+    }
+  ],
+  "curiosity-msl-2012": [
+    {
+      "id": "mars-orbiter-mission-mangalyaan-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "phoenix-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "same_target"
+    },
+    {
+      "id": "insight-2018",
+      "type": "same_target"
+    }
+  ],
+  "nustar-2012": [
+    {
+      "id": "tiangong-1-2011",
+      "type": "same_target"
+    },
+    {
+      "id": "iris-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "cryosat-2-2010",
+      "type": "same_target"
+    },
+    {
+      "id": "oco-2-2014",
+      "type": "same_target"
+    }
+  ],
+  "chang-e-3-yutu-2013": [
+    {
+      "id": "grail-2011",
+      "type": "same_target"
+    },
+    {
+      "id": "chandrayaan-1-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "chang-e-1-2007",
+      "type": "same_target"
+    },
+    {
+      "id": "kaguya-selene-2007",
+      "type": "same_target"
+    }
+  ],
+  "gaia-2013": [
+    {
+      "id": "herschel-2009",
+      "type": "same_target"
+    },
+    {
+      "id": "planck-2009",
+      "type": "same_target"
+    },
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "euclid-2023",
+      "type": "same_target"
+    }
+  ],
+  "iris-2013": [
+    {
+      "id": "nustar-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "oco-2-2014",
+      "type": "same_target"
+    },
+    {
+      "id": "tiangong-1-2011",
+      "type": "same_target"
+    },
+    {
+      "id": "astrosat-2015",
+      "type": "same_target"
+    }
+  ],
+  "mars-orbiter-mission-mangalyaan-2013": [
+    {
+      "id": "curiosity-msl-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "same_target"
+    },
+    {
+      "id": "phoenix-2008",
+      "type": "same_target"
+    },
+    {
+      "id": "insight-2018",
+      "type": "same_target"
+    }
+  ],
+  "hayabusa2-2014": [
+    {
+      "id": "osiris-rex-2016",
+      "type": "same_program"
+    },
+    {
+      "id": "oco-2-2014",
+      "type": "competitor"
+    },
+    {
+      "id": "rosetta-philae-2014",
+      "type": "competitor"
+    },
+    {
+      "id": "chang-e-3-yutu-2013",
+      "type": "competitor"
+    }
+  ],
+  "oco-2-2014": [
+    {
+      "id": "iris-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "astrosat-2015",
+      "type": "same_target"
+    },
+    {
+      "id": "nustar-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "tiangong-2-2016",
+      "type": "same_target"
+    }
+  ],
+  "rosetta-philae-2014": [
+    {
+      "id": "rosetta-2004",
+      "type": "same_target"
+    },
+    {
+      "id": "hayabusa2-2014",
+      "type": "competitor"
+    },
+    {
+      "id": "oco-2-2014",
+      "type": "competitor"
+    },
+    {
+      "id": "chang-e-3-yutu-2013",
+      "type": "competitor"
+    }
+  ],
+  "astrosat-2015": [
+    {
+      "id": "oco-2-2014",
+      "type": "same_target"
+    },
+    {
+      "id": "tiangong-2-2016",
+      "type": "same_target"
+    },
+    {
+      "id": "iris-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "nustar-2012",
+      "type": "same_target"
+    }
+  ],
+  "ligo-first-gravitational-wave-detection-2015": [
+    {
+      "id": "astrosat-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "lisa-pathfinder-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "new-horizons-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "hayabusa2-2014",
+      "type": "competitor"
+    }
+  ],
+  "lisa-pathfinder-2015": [
+    {
+      "id": "aditya-l1-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "astrosat-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "ligo-first-gravitational-wave-detection-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "new-horizons-2015",
+      "type": "competitor"
+    }
+  ],
+  "new-horizons-2015": [
+    {
+      "id": "astrosat-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "ligo-first-gravitational-wave-detection-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "lisa-pathfinder-2015",
+      "type": "competitor"
+    },
+    {
+      "id": "hayabusa2-2014",
+      "type": "competitor"
+    }
+  ],
+  "exomars-trace-gas-orbiter-schiaparelli-2016": [
+    {
+      "id": "insight-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "mars-orbiter-mission-mangalyaan-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "curiosity-msl-2012",
+      "type": "same_target"
+    },
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_target"
+    }
+  ],
+  "osiris-rex-2016": [
+    {
+      "id": "hayabusa2-2014",
+      "type": "same_program"
+    },
+    {
+      "id": "osiris-rex-sample-return-2023",
+      "type": "same_program"
+    },
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "competitor"
+    },
+    {
+      "id": "tiangong-2-2016",
+      "type": "competitor"
+    }
+  ],
+  "tiangong-2-2016": [
+    {
+      "id": "astrosat-2015",
+      "type": "same_target"
+    },
+    {
+      "id": "oco-2-2014",
+      "type": "same_target"
+    },
+    {
+      "id": "tess-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "iris-2013",
+      "type": "same_target"
+    }
+  ],
+  "nicer-2017": [
+    {
+      "id": "nauka-and-prichal-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "emit-2022",
+      "type": "same_target"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "same_program"
+    },
+    {
+      "id": "nustar-2012",
+      "type": "same_program"
+    }
+  ],
+  "bepicolombo-2018": [
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_program"
+    },
+    {
+      "id": "mars-orbiter-mission-mangalyaan-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "juice-2023",
+      "type": "same_program"
+    },
+    {
+      "id": "europa-clipper-2024",
+      "type": "same_program"
+    }
+  ],
+  "insight-2018": [
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "same_target"
+    },
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "perseverance-ingenuity-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "tianwen-1-2020",
+      "type": "same_target"
+    }
+  ],
+  "parker-solar-probe-2018": [
+    {
+      "id": "solar-orbiter-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "iris-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "aditya-l1-2023",
+      "type": "same_program"
+    },
+    {
+      "id": "bepicolombo-2018",
+      "type": "competitor"
+    }
+  ],
+  "tess-2018": [
+    {
+      "id": "cheops-2019",
+      "type": "same_target"
+    },
+    {
+      "id": "tiangong-2-2016",
+      "type": "same_target"
+    },
+    {
+      "id": "astrosat-2015",
+      "type": "same_target"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "same_target"
+    }
+  ],
+  "cheops-2019": [
+    {
+      "id": "tess-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "tianhe-tiangong-space-station-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "tiangong-2-2016",
+      "type": "same_target"
+    }
+  ],
+  "chandrayaan-2-2019": [
+    {
+      "id": "chang-e-5-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-i-2022",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    }
+  ],
+  "chang-e-4-2019": [
+    {
+      "id": "chang-e-6-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "chandrayaan-3-2023",
+      "type": "same_program"
+    },
+    {
+      "id": "chang-e-3-yutu-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "cheops-2019",
+      "type": "competitor"
+    }
+  ],
+  "chang-e-5-2020": [
+    {
+      "id": "chandrayaan-2-2019",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-i-2022",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    }
+  ],
+  "hope-emirates-mars-mission-2020": [
+    {
+      "id": "perseverance-ingenuity-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "tianwen-1-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "insight-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "same_target"
+    }
+  ],
+  "perseverance-ingenuity-2020": [
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "tianwen-1-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "insight-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "same_target"
+    }
+  ],
+  "tianwen-1-2020": [
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "perseverance-ingenuity-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "insight-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "type": "same_target"
+    }
+  ],
+  "ixpe-2021": [
+    {
+      "id": "tianhe-tiangong-space-station-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "cheops-2019",
+      "type": "same_target"
+    },
+    {
+      "id": "xrism-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "tess-2018",
+      "type": "same_target"
+    }
+  ],
+  "james-webb-space-telescope-2021": [
+    {
+      "id": "euclid-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "gaia-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "herschel-2009",
+      "type": "same_target"
+    },
+    {
+      "id": "planck-2009",
+      "type": "same_target"
+    }
+  ],
+  "nauka-and-prichal-2021": [
+    {
+      "id": "emit-2022",
+      "type": "same_target"
+    },
+    {
+      "id": "nicer-2017",
+      "type": "same_target"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "competitor"
+    },
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "competitor"
+    }
+  ],
+  "solar-orbiter-2021": [
+    {
+      "id": "parker-solar-probe-2018",
+      "type": "same_target"
+    },
+    {
+      "id": "aditya-l1-2023",
+      "type": "same_program"
+    },
+    {
+      "id": "iris-2013",
+      "type": "same_program"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "competitor"
+    }
+  ],
+  "tianhe-tiangong-space-station-2021": [
+    {
+      "id": "ixpe-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "cheops-2019",
+      "type": "same_target"
+    },
+    {
+      "id": "xrism-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "tess-2018",
+      "type": "same_target"
+    }
+  ],
+  "artemis-i-2022": [
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "chang-e-5-2020",
+      "type": "same_target"
+    },
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "slim-2024",
+      "type": "same_target"
+    }
+  ],
+  "dart-2022": [
+    {
+      "id": "hera-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-i-2022",
+      "type": "competitor"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "competitor"
+    },
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "competitor"
+    }
+  ],
+  "emit-2022": [
+    {
+      "id": "nauka-and-prichal-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "nicer-2017",
+      "type": "same_target"
+    },
+    {
+      "id": "pace-2024",
+      "type": "same_program"
+    },
+    {
+      "id": "nisar-2025",
+      "type": "same_program"
+    }
+  ],
+  "aditya-l1-2023": [
+    {
+      "id": "lisa-pathfinder-2015",
+      "type": "same_target"
+    },
+    {
+      "id": "solar-orbiter-2021",
+      "type": "same_program"
+    },
+    {
+      "id": "parker-solar-probe-2018",
+      "type": "same_program"
+    },
+    {
+      "id": "euclid-2023",
+      "type": "competitor"
+    }
+  ],
+  "chandrayaan-3-2023": [
+    {
+      "id": "chang-e-4-2019",
+      "type": "same_program"
+    },
+    {
+      "id": "euclid-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "juice-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "competitor"
+    }
+  ],
+  "euclid-2023": [
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "gaia-2013",
+      "type": "same_target"
+    },
+    {
+      "id": "xposat-2024",
+      "type": "same_program"
+    },
+    {
+      "id": "spherex-2025",
+      "type": "same_program"
+    }
+  ],
+  "juice-2023": [
+    {
+      "id": "europa-clipper-2024",
+      "type": "same_program"
+    },
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_program"
+    },
+    {
+      "id": "bepicolombo-2018",
+      "type": "same_program"
+    },
+    {
+      "id": "aditya-l1-2023",
+      "type": "competitor"
+    }
+  ],
+  "luna-25-2023": [
+    {
+      "id": "artemis-i-2022",
+      "type": "same_target"
+    },
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "slim-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "blue-ghost-mission-1-2025",
+      "type": "same_target"
+    }
+  ],
+  "osiris-rex-sample-return-2023": [
+    {
+      "id": "osiris-rex-2016",
+      "type": "same_program"
+    },
+    {
+      "id": "aditya-l1-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "chandrayaan-3-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "euclid-2023",
+      "type": "competitor"
+    }
+  ],
+  "psyche-2023": [
+    {
+      "id": "aditya-l1-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "chandrayaan-3-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "euclid-2023",
+      "type": "competitor"
+    },
+    {
+      "id": "juice-2023",
+      "type": "competitor"
+    }
+  ],
+  "xrism-2023": [
+    {
+      "id": "pace-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "xposat-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "ixpe-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "tianhe-tiangong-space-station-2021",
+      "type": "same_target"
+    }
+  ],
+  "chang-e-6-2024": [
+    {
+      "id": "chang-e-4-2019",
+      "type": "same_target"
+    },
+    {
+      "id": "chang-e-5-2020",
+      "type": "same_program"
+    },
+    {
+      "id": "europa-clipper-2024",
+      "type": "competitor"
+    },
+    {
+      "id": "hera-2024",
+      "type": "competitor"
+    }
+  ],
+  "europa-clipper-2024": [
+    {
+      "id": "juice-2023",
+      "type": "same_program"
+    },
+    {
+      "id": "hope-emirates-mars-mission-2020",
+      "type": "same_program"
+    },
+    {
+      "id": "bepicolombo-2018",
+      "type": "same_program"
+    },
+    {
+      "id": "chang-e-6-2024",
+      "type": "competitor"
+    }
+  ],
+  "hera-2024": [
+    {
+      "id": "dart-2022",
+      "type": "same_target"
+    },
+    {
+      "id": "chang-e-6-2024",
+      "type": "competitor"
+    },
+    {
+      "id": "europa-clipper-2024",
+      "type": "competitor"
+    },
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "competitor"
+    }
+  ],
+  "im-1-odysseus-2024": [
+    {
+      "id": "slim-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "blue-ghost-mission-1-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-i-2022",
+      "type": "same_target"
+    }
+  ],
+  "pace-2024": [
+    {
+      "id": "xposat-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "xrism-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "nisar-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "punch-2025",
+      "type": "same_target"
+    }
+  ],
+  "slim-2024": [
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "blue-ghost-mission-1-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-i-2022",
+      "type": "same_target"
+    }
+  ],
+  "xposat-2024": [
+    {
+      "id": "pace-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "xrism-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "nisar-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "punch-2025",
+      "type": "same_target"
+    }
+  ],
+  "blue-ghost-mission-1-2025": [
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "slim-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-ii-2026",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    }
+  ],
+  "nisar-2025": [
+    {
+      "id": "punch-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "spherex-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "pace-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "xposat-2024",
+      "type": "same_target"
+    }
+  ],
+  "punch-2025": [
+    {
+      "id": "nisar-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "spherex-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "pace-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "xposat-2024",
+      "type": "same_target"
+    }
+  ],
+  "spherex-2025": [
+    {
+      "id": "nisar-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "punch-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "pace-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "xposat-2024",
+      "type": "same_target"
+    }
+  ],
+  "artemis-ii-2026": [
+    {
+      "id": "blue-ghost-mission-1-2025",
+      "type": "same_target"
+    },
+    {
+      "id": "im-1-odysseus-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "slim-2024",
+      "type": "same_target"
+    },
+    {
+      "id": "luna-25-2023",
+      "type": "same_target"
+    }
+  ]
+}

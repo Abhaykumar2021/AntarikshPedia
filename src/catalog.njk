@@ -1,0 +1,39 @@
+---
+layout: base.njk
+section: catalog
+permalink: /catalog/
+eleventyComputed:
+  title: "Mission Catalog"
+  description: "Browse all 209 missions by era — the full AntarikshPedia record on one page."
+---
+
+<section class="container page-head">
+  <p class="hero-kicker">The record</p>
+  <h1>Every mission, {{ (missions | first).year }}–{{ (missions | last).year }}</h1>
+  <p class="hook">The complete dataset, grouped by era. Prefer the page-turning
+     version? <a href="/timeline/">Open the timeline</a>.</p>
+</section>
+
+{% set sortedMissions = missions | sortByYear %}
+{% set eras = [] %}
+{% for m in sortedMissions %}
+  {% if m.era not in eras %}{% set eras = (eras | push(m.era)) %}{% endif %}
+{% endfor %}
+
+{% for era in eras %}
+<section class="container era-block reveal" style="--era-accent: {{ era | eraAccent }}">
+  <div class="section-head">
+    <h2>{{ era }}</h2>
+    {% set count = 0 %}
+    {% for m in sortedMissions %}{% if m.era == era %}{% set count = count + 1 %}{% endif %}{% endfor %}
+    <span class="mono-tag">{{ count }} missions</span>
+  </div>
+  <div class="card-grid">
+    {% for m in sortedMissions %}
+      {% if m.era == era %}
+        {% include "partials/mission-card.njk" %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

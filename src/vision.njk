@@ -1,0 +1,60 @@
+---
+layout: base.njk
+section: vision
+permalink: /vision/
+eleventyComputed:
+  title: "Our Vision"
+  description: "The vision behind AntarikshPedia — a connected encyclopedia of space exploration."
+---
+
+<section class="container page-head">
+  <p class="hero-kicker">Our vision</p>
+  <h1>Not a catalog.<br>A connected story.</h1>
+  <p class="hook">
+    AntarikshPedia exists so anyone can understand space exploration the way
+    it actually happened — a web of missions, machines, people, ideas, and
+    world events shaping one another.
+  </p>
+</section>
+
+<section class="container mp-section reveal">
+  <div class="section-head"><h2>One knowledge network</h2><span class="mono-tag">the model</span></div>
+  <ol class="chain" role="list">
+    {% for step in ['Agency', 'Program', 'Mission', 'Spacecraft', 'Instruments', 'Events', 'Discoveries', 'Publications'] %}
+      <li>{{ step }}</li>{% if not loop.last %}<li aria-hidden="true" class="chain-arrow">→</li>{% endif %}
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="container mp-section reveal">
+  <div class="section-head"><h2>How it grows</h2><span class="mono-tag">roadmap</span></div>
+  <div class="card-grid">
+    <article class="principle-card now">
+      <span class="phase-tag">Phase 1 — now</span>
+      <h3>Pages for everything in the record</h3>
+      <p>A page per mission, agency, and country — generated from one
+         canonical dataset, cross-linked automatically.</p>
+    </article>
+    <article class="principle-card">
+      <span class="phase-tag">Phase 2 — depth</span>
+      <h3>Stories, sources, media</h3>
+      <p>Long-form mission histories with verified launch details,
+         license-checked imagery, and traceable citations.</p>
+    </article>
+    <article class="principle-card">
+      <span class="phase-tag">Phase 3 — community</span>
+      <h3>Reviewed contributions</h3>
+      <p>Public corrections and additions staged as pending until a reviewer
+         approves them against a cited source.</p>
+    </article>
+  </div>
+</section>
+
+<section class="container mp-section reveal standard">
+  <blockquote>
+    Separate sourced fact from interpretation. Present history with clear
+    attribution, neutral language, and links to credible sources.
+  </blockquote>
+  <p class="standard-note">Every AntarikshPedia page is held to this standard.</p>
+  <a class="btn btn-solid" href="/timeline/">Turn to page one</a>
+</section>

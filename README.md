@@ -1,73 +1,95 @@
 # AntarikshPedia
 
-A connected encyclopedia of humanity's journey into space. This repo is the v1
-"timeline" build: a chronological, filterable list of landmark space missions
-and spacecraft from 1957 to today.
+A connected encyclopedia of humanity's journey into space. 209 missions,
+1957 to today, explored as one story — with a page for every mission,
+agency, and country, generated from a single canonical dataset.
 
-## What's in this repo
+## Architecture (Phase 2)
 
 ```
 antarikshpedia/
-├── index.html          The single page — structure only, no styling or logic
-├── css/style.css        All visual styling
-├── js/main.js            All behavior: loads data, builds the timeline, handles filters
-├── data/missions.json     The content — every mission as a structured record
-├── assets/images/          Mission photos/graphics (empty for now)
-└── docs/                    Working notes on the data model and decisions
+├── data-sources/
+│   └── missions_timeline.md     CANONICAL dataset — edit here, never elsewhere
+├── scripts/build/               data pipeline (Python, stdlib only)
+│   ├── gen-launch-dates.py      curated known launch dates → launch-dates.json
+│   ├── generate-missions-json.py  md parser → src/_data/missions.json
+│   ├── derive-catalogs.py       agencies/countries/relatedMissions derivation
+│   ├── gen-stories.py           content/missions/*.md → stories.json
+│   ├── enrich-missions.py       research pass: specs (Wikipedia infoboxes)
+│   │                              + photos (NASA/Commons, license-gated)
+│   ├── validate-data.py         guardrail — build fails on bad data
+│   ├── media-overrides.json     per-image license records (survive rebuilds)
+│   └── spec-overrides.json      researched mission specs (survive rebuilds)
+├── content/missions/*.md        long-form stories (## Why it happened / ## The mission / ## Results)
+├── src/
+│   ├── _includes/base.njk       shared header/footer/nav/head + theme bootstrap
+│   ├── _includes/partials/
+│   ├── index.njk                homepage: journey + on-this-day
+│   ├── timeline.njk             flip-book timeline (spec §7)
+│   ├── catalog.njk              every mission grouped by era
+│   ├── missions.njk             pagination → /missions/{slug}/
+│   ├── agencies.njk + agency-pages.njk
+│   ├── countries.njk + country-pages.njk
+│   ├── vision.njk               project vision & roadmap
+│   ├── admin.njk                contribution staging (CRUD, localStorage)
+│   ├── styles/                  tokens.css is the master file; dark default,
+│   │                              full light theme via [data-theme="light"]
+│   ├── scripts/                 main.js (+theme toggle), home.js, search.js
+│   │                              (Fuse.js), timeline-flip.js
+│   └── assets/images/           licensed imagery; per-mission folders at
+│                                  images/missions/<id>/photo.jpg
+├── dist/                        BUILD OUTPUT — the only deployed directory
+├── eleventy.config.js
+└── package.json
 ```
 
-## How to run this locally
+## Commands
 
-No build step, no install required for v1. Two options:
-
-1. **Simplest**: double-click `index.html` to open it in a browser.
-   Note: some browsers block `fetch()` from loading local files this way,
-   so if the timeline doesn't appear, use option 2.
-
-2. **Recommended**: run a tiny local server so `fetch('data/missions.json')`
-   works properly.
-   - If you have VS Code's **Live Server** extension installed, right-click
-     `index.html` and choose "Open with Live Server."
-   - Or, from a terminal in this folder, run: `python3 -m http.server 8000`
-     then open `http://localhost:8000` in your browser.
-
-## How to add or edit a mission
-
-Open `data/missions.json`. Each mission is one object:
-
-```json
-{
-  "id": "sputnik-1-1957",
-  "name": "Sputnik 1",
-  "year": "1957",
-  "lead_partner": "Soviet Union",
-  "target": "Earth orbit",
-  "category": "Technology / Earth orbit",
-  "status": "Success",
-  "outcome": "First artificial satellite; began the space age.",
-  "era": "1957–1969: Opening the Space Age",
-  "intro": "Launched by the Soviet Union on 4 October 1957..."
-}
+```bash
+npm install          # once
+npm run dev          # regenerate data + serve at localhost:8080 with watch
+npm run build        # regenerate data + produce dist/
+npm run validate     # data guardrail only
 ```
 
-Add a new object to the list, or edit an existing one's `intro` field.
-You do not need to touch `index.html`, `style.css`, or `main.js` to add content —
-that's the point of keeping data separate from code.
+Deploy by pointing Netlify/Vercel/GitHub Pages at `dist/`. Build command:
+`npm run build`, output directory: `dist`.
 
-## Deploying
+## The data pipeline (read before editing anything)
 
-This is a static site — no server-side code. It can be deployed for free on
-Vercel, Netlify, or GitHub Pages by pointing them at this folder. No build
-command is needed since there's no framework/bundler involved yet.
+1. Edit `data-sources/missions_timeline.md` (one line per mission).
+2. Run `npm run data`. The parser validates every entry (all fields
+   non-empty, status from the allowed set, unique ids) and fails loudly on
+   malformed input.
+3. `src/_data/*.json` are generated outputs — never hand-edit them.
+4. Image license records live in `scripts/build/media-overrides.json` and
+   survive regeneration. Known precise launch dates live in
+   `gen-launch-dates.py`.
+5. Long-form mission stories go in `content/missions/<id>.md` with
+   `## Why it happened`, `## The mission`, and/or `## Results` sections.
+6. `npm run validate` runs automatically before every build.
 
-## Status
+## Timeline flip-book (spec §7)
 
-- v1 scope: timeline listing with filters, no individual mission pages yet.
-- 89 missions loaded from the curated dataset (replaced an earlier, less
-  selective seed list in August 2026); each entry now includes lead/partner
-  org, target, category, and a Success/Partial/Failure/In transit/Operational
-  status badge.
-- Intro write-ups in progress — a handful carried over from the earlier
-  dataset, most entries still show "Full write-up coming soon."
-- Data model will need to expand for Phase 2 (Programs, Spacecraft detail
-  pages, cross-links) — see `docs/data-model-notes.md`.
+- One mission per page; fuzzy search (Fuse.js) tolerates misspellings.
+- Jump animation capped at 1.75 s regardless of distance: 2–3 real flips →
+  blurred riffle → 2–3 landing flips on one easing curve.
+- Page-turn sounds are synthesized with WebAudio (no audio asset), pitch-
+  varied per flip; riffle uses one batched swell. Mute toggle persists.
+- `prefers-reduced-motion`, narrow viewports, and the visible Skip control
+  all jump instantly. Full keyboard operation: ←/→/Home/End, `/` search,
+  ↑↓+Enter on results, M mute, S skip.
+
+## Contribution staging (/admin)
+
+Create/edit/retire missions against a localStorage overlay. Export produces
+a review JSON for a maintainer; nothing publishes automatically. This is
+the Phase 3 groundwork described in the build prompt — swap localStorage
+for Supabase when contributions open publicly.
+
+## Media licensing
+
+Every image carries a five-field record (`credit`, `license`, `source`,
+`checked`) stored in `media-overrides.json` / rendered onto cards. Sourcing
+rules per `copyright_guidelines.md`: NASA/ISRO/Commons-PD preferred;
+CNSA/JAXA/Roscosmos avoided. See docs/image-credits.md.

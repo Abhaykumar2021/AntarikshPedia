@@ -1,0 +1,44 @@
+---
+layout: base.njk
+section: countries
+permalink: /countries/
+eleventyComputed:
+  title: "Countries"
+  description: "Spaceflight by country and entity across the AntarikshPedia mission record."
+---
+
+{% from "partials/marks.njk" import flag %}
+
+<section class="container page-head">
+  <p class="hero-kicker">Catalog</p>
+  <h1>Countries</h1>
+  <p class="hook">Every nation and multi-national entity in the record.
+     Partnership missions appear on each partner's page. Select a country
+     to see its full chronological mission timeline.</p>
+</section>
+
+<section class="container">
+  <div class="card-grid catalog-cards">
+    {% for country in countries %}
+    <article class="mission-card">
+      <div class="agency-mark-hero flag-hero">
+        {{ flag(country.iso_code, country.name, 48) }}
+      </div>
+      <div class="card-body">
+        <div class="card-title-row">
+          <h3 class="card-name"><a href="/countries/{{ country.slug }}/">{{ country.name }}</a></h3>
+          <span class="chip">{{ country.mission_ids | length }} missions</span>
+        </div>
+        {% if country.note %}<p class="card-outcome">{{ country.note }}</p>{% endif %}
+        <div class="card-chips">
+          {% for aid in country.agency_ids %}
+            <a class="chip" href="/agencies/{{ aid }}/">{{ aid | replace('-', ' ') }}</a>
+          {% endfor %}
+          <a class="chip chip-link" href="/countries/{{ country.slug }}/">View timeline →</a>
+        </div>
+      </div>
+      <a class="stretched-link" href="/countries/{{ country.slug }}/" aria-label="{{ country.name }}"></a>
+    </article>
+    {% endfor %}
+  </div>
+</section>

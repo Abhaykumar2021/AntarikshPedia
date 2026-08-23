@@ -1,0 +1,49 @@
+---
+layout: base.njk
+section: agencies
+permalink: /agencies/
+eleventyComputed:
+  title: "Agencies & Programs"
+  description: "Every space agency and program in the AntarikshPedia dataset, with mission rosters."
+---
+
+<section class="container page-head">
+  <p class="hero-kicker">Catalog</p>
+  <h1>Agencies &amp; programs</h1>
+  <p class="hook">{{ agencies.length }} organizations appear in the record — from national
+     agencies to design-bureau-era programs and commercial operators.
+     Select one to see its full chronological mission timeline.</p>
+</section>
+
+{% from "partials/marks.njk" import agency_mark, agency_photo %}
+
+<section class="container">
+  <div class="card-grid catalog-cards">
+    {% for agency in agencies %}
+    {% set country = countries | findCountry(agency.country) %}
+    {% set repPhoto = agency_photo(agency, missions) %}
+    <article class="mission-card has-stretched-link">
+      <div class="agency-mark-hero">
+        {% if repPhoto %}
+          <img class="agency-hero-img" src="{{ repPhoto }}" alt="" loading="lazy">
+        {% else %}
+          {{ agency_mark(agency.name) }}
+        {% endif %}
+      </div>
+      <div class="card-body">
+        <div class="card-title-row">
+          <h3 class="card-name"><a href="/agencies/{{ agency.slug }}/">{{ agency.name }}</a></h3>
+          <span class="chip">{{ agency.mission_ids | length }} missions</span>
+        </div>
+        <p class="card-outcome">{{ agency.overview | truncate(140) }}</p>
+        <div class="card-chips">
+          <span class="chip">{{ country.name if country else agency.country }}</span>
+          {% if agency.founded_year %}<span class="chip">est. {{ agency.founded_year }}</span>{% endif %}
+          <a class="chip chip-link" href="/agencies/{{ agency.slug }}/">View timeline →</a>
+        </div>
+      </div>
+      <a class="stretched-link" href="/agencies/{{ agency.slug }}/" aria-label="{{ agency.name }}"></a>
+    </article>
+    {% endfor %}
+  </div>
+</section>

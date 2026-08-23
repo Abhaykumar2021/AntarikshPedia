@@ -1,0 +1,31 @@
+{% macro flag(iso, name, size=40) -%}
+  {%- if iso -%}
+    <img class="flag-img" src="/assets/images/flags/{{ iso | lower }}.png"
+         alt="{{ name }} flag" width="{{ size * 1.5 }}" height="{{ size }}"
+         loading="lazy">
+  {%- else -%}
+    <span class="flag-globe" style="width:{{ size }}px;height:{{ size }}px" aria-hidden="true">🌐</span>
+  {%- endif -%}
+{%- endmacro %}
+
+{#- Wordmark fallback: initials only — no country flag (agencies are not
+    branded by flags), no logos (trademarked per copyright_guidelines.md). -#}
+{% macro agency_mark(name, size=40) -%}
+  <span class="agency-mark" style="height:{{ size }}px">
+    <b>{{ name | initials }}</b>
+  </span>
+{%- endmacro %}
+
+{#- First mission photo in the agency roster — the agency's visual identity
+    through its own imagery instead of a trademarked logo. Requires the
+    missions array passed in (macros do not see page globals). -#}
+{% macro agency_photo(agency, missions) -%}
+  {%- set repPhoto = none -%}
+  {%- for mid in agency.mission_ids -%}
+    {%- if not repPhoto -%}
+      {%- set m = missions | missionById(mid) -%}
+      {%- if m and m.media %}{% set repPhoto = '/' ~ m.media.thumb %}{% endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {{ repPhoto }}
+{%- endmacro %}

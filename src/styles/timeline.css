@@ -1,0 +1,411 @@
+/* ============================================================
+   AntarikshPedia — timeline flip-book
+   The page-turn experience is styled separately from everything
+   else on purpose (build spec §3). JS in scripts/timeline-flip.js
+   drives transforms via rAF; CSS supplies the 3D stage and the
+   riffle/blur effects.
+   ============================================================ */
+
+.flip-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 420px) minmax(0, 1fr);
+  gap: var(--space-6);
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: var(--space-5);
+}
+
+/* ---------- sidebar: search & index ---------- */
+.flip-side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.flip-search {
+  position: relative;
+}
+
+.flip-search input {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.flip-search input:focus {
+  border-color: var(--color-accent);
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 46vh;
+  overflow-y: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  z-index: var(--z-overlay);
+  display: none;
+}
+
+.search-results.open {
+  display: block;
+}
+
+.search-results li {
+  list-style: none;
+}
+
+.search-result {
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.search-result:hover,
+.search-result:focus,
+.search-result[aria-selected="true"] {
+  background: var(--accent-soft);
+}
+
+.search-result .sr-year {
+  float: right;
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+}
+
+/* mission index (jump list) */
+.flip-index {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+}
+
+.flip-index h2 {
+  font-size: var(--text-sm);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: var(--space-3);
+}
+
+.era-jump-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+/* ---------- stage & book ---------- */
+.flip-main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.book-stage {
+  perspective: 2200px;
+  perspective-origin: 50% 45%;
+}
+
+.book {
+  position: relative;
+  aspect-ratio: 10 / 7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.55));
+}
+
+.book-half {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(160deg, var(--color-surface), var(--color-bg-raised));
+  border: 1px solid var(--color-border);
+}
+
+.book-left { border-radius: var(--radius-lg) 0 0 var(--radius-lg); }
+
+.book-right { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
+
+/* spine shadow down the middle of the spread */
+.book::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 34px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg,
+    transparent, rgba(0, 0, 0, 0.42) 48%, rgba(0, 0, 0, 0.55) 50%,
+    rgba(0, 0, 0, 0.42) 52%, transparent);
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* the single sheet that flips */
+.page-flipper {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: 50%;
+  width: calc(50% + 2px);
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  will-change: transform;
+  z-index: 10;
+}
+
+.page-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background:
+    linear-gradient(160deg, var(--color-surface), var(--color-bg-raised));
+}
+
+.page-face.front {
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  border-left: 0;
+}
+
+.page-face.back {
+  transform: rotateY(180deg);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+  border-right: 0;
+}
+
+/* riffle state — applied during the blurred middle of a long jump */
+.page-flipper.riffle .page-face {
+  filter: blur(5px) brightness(1.25);
+  box-shadow: 0 0 44px var(--accent-glow);
+}
+
+/* page content */
+.mission-sheet {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.sheet-photo {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+}
+
+.sheet-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sheet-year {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  letter-spacing: 0.14em;
+}
+
+.sheet-name {
+  font-size: clamp(1.05rem, 2.2vw, 1.7rem);
+  line-height: 1.15;
+  align-self: start;
+  margin-block: var(--space-3) var(--space-2);
+}
+
+.sheet-facts {
+  font-family: var(--font-mono);
+  font-size: clamp(0.62rem, 1.2vw, 0.78rem);
+  color: var(--color-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 1.2em;
+}
+
+.sheet-facts b { color: var(--color-text); font-weight: 500; }
+
+.sheet-outcome {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  align-self: end;
+}
+
+/* left context page */
+.context-sheet {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: var(--space-2);
+  padding: var(--space-5);
+}
+
+.context-era {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--era-accent, var(--color-accent));
+}
+
+.context-count {
+  font-family: var(--font-display);
+  font-size: clamp(3.4rem, 8vw, 6.4rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.context-label {
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.context-name a {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+}
+
+/* ---------- controls under the book ---------- */
+.flip-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.flip-counter {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.12em;
+  min-width: 12ch;
+  text-align: center;
+}
+
+.ctrl-btn {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: 50%;
+  color: var(--color-text);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.ctrl-btn:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 16px var(--accent-glow);
+  transform: translateY(-1px);
+}
+
+.ctrl-btn[disabled] {
+  opacity: 0.35;
+  cursor: default;
+  box-shadow: none;
+  transform: none;
+}
+
+.toggle-row {
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+}
+
+.toggle-btn {
+  padding: var(--space-2) var(--space-4);
+  background: transparent;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--pill);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.toggle-btn[aria-pressed="true"] {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.skip-anim-btn {
+  display: none;
+}
+
+.skip-anim-btn.active {
+  display: inline-block;
+}
+
+/* progress hairline across the top of the book */
+.flip-progress {
+  height: 2px;
+  background: var(--color-border);
+  border-radius: var(--pill);
+  overflow: hidden;
+}
+
+.flip-progress i {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent-glow), var(--color-accent));
+  transition: width 240ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------- responsive: single column, instant jumps ---------- */
+@media (max-width: 900px) {
+  .flip-layout {
+    grid-template-columns: 1fr;
+  }
+  .book {
+    aspect-ratio: auto;
+    grid-template-columns: 1fr;
+    min-height: 66vh;
+  }
+  .book-left { display: none; }
+  /* one visible page; flipper covers it fully */
+  .book-right { border-radius: var(--radius-lg); }
+  .page-flipper {
+    left: 0;
+    width: 100%;
+    transform-origin: left center;
+  }
+  .page-face.front { border-radius: var(--radius-lg); }
+}

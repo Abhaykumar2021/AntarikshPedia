@@ -1,0 +1,60 @@
+---
+pagination:
+  data: countries
+  size: 1
+  alias: country
+permalink: "/countries/{{ country.slug }}/"
+layout: base.njk
+section: countries
+eleventyComputed:
+  title: "{{ country.name }}"
+  description: "Missions involving {{ country.name }} in the AntarikshPedia record."
+---
+
+{% from "partials/marks.njk" import flag %}
+{% set roster = [] %}
+{% for mid in country.mission_ids %}
+  {% set m = missions | missionById(mid) %}
+  {% if m %}{% set roster = (roster | push(m)) %}{% endif %}
+{% endfor %}
+{% set roster = roster | sort(false, false, 'year') %}
+
+<section class="container page-head entity-head">
+  <div class="entity-visual">
+    {{ flag(country.iso_code, country.name, 56) }}
+  </div>
+  <div>
+    <p class="hero-kicker">Country</p>
+    <h1>{{ country.name }}</h1>
+    {% if country.note %}<p class="hook">{{ country.note }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="container facts-wrap">
+  <dl class="facts-strip">
+    <div><dt>ISO code</dt><dd>{{ country.iso_code or '—' }}</dd></div>
+    <div><dt>Missions (lead or partner)</dt><dd>{{ country.mission_ids | length }}</dd></div>
+    <div><dt>Agencies here</dt><dd>{{ country.agency_ids | length }}</dd></div>
+    <div><dt>First flight in record</dt><dd>{{ roster[0].year if roster.length else '—' }}</dd></div>
+  </dl>
+</section>
+
+{% if roster.length > 0 %}
+<section class="container mp-section">
+  <div class="section-head">
+    <h2>Mission timeline</h2>
+    <span class="mono-tag">{{ roster | length }} missions · lead or partner · chronological</span>
+  </div>
+  {% include "partials/roster-timeline.njk" %}
+</section>
+{% endif %}
+
+<section class="container mp-section reveal sources">
+  {% if country.agency_ids | length > 0 %}
+  <p class="mono-tag">Agencies of {{ country.name }}:
+    {% for aid in country.agency_ids %}
+      <a class="chip" href="/agencies/{{ aid }}/">{{ aid | replace('-', ' ') }}</a>
+    {% endfor %}
+  </p>
+  {% endif %}
+</section>

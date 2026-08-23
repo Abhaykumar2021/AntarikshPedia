@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+PLAN.docx
+copyright_guidelines.md
+Bugs

@@ -6,9 +6,10 @@ before re-deciding something already settled.
 
 ## v1 (current): flat mission list, enhanced schema
 
-As of August 2026, `data/missions.json` was rebuilt from a more selective,
-better-sourced dataset (`AntarikshPedia_1957-Present_Enhanced_Mission_List.docx`),
-replacing an earlier, less curated seed list. 89 entries.
+As of August 2026, `data/missions.json` was rebuilt from the merged timeline
+dataset (`AntarishaPedia Dataset/AntarikshPedia_1957-Present_Merged_Timeline.docx`),
+which merges the former research-audit and expanded-registry tables into one
+chronological list. 209 entries.
 
 Each mission is a flat record:
 
@@ -24,6 +25,20 @@ Each mission is a flat record:
 | outcome       | string | one-line "why it matters" summary                             |
 | era           | string | which timeline section it belongs to                          |
 | intro         | string | 2-4 sentence write-up, empty until written                    |
+| media         | object | optional; present on missions with licensed imagery           |
+
+The optional `media` object (33 landmark missions as of August 2026):
+
+| Field   | Notes                                                            |
+|---------|------------------------------------------------------------------|
+| thumb   | repo path to the image                                           |
+| credit  | exact credit line to display                                     |
+| license | `public-domain`, `cc-by-sa-2.0`, etc.                            |
+| source  | canonical URL of the source record                               |
+| checked | date the license was verified (see copyright_guidelines.md)      |
+
+Renderers must treat `media` as optional and fall back to generated
+placeholder art when absent.
 
 This is intentionally flat — no separate Agency/Program entities yet. Good
 enough for a single filterable timeline page. The filter bar currently

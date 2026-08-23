@@ -1,0 +1,424 @@
+[
+  {
+    "id": "united-states",
+    "slug": "united-states",
+    "name": "United States",
+    "iso_code": "US",
+    "agency_ids": [
+      "nasa",
+      "scaled-composites",
+      "intuitive-machines",
+      "firefly-aerospace"
+    ],
+    "mission_ids": [
+      "ace-1997",
+      "apollo-11-1969",
+      "apollo-17-1972",
+      "apollo-8-1968",
+      "apollo-soyuz-test-project-1975",
+      "aqua-2002",
+      "ariel-1-1962",
+      "artemis-i-2022",
+      "artemis-ii-2026",
+      "blue-ghost-mission-1-2025",
+      "calipso-2006",
+      "cassini-huygens-1997",
+      "chandra-x-ray-observatory-1999",
+      "clementine-1994",
+      "cobe-1989",
+      "copernicus-oao-3-1972",
+      "curiosity-msl-2012",
+      "dart-2022",
+      "dawn-2007",
+      "deep-space-1-1998",
+      "einstein-observatory-1979",
+      "emit-2022",
+      "europa-clipper-2024",
+      "explorer-1-1958",
+      "explorer-3-1958",
+      "explorer-6-1959",
+      "fermi-gamma-ray-space-telescope-2008",
+      "fuse-1999",
+      "galileo-1989",
+      "gemini-4-1965",
+      "genesis-2001",
+      "grail-2011",
+      "heao-1-1977",
+      "helios-1-1974",
+      "hinode-2005",
+      "hubble-space-telescope-1990",
+      "huygens-landing-2005",
+      "im-1-odysseus-2024",
+      "image-2000",
+      "insight-2018",
+      "iras-1982",
+      "iris-2013",
+      "isee-3-1978",
+      "ixpe-2021",
+      "james-webb-space-telescope-2021",
+      "juno-2011",
+      "kepler-2009",
+      "landsat-1-1972",
+      "lunar-orbiter-5-1967",
+      "lunar-prospector-1998",
+      "magellan-1989",
+      "mariner-10-1974",
+      "mariner-2-1962",
+      "mariner-4-1965",
+      "mariner-6-1969",
+      "mariner-7-1969",
+      "mariner-9-1971",
+      "mars-global-surveyor-1996",
+      "mars-observer-1992",
+      "mars-odyssey-2001",
+      "mars-pathfinder-sojourner-1997",
+      "mars-reconnaissance-orbiter-2005",
+      "near-shoemaker-1996",
+      "new-horizons-2015",
+      "nicer-2017",
+      "nisar-2025",
+      "nustar-2012",
+      "oco-2-2014",
+      "ogo-1-1964",
+      "osiris-rex-2016",
+      "osiris-rex-sample-return-2023",
+      "oso-1-1962",
+      "pace-2024",
+      "parker-solar-probe-2018",
+      "perseverance-ingenuity-2020",
+      "phoenix-2008",
+      "pioneer-1-1958",
+      "pioneer-10-1972",
+      "pioneer-11-1973",
+      "pioneer-2-1958",
+      "psyche-2023",
+      "punch-2025",
+      "ranger-1-1961",
+      "ranger-2-1961",
+      "ranger-7-1964",
+      "rosat-1990",
+      "rxte-1995",
+      "sampex-1992",
+      "sas-3-1975",
+      "seasat-1978",
+      "sirtf-spitzer-2003",
+      "skylab-1973",
+      "soho-1995",
+      "soho-1996",
+      "solar-maximum-mission-1980",
+      "solar-orbiter-2021",
+      "spaceshipone-2004",
+      "spherex-2025",
+      "spirit-opportunity-2004",
+      "stardust-sample-return-2004",
+      "sts-1-columbia-1981",
+      "surveyor-1-1966",
+      "swift-2004",
+      "syncom-2-1963",
+      "terra-1999",
+      "tess-2018",
+      "themis-2007",
+      "timed-2001",
+      "tiros-1-1960",
+      "topex-poseidon-1992",
+      "trace-1998",
+      "uhuru-1970",
+      "ulysses-1990",
+      "vanguard-1-1958",
+      "viking-1-1975",
+      "voyager-1-2-1977",
+      "wind-1994",
+      "xrism-2023",
+      "yohkoh-1991"
+    ]
+  },
+  {
+    "id": "soviet-union",
+    "slug": "soviet-union",
+    "name": "Soviet Union",
+    "iso_code": "SU",
+    "agency_ids": [
+      "soviet-program"
+    ],
+    "mission_ids": [
+      "apollo-soyuz-test-project-1975",
+      "aryabhata-1975",
+      "bhaskara-1-1979",
+      "korabl-sputnik-2-1960",
+      "kvant-1-1986",
+      "luna-1-1959",
+      "luna-10-1966",
+      "luna-16-1970",
+      "luna-19-1971",
+      "luna-2-1959",
+      "luna-3-1959",
+      "luna-9-1966",
+      "lunokhod-1-1970",
+      "mars-3-1971",
+      "mir-1986",
+      "phobos-1-1988",
+      "phobos-2-1988",
+      "salyut-1-1971",
+      "soviet-vega-1-1984",
+      "soviet-vega-2-1984",
+      "sputnik-1-1957",
+      "sputnik-2-1957",
+      "sputnik-3-object-d-1958",
+      "venera-1-1961",
+      "venera-11-1978",
+      "venera-13-1982",
+      "venera-15-16-1983",
+      "venera-4-1967",
+      "venera-7-1970",
+      "venera-9-1975",
+      "voskhod-2-1965",
+      "vostok-1-1961",
+      "zond-5-1968"
+    ]
+  },
+  {
+    "id": "russia",
+    "slug": "russia",
+    "name": "Russia",
+    "iso_code": "RU",
+    "agency_ids": [
+      "roscosmos"
+    ],
+    "mission_ids": [
+      "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "luna-25-2023",
+      "mir-1986",
+      "nauka-and-prichal-2021",
+      "phobos-grunt-2011"
+    ]
+  },
+  {
+    "id": "europe",
+    "slug": "europe",
+    "name": "Europe (multi-national)",
+    "iso_code": "EU",
+    "agency_ids": [
+      "esa"
+    ],
+    "mission_ids": [
+      "bepicolombo-2018",
+      "cassini-huygens-1997",
+      "cheops-2019",
+      "cluster-ii-2000",
+      "corot-2006",
+      "cos-b-1975",
+      "cryosat-2-2010",
+      "euclid-2023",
+      "exomars-trace-gas-orbiter-schiaparelli-2016",
+      "gaia-2013",
+      "giotto-1985",
+      "hera-2024",
+      "herschel-2009",
+      "hinode-2005",
+      "hipparcos-1989",
+      "hubble-space-telescope-1990",
+      "huygens-landing-2005",
+      "integral-2002",
+      "isee-3-1978",
+      "james-webb-space-telescope-2021",
+      "juice-2023",
+      "lisa-pathfinder-2015",
+      "mars-express-beagle-2-2003",
+      "planck-2009",
+      "rosetta-2004",
+      "rosetta-philae-2014",
+      "smart-1-2003",
+      "soho-1995",
+      "soho-1996",
+      "solar-orbiter-2021",
+      "ulysses-1990",
+      "venus-express-2005"
+    ],
+    "note": "Stands for the European Space Agency and its member states."
+  },
+  {
+    "id": "china",
+    "slug": "china",
+    "name": "China",
+    "iso_code": "CN",
+    "agency_ids": [
+      "cnsa"
+    ],
+    "mission_ids": [
+      "chang-e-1-2007",
+      "chang-e-3-yutu-2013",
+      "chang-e-4-2019",
+      "chang-e-5-2020",
+      "chang-e-6-2024",
+      "shenzhou-5-2003",
+      "tiangong-1-2011",
+      "tiangong-2-2016",
+      "tianhe-tiangong-space-station-2021",
+      "tianwen-1-2020"
+    ]
+  },
+  {
+    "id": "japan",
+    "slug": "japan",
+    "name": "Japan",
+    "iso_code": "JP",
+    "agency_ids": [
+      "jaxa"
+    ],
+    "mission_ids": [
+      "akatsuki-2010",
+      "bepicolombo-2018",
+      "ginga-1987",
+      "hayabusa-2003",
+      "hayabusa2-2014",
+      "hinode-2005",
+      "hinotori-1981",
+      "hiten-1990",
+      "ikaros-2010",
+      "kaguya-selene-2007",
+      "sakigake-1985",
+      "slim-2024",
+      "suisei-1985",
+      "tenma-1983",
+      "xrism-2023",
+      "yohkoh-1991"
+    ]
+  },
+  {
+    "id": "india",
+    "slug": "india",
+    "name": "India",
+    "iso_code": "IN",
+    "agency_ids": [
+      "isro"
+    ],
+    "mission_ids": [
+      "aditya-l1-2023",
+      "aryabhata-1975",
+      "astrosat-2015",
+      "bhaskara-1-1979",
+      "chandrayaan-1-2008",
+      "chandrayaan-2-2019",
+      "chandrayaan-3-2023",
+      "mars-orbiter-mission-mangalyaan-2013",
+      "nisar-2025",
+      "sross-c2-1993",
+      "xposat-2024"
+    ]
+  },
+  {
+    "id": "france",
+    "slug": "france",
+    "name": "France",
+    "iso_code": "FR",
+    "agency_ids": [
+      "cnes"
+    ],
+    "mission_ids": [
+      "calipso-2006",
+      "corot-2006",
+      "topex-poseidon-1992"
+    ]
+  },
+  {
+    "id": "italy",
+    "slug": "italy",
+    "name": "Italy",
+    "iso_code": "IT",
+    "agency_ids": [
+      "asi"
+    ],
+    "mission_ids": [
+      "cassini-huygens-1997",
+      "huygens-landing-2005",
+      "ixpe-2021",
+      "swift-2004",
+      "uhuru-1970"
+    ]
+  },
+  {
+    "id": "canada",
+    "slug": "canada",
+    "name": "Canada",
+    "iso_code": "CA",
+    "agency_ids": [
+      "csa"
+    ],
+    "mission_ids": [
+      "james-webb-space-telescope-2021"
+    ]
+  },
+  {
+    "id": "united-kingdom",
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "iso_code": "GB",
+    "agency_ids": [
+      "uk-program"
+    ],
+    "mission_ids": [
+      "ariel-1-1962",
+      "hinode-2005",
+      "iras-1982",
+      "rosat-1990",
+      "swift-2004",
+      "yohkoh-1991"
+    ]
+  },
+  {
+    "id": "germany",
+    "slug": "germany",
+    "name": "Germany",
+    "iso_code": "DE",
+    "agency_ids": [
+      "dlr"
+    ],
+    "mission_ids": [
+      "helios-1-1974",
+      "rosat-1990"
+    ]
+  },
+  {
+    "id": "netherlands",
+    "slug": "netherlands",
+    "name": "Netherlands",
+    "iso_code": "NL",
+    "agency_ids": [
+      "netherlands-program"
+    ],
+    "mission_ids": [
+      "iras-1982"
+    ]
+  },
+  {
+    "id": "united-arab-emirates",
+    "slug": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "iso_code": "AE",
+    "agency_ids": [
+      "uae-space-agency"
+    ],
+    "mission_ids": [
+      "hope-emirates-mars-mission-2020"
+    ]
+  },
+  {
+    "id": "international",
+    "slug": "international",
+    "name": "International",
+    "iso_code": null,
+    "agency_ids": [
+      "international"
+    ],
+    "mission_ids": [
+      "artemis-i-2022",
+      "artemis-ii-2026",
+      "fermi-gamma-ray-space-telescope-2008",
+      "ligo-first-gravitational-wave-detection-2015",
+      "soviet-vega-1-1984",
+      "soviet-vega-2-1984",
+      "zarya-international-space-station-assembly-begins-1998"
+    ],
+    "note": "Multi-country partnerships not attributable to one nation."
+  }
+]

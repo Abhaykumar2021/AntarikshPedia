@@ -1,0 +1,21 @@
+{
+  "name": "antarikshpedia",
+  "version": "2.0.0",
+  "description": "A connected encyclopedia of humanity's journey into space",
+  "type": "module",
+  "scripts": {
+    "data": "python3 scripts/build/gen-launch-dates.py && python3 scripts/build/generate-missions-json.py && python3 scripts/build/derive-catalogs.py && python3 scripts/build/gen-stories.py && python3 scripts/build/validate-data.py",
+    "validate": "python3 scripts/build/validate-data.py",
+    "dev": "npm run data && eleventy --serve",
+    "build": "npm run data && eleventy",
+    "build:fast": "eleventy"
+  },
+  "keywords": ["space", "encyclopedia", "timeline"],
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.0"
+  },
+  "dependencies": {
+    "fuse.js": "^7.1.0"
+  }
+}

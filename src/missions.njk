@@ -1,0 +1,133 @@
+---
+pagination:
+  data: missions
+  size: 1
+  alias: mission
+permalink: "/missions/{{ mission.id }}/"
+layout: base.njk
+section: catalog
+eleventyComputed:
+  title: "{{ mission.name }}"
+  description: "{{ mission.outcome }} {{ mission.name }} ({{ mission.year }}), {{ mission.lead_partner }} — AntarikshPedia mission record."
+  schema:
+    "@type": "CreativeWork"
+    name: "{{ mission.name }}"
+    datePublished: "{{ mission.year }}"
+    creator: "{{ mission.lead_partner }}"
+    description: "{{ mission.outcome }}"
+---
+
+{% set relatedIds = relatedMissions[mission.id] %}
+{% set relatedFull = [] %}
+{% for r in relatedIds %}
+  {% set rm = missions | missionById(r.id) %}
+  {% if rm %}{% set relatedFull = (relatedFull | push({'id': rm.id, 'type': r.type, 'name': rm.name, 'year': rm.year, 'lead_partner': rm.lead_partner, 'status': rm.status})) %}{% endif %}
+{% endfor %}
+{% set story = stories[mission.id] %}
+{% set accent = mission.era | eraAccent %}
+
+<article class="mission-page">
+  <!-- 1 · hero -->
+  <header class="hero">
+    <div class="hero-media">
+      {% if mission.media %}
+        <img src="/{{ mission.media.thumb }}" alt="{{ mission.name }}">
+      {% else %}
+        <img src="/assets/images/hero-deep-field.jpg" alt="" role="presentation">
+      {% endif %}
+    </div>
+    <div class="container">
+      <p class="hero-kicker">{{ mission.era }}</p>
+      <h1>{{ mission.name }}</h1>
+      <p class="hook">{{ mission.outcome }}</p>
+      {% set eraIdx = mission.era | eraIndex %}
+      <p class="mono-tag hero-position">Mission #{{ missions | length }} tracked · era {{ eraIdx }} of 6</p>
+    </div>
+  </header>
+
+  <!-- 2 · quick-facts telemetry strip -->
+  <section aria-label="Quick facts" class="container facts-wrap">
+    <dl class="facts-strip">
+      <div><dt>Launch</dt>
+        <dd>{% if mission.launch_date %}{{ mission.launch_date | humanDate }}{% else %}<span class="unknown">year known only — {{ mission.year }}</span>{% endif %}</dd></div>
+      <div><dt>Lead / partner</dt><dd>{{ mission.lead_partner }}</dd></div>
+      <div><dt>Target</dt><dd>{{ mission.target }}</dd></div>
+      <div><dt>Category</dt><dd>{{ mission.category }}</dd></div>
+      <div><dt>Status</dt><dd class="status-badge status-{{ mission.status | lower | replace(' ', '-') }}">{{ mission.status }}</dd></div>
+      <div><dt>Vehicle</dt><dd>{% if mission.launch_vehicle %}{{ mission.launch_vehicle }}{% else %}<span class="unknown">unknown</span>{% endif %}</dd></div>
+      <div><dt>Mass</dt><dd>{% if mission.mass_kg %}{{ mission.mass_kg | numberFormat }} kg{% else %}<span class="unknown">unknown</span>{% endif %}</dd></div>
+      <div><dt>Orbit / trajectory</dt><dd>{% if mission.orbit_type %}{{ mission.orbit_type }}{% else %}<span class="unknown">unknown</span>{% endif %}</dd></div>
+      {% if mission.duration %}<div><dt>Duration</dt><dd>{{ mission.duration }}</dd></div>{% endif %}
+    </dl>
+  </section>
+
+  <div class="container mission-body">
+    <!-- 3 · why it happened -->
+    <section class="mp-section reveal">
+      <h2>Why it happened</h2>
+      {% if story and story.why %}
+        {{ story.why | safe }}
+      {% else %}
+        <p class="context-note">
+          {{ mission.name }} flew during <em>{{ mission.era }}</em>, as part of
+          {{ mission.lead_partner }}'s work toward {{ mission.target | lower }}.
+          A sourced political and scientific context write-up has not been
+          drafted for this mission yet — it is on the editorial queue rather
+          than invented here.
+        </p>
+        <a class="chip" href="/admin/">Propose this write-up</a>
+      {% endif %}
+    </section>
+
+    <!-- 4 · the mission story -->
+    <section class="mp-section reveal">
+      <h2>The mission</h2>
+      {% if story and story.story %}
+        {{ story.story | safe }}
+      {% elif mission.intro %}
+        <p>{{ mission.intro }}</p>
+      {% else %}
+        <p class="context-note">
+          The full narrative of this mission is pending research and writing.
+          What is recorded so far: {{ mission.outcome }}
+        </p>
+      {% endif %}
+    </section>
+
+    <!-- 5 · results & legacy -->
+    <section class="mp-section reveal">
+      <h2>Results</h2>
+      <p>{{ mission.outcome }}</p>
+    </section>
+
+    <!-- 7 · related missions -->
+    {% if relatedFull.length > 0 %}
+    <section class="mp-section reveal">
+      <h2>Related missions</h2>
+      {{ mission | relGraph(relatedFull) | safe }}
+      <div class="rail" style="margin-top: var(--space-4)">
+        {% for rm in relatedFull %}
+          {% set m = rm %}
+          {% include "partials/mission-card.njk" %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- 8 · sources & credits -->
+    <section class="mp-section reveal sources">
+      <h2>Sources &amp; image credits</h2>
+      <ul class="source-list mono-tag">
+        {% if mission.media %}
+          <li>{{ mission.media.credit }} — license: {{ mission.media.license }} (<a href="{{ mission.media.source }}">source</a>, checked {{ mission.media.checked }})</li>
+        {% endif %}
+        <li>Mission record: AntarikshPedia canonical dataset
+            (<a href="https://github.com/">data-sources/missions_timeline.md</a>)</li>
+        <li>Specifications reference: NASA NSSDCA Master Catalog</li>
+      </ul>
+    </section>
+
+    <!-- 6 · related articles: intentionally omitted until real, verified
+         links exist — the guardrails forbid fabricated citations. -->
+  </div>
+</article>

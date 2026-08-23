@@ -1,0 +1,68 @@
+---
+pagination:
+  data: agencies
+  size: 1
+  alias: agency
+permalink: "/agencies/{{ agency.slug }}/"
+layout: base.njk
+section: agencies
+eleventyComputed:
+  title: "{{ agency.name }}"
+  description: "{{ agency.overview }}"
+---
+
+{% from "partials/marks.njk" import agency_mark, agency_photo %}
+{% set roster = [] %}
+{% for mid in agency.mission_ids %}
+  {% set m = missions | missionById(mid) %}
+  {% if m %}{% set roster = (roster | push(m)) %}{% endif %}
+{% endfor %}
+{% set roster = roster | sort(false, false, 'year') %}
+{% set country = countries | findCountry(agency.country) %}
+{% set repPhoto = agency_photo(agency, missions) %}
+
+<section class="container page-head entity-head">
+  <div class="entity-visual">
+    {% if repPhoto %}
+      <img class="entity-photo" src="{{ repPhoto }}" alt="">
+    {% else %}
+      {{ agency_mark(agency.name, 56) }}
+    {% endif %}
+  </div>
+  <div>
+    <p class="hero-kicker">Agency · {{ country.name if country else agency.country }}</p>
+    <h1>{{ agency.name }}</h1>
+    <p class="hook">{{ agency.overview }}</p>
+  </div>
+</section>
+
+<section class="container facts-wrap">
+  <dl class="facts-strip">
+    <div><dt>Country / entity</dt><dd>{{ country.name if country else agency.country }}</dd></div>
+    <div><dt>Founded</dt><dd>{{ agency.founded_year or '—' }}</dd></div>
+    <div><dt>Missions in record</dt><dd>{{ agency.mission_ids | length }}</dd></div>
+    <div><dt>First flight here</dt><dd>{{ roster[0].year if roster.length else '—' }}</dd></div>
+    <div><dt>Most recent</dt><dd>{{ (roster | last).year if roster.length else '—' }}</dd></div>
+  </dl>
+</section>
+
+{% if roster.length > 0 %}
+<section class="container mp-section">
+  <div class="section-head">
+    <h2>Mission timeline</h2>
+    <span class="mono-tag">{{ roster | length }} missions · chronological</span>
+  </div>
+  {% include "partials/roster-timeline.njk" %}
+</section>
+{% endif %}
+
+<section class="container mp-section reveal sources">
+  {% set peers = countries | findCountry(agency.country) %}
+  {% if peers and peers.agency_ids | length > 1 %}
+  <p class="mono-tag">Also from {{ country.name }}:
+    {% for aid in peers.agency_ids %}{% if aid != agency.slug %}
+      <a class="chip" href="/agencies/{{ aid }}/">{{ aid | replace('-', ' ') }}</a>
+    {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+</section>

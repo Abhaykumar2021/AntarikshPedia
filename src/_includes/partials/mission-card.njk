@@ -1,0 +1,23 @@
+<article class="mission-card">
+  <a class="card-media" href="/missions/{{ m.id }}/" tabindex="-1" aria-hidden="true">
+    {% if m.media %}
+      <img src="/{{ m.media.thumb }}" alt="{{ m.name }}" loading="lazy">
+    {% else %}
+      <div class="card-placeholder" style="--ph-accent: {{ m.era | eraAccent }}">
+        <span>{{ m.name[0] }}</span>
+      </div>
+    {% endif %}
+  </a>
+  <div class="card-body">
+    <div class="card-title-row">
+      <h3 class="card-name"><a href="/missions/{{ m.id }}/">{{ m.name }}</a></h3>
+      <span class="status-badge status-{{ m.status | lower | replace(' ', '-') }}">{{ m.status }}</span>
+    </div>
+    <p class="card-meta">{{ m.lead_partner }} · {{ m.year }}</p>
+    <p class="card-outcome">{{ m.outcome }}</p>
+    <div class="card-chips">
+      <span class="chip">{{ m.target }}</span>
+      <span class="chip">{{ m.category }}</span>
+    </div>
+  </div>
+</article>
