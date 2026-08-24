@@ -10,8 +10,8 @@ eleventyComputed:
 <section class="container page-head">
   <p class="hero-kicker">The record</p>
   <h1>Every mission, {{ (missions | first).year }}–{{ (missions | last).year }}</h1>
-  <p class="hook">The complete dataset, grouped by era. Prefer the page-turning
-     version? <a href="/timeline/">Open the timeline</a>.</p>
+  <p class="hook">The complete dataset, grouped by era — open any mission
+     for its full story.</p>
 </section>
 
 {% set sortedMissions = missions | sortByYear %}

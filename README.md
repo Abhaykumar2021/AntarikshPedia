@@ -25,17 +25,15 @@ antarikshpedia/
 │   ├── _includes/base.njk       shared header/footer/nav/head + theme bootstrap
 │   ├── _includes/partials/
 │   ├── index.njk                homepage: journey + on-this-day
-│   ├── timeline.njk             flip-book timeline (spec §7)
 │   ├── catalog.njk              every mission grouped by era
 │   ├── missions.njk             pagination → /missions/{slug}/
 │   ├── agencies.njk + agency-pages.njk
 │   ├── countries.njk + country-pages.njk
 │   ├── vision.njk               project vision & roadmap
 │   ├── admin.njk                contribution staging (CRUD, localStorage)
-│   ├── styles/                  tokens.css is the master file; dark default,
-│   │                              full light theme via [data-theme="light"]
+│   ├── styles/                  tokens.css is the master file; dark-only theme
 │   ├── scripts/                 main.js (+theme toggle), home.js, search.js
-│   │                              (Fuse.js), timeline-flip.js
+│   │                              (Fuse.js)
 │   └── assets/images/           licensed imagery; per-mission folders at
 │                                  images/missions/<id>/photo.jpg
 ├── dist/                        BUILD OUTPUT — the only deployed directory
@@ -68,17 +66,6 @@ Deploy by pointing Netlify/Vercel/GitHub Pages at `dist/`. Build command:
 5. Long-form mission stories go in `content/missions/<id>.md` with
    `## Why it happened`, `## The mission`, and/or `## Results` sections.
 6. `npm run validate` runs automatically before every build.
-
-## Timeline flip-book (spec §7)
-
-- One mission per page; fuzzy search (Fuse.js) tolerates misspellings.
-- Jump animation capped at 1.75 s regardless of distance: 2–3 real flips →
-  blurred riffle → 2–3 landing flips on one easing curve.
-- Page-turn sounds are synthesized with WebAudio (no audio asset), pitch-
-  varied per flip; riffle uses one batched swell. Mute toggle persists.
-- `prefers-reduced-motion`, narrow viewports, and the visible Skip control
-  all jump instantly. Full keyboard operation: ←/→/Home/End, `/` search,
-  ↑↓+Enter on results, M mute, S skip.
 
 ## Contribution staging (/admin)
 

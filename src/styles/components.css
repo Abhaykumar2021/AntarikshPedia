@@ -60,30 +60,6 @@
   background: var(--accent-soft);
 }
 
-/* theme toggle */
-.theme-toggle {
-  width: 38px;
-  height: 38px;
-  display: grid;
-  place-items: center;
-  background: transparent;
-  border: 1px solid var(--color-border-strong);
-  border-radius: 50%;
-  color: var(--color-muted);
-  font-size: 1rem;
-  cursor: pointer;
-  transition:
-    border-color var(--transition-fast),
-    color var(--transition-fast),
-    box-shadow var(--transition-fast);
-}
-
-.theme-toggle:hover {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-  box-shadow: 0 0 14px var(--accent-glow);
-}
-
 /* header search — present on every page */
 .header-search {
   flex: 0 1 300px;

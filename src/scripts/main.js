@@ -1,6 +1,7 @@
 /**
  * main.js — shared page behavior for every AntarikshPedia page.
  * Reveal-on-scroll only; each page loads its own feature scripts.
+ * The site is dark-only (light theme removed 2026-08-24).
  */
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -29,29 +30,3 @@ function initReveals() {
 }
 
 initReveals();
-
-/* ---------- theme toggle (light/dark) ---------- */
-
-const themeButton = document.getElementById('theme-toggle');
-const themeIcon = themeButton?.querySelector('.theme-icon');
-
-function paintThemeButton() {
-  const light = document.documentElement.dataset.theme === 'light';
-  if (themeIcon) themeIcon.textContent = light ? '☾' : '☀';
-  themeButton?.setAttribute(
-    'aria-label',
-    light ? 'Switch to dark theme' : 'Switch to light theme'
-  );
-}
-
-themeButton?.addEventListener('click', () => {
-  const next =
-    document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
-  document.documentElement.dataset.theme = next;
-  try {
-    localStorage.setItem('ap-theme', next);
-  } catch { /* private mode: session-only */ }
-  paintThemeButton();
-});
-
-paintThemeButton();

@@ -3,8 +3,6 @@
  *
  * Fuzzy-searches the mission record (Fuse.js) and links results straight
  * to mission pages. Keyboard: ↓/↑ to move, Enter to open, Esc to close.
- * On the timeline page the sidebar search still drives the flip-book;
- * this one always navigates.
  */
 
 import { createSearchIndex, fuzzySearch } from './search.js';

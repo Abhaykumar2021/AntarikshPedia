@@ -7,9 +7,8 @@ extraStyles:
 ---
 
 {#- ============================================================
-   Homepage: the scroll-driven journey from Sputnik to JWST,
-   ending at the flip-book timeline. "On this day" appears
-   between hero and journey when there is a match.
+   Homepage: the scroll-driven journey from Sputnik to JWST.
+   "On this day" appears between hero and journey when there is a match.
    ============================================================ -#}
 
 <section class="journey-hero">
@@ -21,7 +20,7 @@ extraStyles:
     Follow the whole story — every launch is a doorway.
   </p>
   <div class="hero-actions">
-    <a class="btn btn-solid" href="/timeline/">Open the Timeline</a>
+    <a class="btn btn-solid" href="/catalog/">Explore all missions</a>
     <a class="btn" href="#on-this-day" id="otd-link">On this day ↓</a>
   </div>
   <dl class="facts-strip" aria-label="Dataset statistics">
@@ -68,7 +67,8 @@ extraStyles:
     {% endfor %}
   </ol>
   <div class="reveal center-cta">
-    <a class="btn btn-solid" href="/timeline/">Begin the journey — page one</a>
+    {% set firstMission = missions | sortByYear | first %}
+    <a class="btn btn-solid" href="/missions/{{ firstMission.id }}/">Begin the journey — 1957</a>
   </div>
 </section>
 

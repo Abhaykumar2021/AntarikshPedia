@@ -2,46 +2,68 @@
 layout: base.njk
 section: vision
 permalink: /vision/
+extraStyles:
+  - vision.css
 eleventyComputed:
   title: "Our Vision"
   description: "The vision behind AntarikshPedia — a connected encyclopedia of space exploration."
 ---
 
-<section class="container page-head">
-  <p class="hero-kicker">Our vision</p>
-  <h1>Not a catalog.<br>A connected story.</h1>
-  <p class="hook">
-    AntarikshPedia exists so anyone can understand space exploration the way
-    it actually happened — a web of missions, machines, people, ideas, and
-    world events shaping one another.
+<section class="vision-hero">
+  <canvas id="vision-stars" aria-hidden="true"></canvas>
+  <p class="vision-kicker">The vision</p>
+  <h1>Not a catalog.<br><em>A connected story.</em></h1>
+  <p class="vision-hook">
+    Space exploration was never a list of launches. It is a single unbroken
+    story — of agencies and machines, of rivalries and handshakes, of ideas
+    igniting ideas across seven decades. AntarikshPedia exists so anyone can
+    follow that story the way it actually happened: one web of missions,
+    people, and events shaping one another.
+  </p>
+  {% set sorted = missions | sortByYear %}
+  <dl class="vision-stats" aria-label="Dataset statistics">
+    <div><dt class="stat-label">Missions</dt><dd class="stat-num" data-count="{{ missions | length }}">{{ missions | length }}</dd></div>
+    <div><dt class="stat-label">Agencies</dt><dd class="stat-num" data-count="{{ agencies | length }}">{{ agencies | length }}</dd></div>
+    <div><dt class="stat-label">Countries &amp; entities</dt><dd class="stat-num" data-count="{{ countries | length }}">{{ countries | length }}</dd></div>
+    <div><dt class="stat-label">Years covered</dt><dd class="stat-num" data-count="{{ (sorted | last).year - (sorted | first).year + 1 }}">{{ (sorted | last).year - (sorted | first).year + 1 }}</dd></div>
+  </dl>
+</section>
+
+<section class="vision-section">
+  <div class="section-head"><h2>One knowledge network</h2><span class="mono-tag">the model</span></div>
+  <ol class="constellation reveal" role="list">
+    {% for step in ['Agency', 'Program', 'Mission', 'Spacecraft', 'Instruments', 'Events', 'Discoveries', 'Publications'] %}
+      <li class="node" style="--i: {{ loop.index0 }}">
+        <span class="node-dot" aria-hidden="true"></span>
+        <span class="node-label">{{ step }}</span>
+      </li>
+    {% endfor %}
+  </ol>
+  <p class="constellation-caption">
+    Every page is a node. Every mission links back to its agency, its
+    program, its machines — and forward to what they made possible.
   </p>
 </section>
 
-<section class="container mp-section reveal">
-  <div class="section-head"><h2>One knowledge network</h2><span class="mono-tag">the model</span></div>
-  <ol class="chain" role="list">
-    {% for step in ['Agency', 'Program', 'Mission', 'Spacecraft', 'Instruments', 'Events', 'Discoveries', 'Publications'] %}
-      <li>{{ step }}</li>{% if not loop.last %}<li aria-hidden="true" class="chain-arrow">→</li>{% endif %}
-    {% endfor %}
-  </ol>
-</section>
-
-<section class="container mp-section reveal">
+<section class="vision-section">
   <div class="section-head"><h2>How it grows</h2><span class="mono-tag">roadmap</span></div>
-  <div class="card-grid">
-    <article class="principle-card now">
-      <span class="phase-tag">Phase 1 — now</span>
+  <div class="phase-grid">
+    <article class="phase-card now reveal">
+      <span class="phase-num" aria-hidden="true">1</span>
+      <span class="phase-tag"><span class="live-dot" aria-hidden="true"></span>Phase 1 — now</span>
       <h3>Pages for everything in the record</h3>
       <p>A page per mission, agency, and country — generated from one
          canonical dataset, cross-linked automatically.</p>
     </article>
-    <article class="principle-card">
+    <article class="phase-card reveal">
+      <span class="phase-num" aria-hidden="true">2</span>
       <span class="phase-tag">Phase 2 — depth</span>
       <h3>Stories, sources, media</h3>
       <p>Long-form mission histories with verified launch details,
          license-checked imagery, and traceable citations.</p>
     </article>
-    <article class="principle-card">
+    <article class="phase-card reveal">
+      <span class="phase-num" aria-hidden="true">3</span>
       <span class="phase-tag">Phase 3 — community</span>
       <h3>Reviewed contributions</h3>
       <p>Public corrections and additions staged as pending until a reviewer
@@ -50,11 +72,21 @@ eleventyComputed:
   </div>
 </section>
 
-<section class="container mp-section reveal standard">
+<section class="manifesto reveal">
+  <blockquote>
+    Earth is the cradle of humanity, but one cannot live in a cradle forever.
+  </blockquote>
+  <cite><b>Konstantin Tsiolkovsky</b> — 1911</cite>
+</section>
+
+<section class="standard-card reveal">
+  <span class="mono-tag">editorial standard</span>
   <blockquote>
     Separate sourced fact from interpretation. Present history with clear
     attribution, neutral language, and links to credible sources.
   </blockquote>
   <p class="standard-note">Every AntarikshPedia page is held to this standard.</p>
-  <a class="btn btn-solid" href="/timeline/">Turn to page one</a>
+  <a class="btn btn-solid" href="/catalog/">Explore the record</a>
 </section>
+
+<script type="module" src="/scripts/vision.js"></script>

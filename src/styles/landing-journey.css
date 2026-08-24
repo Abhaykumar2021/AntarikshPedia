@@ -4,6 +4,7 @@
 
 /* hero */
 .journey-hero {
+  position: relative;
   min-height: 78vh;
   display: grid;
   align-content: center;
@@ -12,18 +13,64 @@
   padding: var(--space-8) var(--space-5) var(--space-6);
 }
 
+/* Carina Nebula backdrop — full-bleed behind the centered container,
+   reaching up under the translucent sticky header */
+.journey-hero::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  top: calc(-1 * var(--header-h));
+  bottom: 0;
+  background: url("/assets/images/carina-nebula.jpg") center 32% / cover no-repeat;
+  z-index: -2;
+}
+
+/* dark scrim so text stays readable over the nebula, dissolving
+   into the page background at the bottom edge */
+.journey-hero::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  top: calc(-1 * var(--header-h));
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 9, 12, 0.62) 0%,
+    rgba(8, 9, 12, 0.42) 42%,
+    rgba(8, 9, 12, 0.72) 78%,
+    var(--color-bg) 100%
+  );
+  z-index: -1;
+}
+
+.journey-hero > * {
+  position: relative;
+}
+
 .journey-hero h1 {
-  font-size: var(--text-hero);
+  font-size: clamp(3rem, 8vw, 5.75rem);
   text-transform: uppercase;
   line-height: 0.98;
   margin-top: var(--space-4);
+  color: #ffffff;
+  text-shadow: 0 2px 28px rgba(4, 6, 10, 0.7);
+}
+
+.journey-hero .hero-kicker {
+  color: var(--color-accent);
+  text-shadow: 0 1px 14px rgba(4, 6, 10, 0.8);
 }
 
 .journey-hero .hook {
-  color: var(--color-muted);
-  font-size: var(--text-lg);
+  color: #f5f7fa;
+  font-size: clamp(1.08rem, 2vw, 1.4rem);
   max-width: 58ch;
   margin-top: var(--space-5);
+  text-shadow: 0 1px 14px rgba(4, 6, 10, 0.75);
 }
 
 .hero-actions {
