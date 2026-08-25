@@ -1,17 +1,19 @@
 {#- Vertical mission timeline for agency/country rosters.
-    Expects `roster` (sorted chronologically) in scope. -#}
+    Expects `roster` (sorted chronologically) in scope.
+    Each card is fully clickable and leads to the mission page. -#}
 <ol class="roster-timeline">
   {% for m in roster %}
   <li class="rt-item" style="--era-accent: {{ m.era | eraAccent }}">
     <span class="rt-year mono-tag">{{ m.year }}</span>
     <span class="rt-dot" aria-hidden="true"></span>
-    <div class="rt-card">
+    <div class="rt-card has-stretched-link">
       <div class="card-title-row">
         <h3 class="rt-name"><a href="/missions/{{ m.id }}/">{{ m.name }}</a></h3>
         <span class="status-badge status-{{ m.status | lower | replace(' ', '-') }}">{{ m.status }}</span>
       </div>
       <p class="rt-meta">{{ m.lead_partner }} · {{ m.target }} · {{ m.category }}</p>
       <p class="rt-outcome">{{ m.outcome }}</p>
+      <a class="stretched-link" href="/missions/{{ m.id }}/" aria-label="{{ m.name }}"></a>
     </div>
   </li>
   {% endfor %}

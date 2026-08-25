@@ -273,7 +273,7 @@ def nasa_image(query: str, dest: Path, name: str = '', year: int = 0) -> dict | 
             'credit': 'Image credit: NASA',
             'license': 'public-domain',
             'source': f'https://images.nasa.gov/details/{nasa_id}',
-            'checked': '2026-08-23',
+            'checked': '2026-08-24',
         }
     return None
 
@@ -336,11 +336,11 @@ def commons_image(name: str, dest: Path) -> dict | None:
             artist = emeta.get('Artist', {}).get('value', 'Wikimedia Commons')
             artist_clean = clean(artist)[:60]
             return {
-                'credit': f'{artist_clean}, via Wikimedia Commons — {lic}',
+                'credit': f'{artist_clean}, via Wikimedia Commons · {lic}',
                 'license': license_key,
                 'source': ('https://commons.wikimedia.org/wiki/'
                            + page['title'].replace(' ', '_')),
-                'checked': '2026-08-23',
+                'checked': '2026-08-24',
             }
     return None
 
@@ -359,7 +359,10 @@ def save_json(path: Path, obj) -> None:
 
 def main() -> None:
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
+    order = sys.argv[2] if len(sys.argv) > 2 else 'chronological'
     missions = json.loads(DATA.read_text(encoding='utf-8'))
+    if order == 'newest':
+        missions = sorted(missions, key=lambda m: m['year'], reverse=True)
     specs = load_json(SPEC_OUT, {})
     media = load_json(MEDIA_OUT, {})
 

@@ -6,7 +6,7 @@ extraStyles:
   - vision.css
 eleventyComputed:
   title: "Our Vision"
-  description: "The vision behind AntarikshPedia — a connected encyclopedia of space exploration."
+  description: "The vision behind AntarikshPedia, an encyclopedia of space exploration."
 ---
 
 <section class="vision-hero">
@@ -14,11 +14,11 @@ eleventyComputed:
   <p class="vision-kicker">The vision</p>
   <h1>Not a catalog.<br><em>A connected story.</em></h1>
   <p class="vision-hook">
-    Space exploration was never a list of launches. It is a single unbroken
-    story — of agencies and machines, of rivalries and handshakes, of ideas
-    igniting ideas across seven decades. AntarikshPedia exists so anyone can
-    follow that story the way it actually happened: one web of missions,
-    people, and events shaping one another.
+    Space exploration did not happen as a list of launches. Agencies
+    competed and cooperated, machines descended from earlier machines, and
+    each mission changed what the next one attempted. AntarikshPedia records
+    those connections so anyone can follow the story the way it actually
+    happened.
   </p>
   {% set sorted = missions | sortByYear %}
   <dl class="vision-stats" aria-label="Dataset statistics">
@@ -30,7 +30,7 @@ eleventyComputed:
 </section>
 
 <section class="vision-section">
-  <div class="section-head"><h2>One knowledge network</h2><span class="mono-tag">the model</span></div>
+  <div class="section-head"><h2>One knowledge network</h2><span class="mono-tag">The model</span></div>
   <ol class="constellation reveal" role="list">
     {% for step in ['Agency', 'Program', 'Mission', 'Spacecraft', 'Instruments', 'Events', 'Discoveries', 'Publications'] %}
       <li class="node" style="--i: {{ loop.index0 }}">
@@ -40,31 +40,31 @@ eleventyComputed:
     {% endfor %}
   </ol>
   <p class="constellation-caption">
-    Every page is a node. Every mission links back to its agency, its
-    program, its machines — and forward to what they made possible.
+    Each mission page links to the agency that ran it, the program it
+    served, and the missions it made possible.
   </p>
 </section>
 
 <section class="vision-section">
-  <div class="section-head"><h2>How it grows</h2><span class="mono-tag">roadmap</span></div>
+  <div class="section-head"><h2>How it grows</h2><span class="mono-tag">Roadmap</span></div>
   <div class="phase-grid">
     <article class="phase-card now reveal">
       <span class="phase-num" aria-hidden="true">1</span>
-      <span class="phase-tag"><span class="live-dot" aria-hidden="true"></span>Phase 1 — now</span>
+      <span class="phase-tag"><span class="live-dot" aria-hidden="true"></span>Phase 1 · Now</span>
       <h3>Pages for everything in the record</h3>
-      <p>A page per mission, agency, and country — generated from one
-         canonical dataset, cross-linked automatically.</p>
+      <p>A page for each mission, agency, and country, generated from one
+         canonical dataset.</p>
     </article>
     <article class="phase-card reveal">
       <span class="phase-num" aria-hidden="true">2</span>
-      <span class="phase-tag">Phase 2 — depth</span>
+      <span class="phase-tag">Phase 2 · Depth</span>
       <h3>Stories, sources, media</h3>
       <p>Long-form mission histories with verified launch details,
          license-checked imagery, and traceable citations.</p>
     </article>
     <article class="phase-card reveal">
       <span class="phase-num" aria-hidden="true">3</span>
-      <span class="phase-tag">Phase 3 — community</span>
+      <span class="phase-tag">Phase 3 · Community</span>
       <h3>Reviewed contributions</h3>
       <p>Public corrections and additions staged as pending until a reviewer
          approves them against a cited source.</p>
@@ -76,11 +76,11 @@ eleventyComputed:
   <blockquote>
     Earth is the cradle of humanity, but one cannot live in a cradle forever.
   </blockquote>
-  <cite><b>Konstantin Tsiolkovsky</b> — 1911</cite>
+  <cite><b>Konstantin Tsiolkovsky</b>, 1911</cite>
 </section>
 
 <section class="standard-card reveal">
-  <span class="mono-tag">editorial standard</span>
+  <span class="mono-tag">Editorial standard</span>
   <blockquote>
     Separate sourced fact from interpretation. Present history with clear
     attribution, neutral language, and links to credible sources.

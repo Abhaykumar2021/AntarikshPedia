@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% if title %}<title>{{ title }} — AntarikshPedia</title>{% else %}<title>AntarikshPedia — A Connected History of Space Exploration</title>{% endif %}
-  <meta name="description" content="{{ description or 'A connected encyclopedia of humanity’s journey into space — 209 missions from Sputnik to today, explored as one story.' }}">
+  {% if title %}<title>{{ title }} · AntarikshPedia</title>{% else %}<title>AntarikshPedia · A Connected History of Space Exploration</title>{% endif %}
+  {% set defaultDesc = "An encyclopedia of space exploration: " ~ (missions | length) ~ " missions, 1957 to today, each linked to its agency, country, and related missions." %}
+  <meta name="description" content="{{ description or defaultDesc }}">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ title or 'AntarikshPedia' }}">
-  <meta property="og:description" content="{{ description or 'A connected encyclopedia of humanity’s journey into space.' }}">
+  <meta property="og:description" content="{{ description or defaultDesc }}">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/brand/og-image.jpg">
+
+  <!-- brand: favicon + touch icon (derived from Logos/Title Logo.png) -->
+  <link rel="icon" type="image/png" href="/assets/brand/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 
   <!-- Fonts: Space Grotesk (display) / Inter (body) / JetBrains Mono (telemetry) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +47,10 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="/">Antariksh<b>Pedia</b></a>
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/assets/brand/logo-mark.png" alt="" width="28" height="28">
+        <span>Antariksh<b>Pedia</b></span>
+      </a>
       <form class="header-search" role="search" id="global-search-form">
         <input
           type="search"
@@ -68,15 +77,14 @@
 
   <footer class="site-footer">
     <p class="footer-note">
-      AntarikshPedia is a connected encyclopedia of humanity's journey into
-      space — agencies, programs, missions, spacecraft, people, discoveries,
-      and the history that shaped them.
+      AntarikshPedia is an encyclopedia of space exploration. It covers every
+      mission in the record and links each one to its agency, its country,
+      and the missions related to it.
     </p>
     <nav class="footer-links" aria-label="Footer">
       <a href="/catalog/">Mission catalog</a>
       <a href="/agencies/">Agencies</a>
       <a href="/countries/">Countries</a>
-      <a href="/admin/">Contributions</a>
     </nav>
     <p class="footer-copy">
       Built and maintained by Abhay Kumar · Imagery courtesy of NASA / ISRO / ESA where credited · Educational and non-commercial

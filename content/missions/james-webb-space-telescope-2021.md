@@ -3,7 +3,7 @@
 ## Why it happened
 
 By the mid-1990s, Hubble's deep fields had shown that long exposures on an
-empty patch of sky filled with galaxies — and raised the question of what
+empty patch of sky filled with galaxies and raised the question of what
 an instrument tuned to infrared would see, since the light of the earliest
 galaxies has been stretched out of the visible band by cosmic expansion.
 NASA's 1996 decadal planning embraced a next-generation space telescope with

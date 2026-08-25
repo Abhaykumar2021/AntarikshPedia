@@ -59,6 +59,22 @@ ESA/Webb weic2216a, CC BY 4.0).
 Embeds use the privacy-enhanced `youtube-nocookie.com` host with
 `loading="lazy"`; credit lines appear beneath each player.
 
+## Homepage hero background
+
+| Image | Used as | Credit | License | Source | Checked |
+|-------|---------|--------|---------|--------|---------|
+| Carina Nebula (`src/assets/images/carina-nebula.jpg`) | Homepage hero background | NASA, ESA, CSA, STScI (James Webb Space Telescope) | public domain (NASA media) | derived from root source scan `src/assets/images/source/Carina Nebula.jpg` | 2026-08-24 |
+
+## Sputnik 2 / Laika
+
+| Image | Used as | Credit | License | Source | Checked |
+|-------|---------|--------|---------|--------|---------|
+| Laika in flight capsule (`assets/images/missions/sputnik-2-1957/photo.jpg`) | Sputnik 2 mission image, homepage evolution timeline | Heritage Images—Hulton Archive/Getty Images | rights-managed | gettyimages.com (direct item URL pending) | 2026-08-24 |
+
+Rights-managed exception approved by the project owner (2026-08-24);
+educational, non-commercial use with full credit. Re-verify before any
+commercial reuse.
+
 ## Standing practices
 
 1. Never use agency logos/insignia in site UI.

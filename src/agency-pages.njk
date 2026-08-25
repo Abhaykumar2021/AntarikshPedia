@@ -61,7 +61,8 @@ eleventyComputed:
   {% if peers and peers.agency_ids | length > 1 %}
   <p class="mono-tag">Also from {{ country.name }}:
     {% for aid in peers.agency_ids %}{% if aid != agency.slug %}
-      <a class="chip" href="/agencies/{{ aid }}/">{{ aid | replace('-', ' ') }}</a>
+      {% set peer = agencies | agencyBySlug(aid) %}
+      <a class="chip" href="/agencies/{{ aid }}/">{{ peer.name if peer else (aid | replace('-', ' ')) }}</a>
     {% endif %}{% endfor %}
   </p>
   {% endif %}

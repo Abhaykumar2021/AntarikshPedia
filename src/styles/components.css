@@ -26,6 +26,9 @@
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   font-family: var(--font-display);
   font-size: var(--text-lg);
   font-weight: 700;
@@ -36,6 +39,20 @@
 
 .brand b {
   color: var(--color-accent);
+}
+
+.brand-mark {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border-strong);
+  box-shadow: 0 0 10px rgba(232, 163, 61, 0.22);
+  transition: box-shadow var(--transition-fast), transform var(--transition-fast);
+}
+
+.brand:hover .brand-mark {
+  box-shadow: 0 0 16px rgba(232, 163, 61, 0.45);
+  transform: scale(1.06);
 }
 
 .site-nav {
@@ -234,6 +251,7 @@ a.chip:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 25%;
   opacity: 0.55;
   animation: hero-drift 26s ease-in-out infinite alternate;
 }
@@ -287,7 +305,6 @@ a.chip:hover {
 }
 
 .facts-strip div {
-  background: var(--color-bg-raised);
   padding: var(--space-4) var(--space-5);
 }
 
@@ -309,6 +326,17 @@ a.chip:hover {
 .facts-strip dd.unknown {
   color: var(--color-muted);
   opacity: 0.7;
+}
+
+/* inside the facts table the status is plain colored text:
+   no pill ellipse, and it must fit its ~150px grid cell */
+.facts-strip .status-badge {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  white-space: normal;
+  line-height: 1.5;
+  max-width: 100%;
 }
 
 /* ---------- mission card ---------- */
@@ -343,6 +371,9 @@ a.chip:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* bias the crop toward the top of the photo so helmets, faces-free
+     spacecraft tops, and rocket upper stages stay in frame */
+  object-position: 50% 18%;
   transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -384,7 +415,12 @@ a.chip:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: var(--space-3);
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.card-title-row .status-badge {
+  flex-shrink: 0;
 }
 
 .card-name {
@@ -750,6 +786,7 @@ a.chip:hover {
 }
 
 .rt-card {
+  position: relative;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--era-accent, var(--color-accent));
@@ -828,4 +865,70 @@ a.chip:hover {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
   color: var(--color-muted);
+}
+
+/* ---------- shared page layout ----------
+   Site-wide primitives every template may use. Previously trapped in
+   landing-journey.css (only the homepage loaded it), which left most
+   pages partially unstyled — fixed 2026-08-24. */
+
+.page-head {
+  padding-block: var(--space-7) var(--space-5);
+}
+
+.section-title {
+  font-size: var(--text-xl);
+  text-transform: uppercase;
+  margin-bottom: var(--space-5);
+}
+
+.mp-section {
+  padding-block: var(--space-6);
+}
+
+.mp-section h2 {
+  font-size: var(--text-xl);
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+
+.context-note {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+.facts-wrap {
+  padding-block: var(--space-5);
+}
+
+/* catalog era sections */
+.era-block {
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--color-border);
+  scroll-margin-top: var(--header-h);
+}
+
+.era-block .section-head h2 {
+  border-left: 3px solid var(--era-accent, var(--color-accent));
+  padding-left: var(--space-3);
+}
+
+/* mission-page reading column */
+.mission-body {
+  padding-block-end: var(--space-8);
+}
+
+/* sources & credits block */
+.sources .source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.sources .source-list a {
+  color: var(--color-accent);
 }

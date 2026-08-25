@@ -30,19 +30,6 @@ body {
 }
 
 /* subtle console texture: faint grid, no imagery */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background:
-    linear-gradient(var(--grid-line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-  background-size: 56px 56px;
-  mask-image: radial-gradient(ellipse at 50% 0%, black 20%, transparent 75%);
-  pointer-events: none;
-}
-
 h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 700;

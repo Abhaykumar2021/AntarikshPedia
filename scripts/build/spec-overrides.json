@@ -408,5 +408,300 @@
   },
   "chang-e-6-2024": {
     "launch_vehicle": "Long March 5"
+  },
+  "artemis-ii-2026": {
+    "launch_date": "2026-04-01",
+    "launch_vehicle": "Space Launch System"
+  },
+  "blue-ghost-mission-1-2025": {
+    "launch_vehicle": "Falcon 9 Block 5"
+  },
+  "nisar-2025": {
+    "launch_date": "2025-07-30",
+    "launch_vehicle": "GSLV F16",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 5 years Duration:"
+  },
+  "punch-2025": {
+    "launch_date": "2025-03-12",
+    "launch_vehicle": "Falcon 9 Block 5",
+    "orbit_type": "Geocentric orbit"
+  },
+  "hope-emirates-mars-mission-2020": {
+    "launch_date": "2020-07-20",
+    "launch_vehicle": "H-IIA",
+    "mass_kg": 1350,
+    "duration": "(''since orbital insertion'') 2 years (planned)"
+  },
+  "perseverance-ingenuity-2020": {
+    "launch_date": "2020-07-30",
+    "launch_vehicle": "Atlas V 541"
+  },
+  "tianwen-1-2020": {
+    "launch_date": "2025-05-28",
+    "launch_vehicle": "Long March 3B",
+    "duration": "10 years (planned) (elapsed)"
+  },
+  "cheops-2019": {
+    "launch_date": "2019-12-18",
+    "launch_vehicle": "Soyuz-ST-A",
+    "mass_kg": 273,
+    "orbit_type": "Geocentric orbit",
+    "duration": "3.5 years (nominal) + 3 years (extended) Elapsed: ''(in progress) ''"
+  },
+  "spherex-2025": {
+    "launch_date": "2025-03-12",
+    "launch_vehicle": "Falcon 9 Block 5",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 25 months Elapsed:"
+  },
+  "europa-clipper-2024": {
+    "launch_vehicle": "Falcon Heavy Block 5",
+    "duration": "Cruise: 5.5 yearsScience phase: 4 yearsElapsed:"
+  },
+  "xposat-2024": {
+    "launch_date": "2024-01-01",
+    "launch_vehicle": "PSLV-DL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned : 5 years"
+  },
+  "iris-2013": {
+    "launch_date": "2013-06-28",
+    "launch_vehicle": "Pegasus-XL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "2 years (planned) ''(in progress) ''"
+  },
+  "nustar-2012": {
+    "launch_date": "2012-06-13",
+    "launch_vehicle": "Pegasus XL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "2 years (planned) ''(in progress) ''"
+  },
+  "grail-2011": {
+    "launch_vehicle": "Delta II 7920H-10D-356",
+    "mass_kg": 202,
+    "orbit_type": "Selenocentric"
+  },
+  "akatsuki-2010": {
+    "launch_vehicle": "H-IIA 202",
+    "orbit_type": "Cytherocentric"
+  },
+  "mars-odyssey-2001": {
+    "mass_kg": 725,
+    "orbit_type": "Areocentric"
+  },
+  "timed-2001": {
+    "launch_date": "2001-12-07",
+    "launch_vehicle": "Delta II 7920-10",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 2 years Elapsed:"
+  },
+  "cluster-ii-2000": {
+    "launch_vehicle": "Soyuz-U",
+    "orbit_type": "Geocentric",
+    "duration": "Planned: 5 years Final:"
+  },
+  "phobos-2-1988": {
+    "launch_vehicle": "Proton-K rocket",
+    "mass_kg": 6220,
+    "orbit_type": "Areocentric",
+    "duration": "8 months, 15 days (launch until comm failure)"
+  },
+  "ginga-1987": {
+    "orbit_type": "Geocentric"
+  },
+  "kvant-1-1986": {
+    "launch_vehicle": "Proton-K"
+  },
+  "skylab-1973": {
+    "launch_vehicle": "Saturn IB SA-206",
+    "orbit_type": "Geocentric orbit",
+    "duration": "28&nbsp;days, 49&nbsp;minutes, 49&nbsp;seconds"
+  },
+  "landsat-1-1972": {
+    "launch_date": "1972-07-23",
+    "launch_vehicle": "Delta 900",
+    "orbit_type": "Geocentric"
+  },
+  "mariner-10-1974": {
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1A"
+  },
+  "apollo-soyuz-test-project-1975": {
+    "orbit_type": "Geocentric orbit"
+  },
+  "aryabhata-1975": {
+    "launch_vehicle": "Kosmos-3M",
+    "orbit_type": "Geocentric",
+    "duration": "''(Experiments ended during 5th day in orbit) ''"
+  },
+  "soho-1995": {
+    "launch_date": "1995-12-02",
+    "launch_vehicle": "Atlas IIAS",
+    "orbit_type": "Sun–Earth L1 orbit",
+    "duration": "3 years (planned) ''(in progress) ''"
+  },
+  "mars-global-surveyor-1996": {
+    "launch_vehicle": "Delta II 7925D-239",
+    "orbit_type": "Areocentric"
+  },
+  "phoenix-2008": {
+    "launch_vehicle": "Delta II 7925",
+    "mass_kg": 670
+  },
+  "herschel-2009": {
+    "launch_vehicle": "Ariane 5 ECA",
+    "duration": "Planned: 3 years Final:"
+  },
+  "kepler-2009": {
+    "launch_vehicle": "Delta II",
+    "orbit_type": "Heliocentric",
+    "duration": "Planned: 3.5 years Final: 9 years, 7 months, 23 days"
+  },
+  "planck-2009": {
+    "launch_vehicle": "Ariane 5 ECA",
+    "orbit_type": "Sun-Earth L2 orbit ()",
+    "duration": "Planned: >15 months Final:"
+  },
+  "luna-25-2023": {
+    "duration": "{{ubl|1 year (planned) | Actual: c. 9 days (mission failure) }}"
+  },
+  "osiris-rex-sample-return-2023": {
+    "launch_date": "2016-09-08",
+    "launch_vehicle": "Atlas V 411",
+    "orbit_type": "Bennu-centric",
+    "duration": "7 years (planned) at asteroid (actual) (elapsed)"
+  },
+  "zond-5-1968": {
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Geocentric",
+    "duration": "6 days, 18 hours, 24 minutes"
+  },
+  "apollo-11-1969": {
+    "launch_vehicle": "Saturn V SA-505",
+    "orbit_type": "Selenocentric orbit",
+    "duration": "8&nbsp;days, 3&nbsp;minutes, 23&nbsp;seconds"
+  },
+  "mariner-6-1969": {
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1A",
+    "mass_kg": 381
+  },
+  "mariner-7-1969": {
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1A",
+    "mass_kg": 381
+  },
+  "phobos-1-1988": {
+    "launch_vehicle": "Proton-K 8K82K",
+    "orbit_type": "Areocentric"
+  },
+  "cobe-1989": {
+    "launch_date": "1989-11-18",
+    "launch_vehicle": "Delta 5920-8",
+    "orbit_type": "Geocentric orbit",
+    "duration": "6 months (planned) (achieved)"
+  },
+  "galileo-1989": {
+    "launch_vehicle": "STS-34",
+    "duration": "61.4 minutes"
+  },
+  "hipparcos-1989": {
+    "launch_date": "1989-08-08",
+    "launch_vehicle": "Ariane 44LP H10",
+    "orbit_type": "Geocentric orbit",
+    "duration": "2.5 years (planned) 4 years (achieved)"
+  },
+  "themis-2007": {
+    "launch_date": "2007-02-17",
+    "launch_vehicle": "Delta II 7925-10C",
+    "mass_kg": 126,
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 2 years Elapsed:"
+  },
+  "chandrayaan-1-2008": {
+    "launch_vehicle": "PSLV-XL C11",
+    "orbit_type": "Selenocentric",
+    "duration": "Planned: 2 years Final:"
+  },
+  "juice-2023": {
+    "launch_date": "2023-04-14",
+    "duration": "{{ubli|Cruise phase:8 years|Science phase:3.5 years|Elapsed:}}"
+  },
+  "bhaskara-1-1979": {
+    "launch_vehicle": "C-1 Intercosmos Launch Vehicle",
+    "duration": "10 years (Re-Entered in 1991)"
+  },
+  "einstein-observatory-1979": {
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1AR",
+    "orbit_type": "Geocentric",
+    "duration": "4 years"
+  },
+  "hayabusa-2003": {
+    "launch_vehicle": "M-V",
+    "mass_kg": 510
+  },
+  "mars-express-beagle-2-2003": {
+    "launch_vehicle": "Soyuz-FG",
+    "duration": "6 months (planned)"
+  },
+  "chang-e-5-2020": {
+    "launch_date": "2020-11-23",
+    "launch_vehicle": "Long March 5",
+    "mass_kg": 8200
+  },
+  "ixpe-2021": {
+    "launch_date": "2021-12-09",
+    "launch_vehicle": "Falcon 9 B1061-5",
+    "orbit_type": "Geocentric orbit",
+    "duration": "5 years (planned) (''in progress'')"
+  },
+  "james-webb-space-telescope-2021": {
+    "orbit_type": "Sun–Earth L2 orbit"
+  },
+  "near-shoemaker-1996": {
+    "launch_vehicle": "Delta II 7925-8",
+    "mass_kg": 805,
+    "duration": "5 years, 21 days"
+  },
+  "soho-1996": {
+    "launch_date": "1995-12-02",
+    "launch_vehicle": "Atlas IIAS",
+    "orbit_type": "Sun–Earth L1 orbit",
+    "duration": "3 years (planned) ''(in progress) ''"
+  },
+  "new-horizons-2015": {
+    "launch_vehicle": "Atlas V",
+    "duration": "9.5 years (planned) (elapsed)"
+  },
+  "exomars-trace-gas-orbiter-schiaparelli-2016": {
+    "launch_vehicle": "Proton-M",
+    "mass_kg": 4332,
+    "orbit_type": "Circular",
+    "duration": "Planned: 7 years Elapsed:"
+  },
+  "tenma-1983": {
+    "launch_date": "1983-02-20",
+    "launch_vehicle": "M-3S",
+    "orbit_type": "Geocentric"
+  },
+  "venera-15-16-1983": {
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Cytherocentric"
+  },
+  "soviet-vega-1-1984": {
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Heliocentric"
+  },
+  "fermi-gamma-ray-space-telescope-2008": {
+    "orbit_type": "Geocentric",
+    "duration": "Planned: 5-10 years Elapsed:"
+  },
+  "cryosat-2-2010": {
+    "launch_vehicle": "Dnepr",
+    "orbit_type": "Geocentric",
+    "duration": "3 years (planned) Elapsed:"
+  },
+  "ikaros-2010": {
+    "launch_vehicle": "H-IIA 202",
+    "mass_kg": 310,
+    "orbit_type": "Heliocentric orbit"
   }
 }

@@ -1,4 +1,4 @@
-# vostok-1-1961
+# Vostok 1
 
 ## The mission
 

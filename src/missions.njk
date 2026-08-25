@@ -8,7 +8,7 @@ layout: base.njk
 section: catalog
 eleventyComputed:
   title: "{{ mission.name }}"
-  description: "{{ mission.outcome }} {{ mission.name }} ({{ mission.year }}), {{ mission.lead_partner }} — AntarikshPedia mission record."
+  description: "{{ mission.outcome }} {{ mission.name }} ({{ mission.year }}), {{ mission.lead_partner }}. AntarikshPedia mission record."
   schema:
     "@type": "CreativeWork"
     name: "{{ mission.name }}"
@@ -21,7 +21,7 @@ eleventyComputed:
 {% set relatedFull = [] %}
 {% for r in relatedIds %}
   {% set rm = missions | missionById(r.id) %}
-  {% if rm %}{% set relatedFull = (relatedFull | push({'id': rm.id, 'type': r.type, 'name': rm.name, 'year': rm.year, 'lead_partner': rm.lead_partner, 'status': rm.status})) %}{% endif %}
+  {% if rm %}{% set relatedFull = (relatedFull | push({'id': rm.id, 'type': r.type, 'name': rm.name, 'year': rm.year, 'lead_partner': rm.lead_partner, 'status': rm.status, 'era': rm.era, 'media': rm.media})) %}{% endif %}
 {% endfor %}
 {% set story = stories[mission.id] %}
 {% set accent = mission.era | eraAccent %}
@@ -41,7 +41,7 @@ eleventyComputed:
       <h1>{{ mission.name }}</h1>
       <p class="hook">{{ mission.outcome }}</p>
       {% set eraIdx = mission.era | eraIndex %}
-      <p class="mono-tag hero-position">Mission #{{ missions | length }} tracked · era {{ eraIdx }} of 6</p>
+      <p class="mono-tag hero-position">Era {{ eraIdx }} of 6 · full record in the <a href="/catalog/">catalog</a></p>
     </div>
   </header>
 
@@ -49,7 +49,7 @@ eleventyComputed:
   <section aria-label="Quick facts" class="container facts-wrap">
     <dl class="facts-strip">
       <div><dt>Launch</dt>
-        <dd>{% if mission.launch_date %}{{ mission.launch_date | humanDate }}{% else %}<span class="unknown">year known only — {{ mission.year }}</span>{% endif %}</dd></div>
+        <dd>{% if mission.launch_date %}{{ mission.launch_date | humanDate }}{% else %}<span class="unknown">year known only: {{ mission.year }}</span>{% endif %}</dd></div>
       <div><dt>Lead / partner</dt><dd>{{ mission.lead_partner }}</dd></div>
       <div><dt>Target</dt><dd>{{ mission.target }}</dd></div>
       <div><dt>Category</dt><dd>{{ mission.category }}</dd></div>
@@ -71,11 +71,9 @@ eleventyComputed:
         <p class="context-note">
           {{ mission.name }} flew during <em>{{ mission.era }}</em>, as part of
           {{ mission.lead_partner }}'s work toward {{ mission.target | lower }}.
-          A sourced political and scientific context write-up has not been
-          drafted for this mission yet — it is on the editorial queue rather
-          than invented here.
+          A sourced write-up of the context around this mission is still on
+          the editorial queue; nothing here is invented to fill the gap.
         </p>
-        <a class="chip" href="/admin/">Propose this write-up</a>
       {% endif %}
     </section>
 
@@ -119,7 +117,7 @@ eleventyComputed:
       <h2>Sources &amp; image credits</h2>
       <ul class="source-list mono-tag">
         {% if mission.media %}
-          <li>{{ mission.media.credit }} — license: {{ mission.media.license }} (<a href="{{ mission.media.source }}">source</a>, checked {{ mission.media.checked }})</li>
+          <li>{{ mission.media.credit }} · license: {{ mission.media.license }} (<a href="{{ mission.media.source }}">source</a>, checked {{ mission.media.checked }})</li>
         {% endif %}
         <li>Mission record: AntarikshPedia canonical dataset
             (<a href="https://github.com/">data-sources/missions_timeline.md</a>)</li>

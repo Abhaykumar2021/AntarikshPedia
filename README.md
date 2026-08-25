@@ -30,7 +30,6 @@ antarikshpedia/
 │   ├── agencies.njk + agency-pages.njk
 │   ├── countries.njk + country-pages.njk
 │   ├── vision.njk               project vision & roadmap
-│   ├── admin.njk                contribution staging (CRUD, localStorage)
 │   ├── styles/                  tokens.css is the master file; dark-only theme
 │   ├── scripts/                 main.js (+theme toggle), home.js, search.js
 │   │                              (Fuse.js)
@@ -67,12 +66,11 @@ Deploy by pointing Netlify/Vercel/GitHub Pages at `dist/`. Build command:
    `## Why it happened`, `## The mission`, and/or `## Results` sections.
 6. `npm run validate` runs automatically before every build.
 
-## Contribution staging (/admin)
+## Contribution staging (removed for now)
 
-Create/edit/retire missions against a localStorage overlay. Export produces
-a review JSON for a maintainer; nothing publishes automatically. This is
-the Phase 3 groundwork described in the build prompt — swap localStorage
-for Supabase when contributions open publicly.
+The /admin staging page was removed from the build (2026-08-24). Its code
+lives in git history (`src/admin.njk`, `src/admin/admin.js`) and can be
+restored from there when contributions open publicly (Phase 3, Supabase swap).
 
 ## Media licensing
 

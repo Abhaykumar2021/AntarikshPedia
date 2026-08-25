@@ -7,18 +7,11 @@
     "thumb": "assets/images/missions/sputnik-1-1957/photo.jpg"
   },
   "sputnik-2-1957": {
-    "credit": "Photo: James Duncan, CC BY-SA 2.0, via Wikimedia Commons",
-    "license": "cc-by-sa-2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Laika_experimental_space_dog_space_suit.jpg",
-    "checked": "2026-08-22",
+    "credit": "Heritage Images—Hulton Archive/Getty Images",
+    "license": "rights-managed",
+    "source": "https://www.gettyimages.com",
+    "checked": "2026-08-24",
     "thumb": "assets/images/missions/sputnik-2-1957/photo.jpg"
-  },
-  "vostok-1-1961": {
-    "credit": "Restored portrait via Wikimedia Commons",
-    "license": "public-domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_(1961)_-_Restoration.jpg",
-    "checked": "2026-08-22",
-    "thumb": "assets/images/missions/vostok-1-1961/photo.jpg"
   },
   "gemini-4-1965": {
     "credit": "Image credit: NASA",
@@ -82,13 +75,6 @@
     "source": "https://images.nasa.gov/details/PIA00195",
     "checked": "2026-08-22",
     "thumb": "assets/images/missions/viking-1-1975/photo.jpg"
-  },
-  "voyager-1-2-1977": {
-    "credit": "Image credit: NASA",
-    "license": "public-domain",
-    "source": "https://images.nasa.gov/details/PIA21741",
-    "checked": "2026-08-22",
-    "thumb": "assets/images/missions/voyager-1-2-1977/photo.jpg"
   },
   "sts-1-columbia-1981": {
     "credit": "Image credit: NASA",
@@ -231,13 +217,13 @@
     "thumb": "assets/images/missions/dart-2022/photo.jpg"
   },
   "sputnik-3-object-d-1958": {
-    "credit": "Stolbovsky, via Wikimedia Commons — CC BY 4.0",
+    "credit": "Stolbovsky, via Wikimedia Commons · CC BY 4.0",
     "license": "cc-by-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sputnik-3_in_Kaluga_2.jpg",
     "checked": "2026-08-23"
   },
   "vanguard-1-1958": {
-    "credit": "Marcoaliaslama, via Wikimedia Commons — CC BY 4.0",
+    "credit": "Marcoaliaslama, via Wikimedia Commons · CC BY 4.0",
     "license": "cc-by-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:VANGUARD_1_(satellite).jpg",
     "checked": "2026-08-23"
@@ -261,13 +247,13 @@
     "checked": "2026-08-23"
   },
   "syncom-2-1963": {
-    "credit": "NASA, via Wikimedia Commons — Public domain",
+    "credit": "NASA, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Syncom_2_side.jpg",
     "checked": "2026-08-23"
   },
   "ogo-1-1964": {
-    "credit": "NASA, via Wikimedia Commons — Public domain",
+    "credit": "NASA, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Orbiting-Geophysical-Observatory-spacacraft-drawing.png",
     "checked": "2026-08-23"
@@ -291,7 +277,7 @@
     "checked": "2026-08-23"
   },
   "venera-7-1970": {
-    "credit": "Emerezhko, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Emerezhko, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Venera-7_spuskaemiy_apparat.jpg",
     "checked": "2026-08-23"
@@ -333,19 +319,19 @@
     "checked": "2026-08-23"
   },
   "soviet-vega-2-1984": {
-    "credit": "Joris Wegner, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Joris Wegner, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Vega_balloon_probe.jpg",
     "checked": "2026-08-23"
   },
   "sampex-1992": {
-    "credit": "NASA, via Wikimedia Commons — Public domain",
+    "credit": "NASA, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:SAMPEX_2.jpg",
     "checked": "2026-08-23"
   },
   "topex-poseidon-1992": {
-    "credit": "NASA/JPL, via Wikimedia Commons — Public domain",
+    "credit": "NASA/JPL, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:TOPEX-Poseidon-drawing.png",
     "checked": "2026-08-23"
@@ -393,13 +379,13 @@
     "checked": "2026-08-23"
   },
   "sirtf-spitzer-2003": {
-    "credit": "Credit: NASA/JPL-Caltech/S. Stolovy (Spitzer Science Center/, via Wikimedia Commons — Public domain",
+    "credit": "Credit: NASA/JPL-Caltech/S. Stolovy (Spitzer Science Center/, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Milky_Way_IR_Spitzer.jpg",
     "checked": "2026-08-23"
   },
   "shenzhou-5-2003": {
-    "credit": "Shujianyang, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Shujianyang, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Shenzhou-5_mockup_and_parachute_at_NMC.jpg",
     "checked": "2026-08-23"
@@ -447,7 +433,7 @@
     "checked": "2026-08-23"
   },
   "chang-e-1-2007": {
-    "credit": "Shujianyang, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Shujianyang, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Chang'e-1_mockup_at_BASM.jpg",
     "checked": "2026-08-23"
@@ -477,13 +463,13 @@
     "checked": "2026-08-23"
   },
   "phobos-grunt-2011": {
-    "credit": "MKonair, via Wikimedia Commons — CC BY-SA 2.0",
+    "credit": "MKonair, via Wikimedia Commons · CC BY-SA 2.0",
     "license": "cc-by-sa-2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cebit_2011-fobos-grunt_together_with_upper_stage.jpg",
     "checked": "2026-08-23"
   },
   "tiangong-1-2011": {
-    "credit": "Steed Yu, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Steed Yu, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tiangong_1_in_Beijing_20180401.jpg",
     "checked": "2026-08-23"
@@ -507,7 +493,7 @@
     "checked": "2026-08-23"
   },
   "exomars-trace-gas-orbiter-schiaparelli-2016": {
-    "credit": "P.Fisxo, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "P.Fisxo, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:ExoMars_2016.png",
     "checked": "2026-08-23"
@@ -519,7 +505,7 @@
     "checked": "2026-08-23"
   },
   "tiangong-2-2016": {
-    "credit": "Leebrandoncremer, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Leebrandoncremer, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Model_of_the_Chinese_Tiangong_Shenzhou.jpg",
     "checked": "2026-08-23"
@@ -555,7 +541,7 @@
     "checked": "2026-08-23"
   },
   "tianhe-tiangong-space-station-2021": {
-    "credit": "Shujianyang, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Shujianyang, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tianhe_core_module_mockup_at_CSTM_02.jpg",
     "checked": "2026-08-23"
@@ -585,15 +571,9 @@
     "checked": "2026-08-23"
   },
   "hera-2024": {
-    "credit": "Patrick Michel, Michael Küppers, Adriano Campo Bagatin, Beno, via Wikimedia Commons — CC BY 4.0",
+    "credit": "Patrick Michel, Michael Küppers, Adriano Campo Bagatin, Beno, via Wikimedia Commons · CC BY 4.0",
     "license": "cc-by-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hera_spacecraft_design.jpg",
-    "checked": "2026-08-23"
-  },
-  "im-1-odysseus-2024": {
-    "credit": "Image credit: NASA",
-    "license": "public-domain",
-    "source": "https://images.nasa.gov/details/RGM_4276",
     "checked": "2026-08-23"
   },
   "pace-2024": {
@@ -615,61 +595,55 @@
     "checked": "2026-08-23"
   },
   "luna-1-1959": {
-    "credit": "NASA/NSSDCA (public domain), via Wikimedia Commons — Public domain",
+    "credit": "NASA/NSSDCA (public domain), via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png",
     "checked": "2026-08-23"
   },
   "luna-2-1959": {
-    "credit": "Gregory H. Revera, via Wikimedia Commons — CC BY-SA 3.0",
+    "credit": "Gregory H. Revera, via Wikimedia Commons · CC BY-SA 3.0",
     "license": "cc-by-sa-3.0",
     "source": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
     "checked": "2026-08-23"
   },
   "ranger-2-1961": {
-    "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons — Public domain",
+    "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Ranger_2.jpg",
     "checked": "2026-08-23"
   },
-  "ariel-1-1962": {
-    "credit": "Another one of my pictures: This photograph was taken by Med, via Wikimedia Commons — CC BY-SA 4.0",
-    "license": "cc-by-sa-4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ariel_-_La_Petite_Sirène_-_20150803_16h44_(10802).jpg",
-    "checked": "2026-08-23"
-  },
   "mars-3-1971": {
-    "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/, via Wikimedia Commons — CC BY-SA 3.0 igo",
+    "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/, via Wikimedia Commons · CC BY-SA 3.0 igo",
     "license": "cc-by-sa-3.0-igo",
     "source": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
     "checked": "2026-08-23"
   },
   "salyut-1-1971": {
-    "credit": "Godai, via Wikimedia Commons — CC BY-SA 3.0",
+    "credit": "Godai, via Wikimedia Commons · CC BY-SA 3.0",
     "license": "cc-by-sa-3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Salyut_1_paper_model.JPG",
     "checked": "2026-08-23"
   },
   "hinotori-1981": {
-    "credit": "Masahiko OHKUBO, via Wikimedia Commons — CC BY 2.0",
+    "credit": "Masahiko OHKUBO, via Wikimedia Commons · CC BY 2.0",
     "license": "cc-by-2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_80000_series_\"Hinotori\"_2022-04-02.jpg",
     "checked": "2026-08-23"
   },
   "yohkoh-1991": {
-    "credit": "NASA/MSFC, via Wikimedia Commons — Public domain",
+    "credit": "NASA/MSFC, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Yohkoh.jpg",
     "checked": "2026-08-23"
   },
   "spaceshipone-2004": {
-    "credit": "Don Ramey Logan, via Wikimedia Commons — CC BY-SA 3.0",
+    "credit": "Don Ramey Logan, via Wikimedia Commons · CC BY-SA 3.0",
     "license": "cc-by-sa-3.0",
     "source": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Takeoff_photo_Don_Ramey_Logan.jpg",
     "checked": "2026-08-23"
   },
   "luna-10-1966": {
-    "credit": "Gregory H. Revera, via Wikimedia Commons — CC BY-SA 3.0",
+    "credit": "Gregory H. Revera, via Wikimedia Commons · CC BY-SA 3.0",
     "license": "cc-by-sa-3.0",
     "source": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
     "checked": "2026-08-23"
@@ -681,25 +655,25 @@
     "checked": "2026-08-23"
   },
   "rosat-1990": {
-    "credit": "Ralfvandebergh, via Wikimedia Commons — CC BY-SA 3.0",
+    "credit": "Ralfvandebergh, via Wikimedia Commons · CC BY-SA 3.0",
     "license": "cc-by-sa-3.0",
     "source": "https://commons.wikimedia.org/wiki/File:ROSAT_one_of_the_last_images_before_reentry.jpg",
     "checked": "2026-08-23"
   },
   "mars-orbiter-mission-mangalyaan-2013": {
-    "credit": "Nesnad, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Nesnad, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mars_Orbiter_Mission_-_India_-_ArtistsConcept.jpg",
     "checked": "2026-08-23"
   },
   "hayabusa2-2014": {
-    "credit": "DLR German Aerospace Center, via Wikimedia Commons — CC BY 2.0",
+    "credit": "DLR German Aerospace Center, via Wikimedia Commons · CC BY 2.0",
     "license": "cc-by-2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hayabusa2_and_Earth.jpg",
     "checked": "2026-08-23"
   },
   "aditya-l1-2023": {
-    "credit": "Debapratim and Chinakpradhan, via Wikimedia Commons — CC BY-SA 2.0",
+    "credit": "Debapratim and Chinakpradhan, via Wikimedia Commons · CC BY-SA 2.0",
     "license": "cc-by-sa-2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Aditya_L1.jpg",
     "checked": "2026-08-23"
@@ -711,67 +685,67 @@
     "checked": "2026-08-23"
   },
   "korabl-sputnik-2-1960": {
-    "credit": "ViktoryaPolyanskaya, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "ViktoryaPolyanskaya, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sputnik-5_foto_2020.jpg",
     "checked": "2026-08-23"
   },
   "tiros-1-1960": {
-    "credit": "Wikimedia Commons, via Wikimedia Commons — Public domain",
+    "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:TIROS-1_image_(cropped).jpg",
     "checked": "2026-08-23"
   },
   "ranger-1-1961": {
-    "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons — Public domain",
+    "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:Ranger_1.jpg",
     "checked": "2026-08-23"
   },
   "luna-9-1966": {
-    "credit": "Stolbovsky, via Wikimedia Commons — CC BY 4.0",
+    "credit": "Stolbovsky, via Wikimedia Commons · CC BY 4.0",
     "license": "cc-by-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Luna_9_Space_Probe.jpg",
     "checked": "2026-08-23"
   },
   "isee-3-1978": {
-    "credit": "Unknown authorUnknown author, via Wikimedia Commons — Public domain",
+    "credit": "Unknown authorUnknown author, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:ISEE-3.gif",
     "checked": "2026-08-23"
   },
   "hiten-1990": {
-    "credit": "Vasukrishnan57, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "Vasukrishnan57, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Shilabalika_(celestial_maiden)_Chennakeshava_temple,_Belur.jpg",
     "checked": "2026-08-23"
   },
   "rxte-1995": {
-    "credit": "Unknown authorUnknown author, via Wikimedia Commons — Public domain",
+    "credit": "Unknown authorUnknown author, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:RXTE_preparations.jpg",
     "checked": "2026-08-23"
   },
   "lisa-pathfinder-2015": {
-    "credit": "NASA, via Wikimedia Commons — Public domain",
+    "credit": "NASA, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:LISA_Pathfinder_spacecraft_model.png",
     "checked": "2026-08-23"
   },
   "osiris-rex-sample-return-2023": {
-    "credit": "NASA/Goddard/University of Arizona/Lockheed Martin, via Wikimedia Commons — Public domain",
+    "credit": "NASA/Goddard/University of Arizona/Lockheed Martin, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:OSIRIS-REx_SRC_and_Bennu.png",
     "checked": "2026-08-23"
   },
   "xrism-2023": {
-    "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab, via Wikimedia Commons — Public domain",
+    "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab, via Wikimedia Commons · Public domain",
     "license": "public-domain",
     "source": "https://commons.wikimedia.org/wiki/File:XRISM_001.png",
     "checked": "2026-08-23"
   },
   "chang-e-6-2024": {
-    "credit": "BugWarp, via Wikimedia Commons — CC BY-SA 4.0",
+    "credit": "BugWarp, via Wikimedia Commons · CC BY-SA 4.0",
     "license": "cc-by-sa-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Chang'e_6_lunar_samples_at_IAC_2024_01.jpg",
     "checked": "2026-08-23"
@@ -782,5 +756,491 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mars_Orbit_23_-_Hope_Mission_(51570485500).png",
     "checked": "2026-08-23",
     "thumb": "assets/images/missions/hope-emirates-mars-mission-2020/photo.png"
+  },
+  "artemis-ii-2026": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/KSC-01172026-Artemis II_Rollout-9",
+    "checked": "2026-08-24"
+  },
+  "punch-2025": {
+    "credit": "NASA Kennedy Space Center / USSF 30th Space Wing/Alex Valdez, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:PUNCH_Satellites_Solar_Array_Deployment_Test_(KSC-20250121-PH-ANV01_0028).jpg",
+    "checked": "2026-08-24"
+  },
+  "tianwen-1-2020": {
+    "credit": "中新网, via Wikimedia Commons · CC BY 4.0",
+    "license": "cc-by-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tianwen-1_launch_01.jpg",
+    "checked": "2026-08-24"
+  },
+  "cheops-2019": {
+    "credit": "The Cosmonaut, via Wikimedia Commons · CC BY-SA 2.5 ca",
+    "license": "cc-by-sa-2.5-ca",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheops_Mountain_seen_the_Sir_Donald_Trail.jpg",
+    "checked": "2026-08-24"
+  },
+  "im-1-odysseus-2024": {
+    "credit": "NASA/GSFC/Arizona State University, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Image_(M1463440322L)_of_Intuitive_Machines_IM-1_Nova-C,_known_as_Odysseus_landing_site_captured_by_Lunar_Reconnaissance_Orbiter_Camera_(LROC)_(without_arrow).png",
+    "checked": "2026-08-24"
+  },
+  "slim-2024": {
+    "credit": "Hms1103, via Wikimedia Commons · CC BY-SA 4.0",
+    "license": "cc-by-sa-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SLIM_half_scale_model.png",
+    "checked": "2026-08-24"
+  },
+  "akatsuki-2010": {
+    "credit": "宇宙航空研究開発機構・宇宙科学研究所(JAXA/ISAS) 、https://www.isas.jaxa.jp/en/r, via Wikimedia Commons · CC BY 4.0",
+    "license": "cc-by-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Akatsuki_CG01.png",
+    "checked": "2026-08-24"
+  },
+  "hinode-2005": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/0601385",
+    "checked": "2026-08-24"
+  },
+  "integral-2002": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/iss037e012572",
+    "checked": "2026-08-24"
+  },
+  "cluster-ii-2000": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/0101587",
+    "checked": "2026-08-24"
+  },
+  "image-2000": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA00432",
+    "checked": "2026-08-24"
+  },
+  "trace-1998": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/iss074e0089803",
+    "checked": "2026-08-24"
+  },
+  "mars-observer-1992": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA09343",
+    "checked": "2026-08-24"
+  },
+  "ulysses-1990": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/9015176",
+    "checked": "2026-08-24"
+  },
+  "phobos-1-1988": {
+    "credit": "NASA / JPL-Caltech / University of Arizona, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+    "checked": "2026-08-24"
+  },
+  "phobos-2-1988": {
+    "credit": "NASA / JPL-Caltech / University of Arizona, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+    "checked": "2026-08-24"
+  },
+  "kvant-1-1986": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kvant-1_(1995-02-06)_cropped.jpg",
+    "checked": "2026-08-24"
+  },
+  "pioneer-11-1973": {
+    "credit": "Don Davis for NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Pioneer_10-11_spacecraft.jpg",
+    "checked": "2026-08-24"
+  },
+  "copernicus-oao-3-1972": {
+    "credit": "NASA's Scientific Visualization Studio - Advocates in Manpow, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:50th_Anniversary_of_NASA's_Copernicus_Mission_(SVS14189_-_70HC958_OAO_3_full).jpg",
+    "checked": "2026-08-24"
+  },
+  "landsat-1-1972": {
+    "credit": "none (Landsat), via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Lena_River_Delta_-_Landsat_2000.jpg",
+    "checked": "2026-08-24"
+  },
+  "pioneer-2-1958": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA23497",
+    "checked": "2026-08-24"
+  },
+  "explorer-6-1959": {
+    "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Explorer_6_paddles_up.jpg",
+    "checked": "2026-08-24"
+  },
+  "vostok-1-1961": {
+    "credit": "Tempe, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Vostokpanel.JPG",
+    "checked": "2026-08-24"
+  },
+  "ariel-1-1962": {
+    "credit": "Ryan Somma, via Wikimedia Commons · CC BY-SA 2.0",
+    "license": "cc-by-sa-2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ariel_1_(UK_1)_International_Satellite.jpg",
+    "checked": "2026-08-24"
+  },
+  "lunar-orbiter-5-1967": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/as14-66-09278",
+    "checked": "2026-08-24"
+  },
+  "mariner-10-1974": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mariner_10.jpg",
+    "checked": "2026-08-24"
+  },
+  "apollo-soyuz-test-project-1975": {
+    "credit": "Adam Cuerden, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_ASTP_crews_-_restoration.jpg",
+    "checked": "2026-08-24"
+  },
+  "aryabhata-1975": {
+    "credit": "LO-IV, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Aryabhata_LO-IV-073H_LTVT.jpg",
+    "checked": "2026-08-24"
+  },
+  "cos-b-1975": {
+    "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:Checking_COS-B_model_ESA15632909.jpeg",
+    "checked": "2026-08-24"
+  },
+  "wind-1994": {
+    "credit": "Максим Яковлєв, via Wikimedia Commons · CC BY-SA 4.0",
+    "license": "cc-by-sa-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ковила,_Тарутинський_степ,_Україна.jpg",
+    "checked": "2026-08-24"
+  },
+  "kepler-2009": {
+    "credit": "NASA/JPL-CalTech, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kepler-186f_39x27_CMYK-1.png",
+    "checked": "2026-08-24"
+  },
+  "luna-25-2023": {
+    "credit": "Pline, via Wikimedia Commons · CC BY-SA 4.0",
+    "license": "cc-by-sa-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg",
+    "checked": "2026-08-24"
+  },
+  "explorer-1-1958": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
+    "checked": "2026-08-24"
+  },
+  "explorer-3-1958": {
+    "credit": "NASA Marshall Space Flight Center, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Wernher_von_Braun_(5801293).jpg",
+    "checked": "2026-08-24"
+  },
+  "pioneer-1-1958": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Pioneer_able.png",
+    "checked": "2026-08-24"
+  },
+  "zond-5-1968": {
+    "credit": "USSR Post, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1969_CPA_3733_stamp_(Zond_5).png",
+    "checked": "2026-08-24"
+  },
+  "cobe-1989": {
+    "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Cobe.jpg",
+    "checked": "2026-08-24"
+  },
+  "corot-2006": {
+    "credit": "Blue straggler, via Wikimedia Commons · CC BY-SA 3.0",
+    "license": "cc-by-sa-3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:COROT_integration.jpg",
+    "checked": "2026-08-24"
+  },
+  "kaguya-selene-2007": {
+    "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaguya_impact_site_ESA200870.jpg",
+    "checked": "2026-08-24"
+  },
+  "euclid-2023": {
+    "credit": "ESA (acknowledgement: work performed by ATG under contract t, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:Euclid_launch_kit_cover.png",
+    "checked": "2026-08-24"
+  },
+  "oso-1-1962": {
+    "credit": "NASA, edited by SMasonGarrison, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Dr._Nancy_Roman_-_GPN-2002-000212_edited.jpg",
+    "checked": "2026-08-24"
+  },
+  "venera-11-1978": {
+    "credit": "Р. Стрельников, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Venus_12.jpg",
+    "checked": "2026-08-24"
+  },
+  "einstein-observatory-1979": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:HEAO-2_High_Energy_Astronomy_Observatory_0102090.jpg",
+    "checked": "2026-08-24"
+  },
+  "hayabusa-2003": {
+    "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Hayabusa(Muses-C)_sampling.jpg",
+    "checked": "2026-08-24"
+  },
+  "mars-express-beagle-2-2003": {
+    "credit": "Photograph by Mike Peel (www.mikepeel.net) ., via Wikimedia Commons · CC BY-SA 4.0",
+    "license": "cc-by-sa-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beagle_2_model_at_Liverpool_Spaceport.jpg",
+    "checked": "2026-08-24"
+  },
+  "chang-e-5-2020": {
+    "credit": "China News Service, via Wikimedia Commons · CC BY 4.0",
+    "license": "cc-by-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Launch_of_Chang'e_5.png",
+    "checked": "2026-08-24"
+  },
+  "ixpe-2021": {
+    "credit": "NASA / Jarrod S. Bales, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Imaging_X-ray_Polarimetry_Explorer_(IXPE)_logo.png",
+    "checked": "2026-08-24"
+  },
+  "near-shoemaker-1996": {
+    "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Near_Shoemaker.jpg",
+    "checked": "2026-08-24"
+  },
+  "soho-1996": {
+    "credit": "Cgruda, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:NASA_SOHO_spacecraft.png",
+    "checked": "2026-08-24"
+  },
+  "soviet-vega-1-1984": {
+    "credit": "NASA The original uploader was Ricmun at English Wikipedia., via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Vega-mission.jpg",
+    "checked": "2026-08-24"
+  },
+  "cryosat-2-2010": {
+    "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:CryoSat_model_ESA384323.jpg",
+    "checked": "2026-08-24"
+  },
+  "voskhod-2-1965": {
+    "credit": "NASA - just split Vostok and Voskhod diagrams., via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Voskhod_cutaway_crew_seating.jpg",
+    "checked": "2026-08-24"
+  },
+  "venera-4-1967": {
+    "credit": "Rave, via Wikimedia Commons · CC BY-SA 3.0",
+    "license": "cc-by-sa-3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Venera-4_capsule_in_museum.JPG",
+    "checked": "2026-08-24"
+  },
+  "lunokhod-1-1970": {
+    "credit": "NASA/GSFC/Arizona State University, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Lunokhod_1_Revisited_(LROC402_-_M175502049R_LR1_thumb).png",
+    "checked": "2026-08-24"
+  },
+  "uhuru-1970": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:X-Ray_Explorer_Satellite.jpg",
+    "checked": "2026-08-24"
+  },
+  "sas-3-1975": {
+    "credit": "NASA, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:SAS-3_layout.gif",
+    "checked": "2026-08-24"
+  },
+  "voyager-1-2-1977": {
+    "credit": "NASA/JPL, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg",
+    "checked": "2026-08-24"
+  },
+  "seasat-1978": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA18137",
+    "checked": "2026-08-24"
+  },
+  "venera-15-16-1983": {
+    "credit": "Armael, via Wikimedia Commons · CC0",
+    "license": "cc0",
+    "source": "https://commons.wikimedia.org/wiki/File:Venera_4_(MMA_2011)_(1).JPG",
+    "checked": "2026-08-24"
+  },
+  "giotto-1985": {
+    "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:Giotto_Whipple_shield_ESA239195.jpg",
+    "checked": "2026-08-24"
+  },
+  "hipparcos-1989": {
+    "credit": "Michael Perryman, via Wikimedia Commons · CC BY-SA 3.0",
+    "license": "cc-by-sa-3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hipparcos-testing-estec.jpg",
+    "checked": "2026-08-24"
+  },
+  "ace-1997": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA18174",
+    "checked": "2026-08-24"
+  },
+  "deep-space-1-1998": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA04242",
+    "checked": "2026-08-24"
+  },
+  "fuse-1999": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/KSC-99pp0657",
+    "checked": "2026-08-24"
+  },
+  "genesis-2001": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/KSC-01pp1179",
+    "checked": "2026-08-24"
+  },
+  "dawn-2007": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/PIA12033",
+    "checked": "2026-08-24"
+  },
+  "chandrayaan-1-2008": {
+    "credit": "Image credit: NASA",
+    "license": "public-domain",
+    "source": "https://images.nasa.gov/details/KSC-08pd0149",
+    "checked": "2026-08-24"
+  },
+  "herschel-2009": {
+    "credit": "ESA/NASA/JPL-Caltech/STScI, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_Magellanic_Cloud.jpg",
+    "checked": "2026-08-24"
+  },
+  "chandrayaan-2-2019": {
+    "credit": "Lamid58, via Wikimedia Commons · CC BY-SA 4.0",
+    "license": "cc-by-sa-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chandrayaan-2.png",
+    "checked": "2026-08-24"
+  },
+  "chang-e-4-2019": {
+    "credit": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Sci, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Yangtzee_River_(ASTER).jpg",
+    "checked": "2026-08-24"
+  },
+  "helios-1-1974": {
+    "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Helios_spacecraft_2.jpg",
+    "checked": "2026-08-24"
+  },
+  "smart-1-2003": {
+    "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:SMART-1_sees_total_lunar_eclipse_from_space_ESA240685.jpg",
+    "checked": "2026-08-24"
+  },
+  "planck-2009": {
+    "credit": "Photograph by Mike Peel (www.mikepeel.net) ., via Wikimedia Commons · CC BY-SA 4.0",
+    "license": "cc-by-sa-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Model_of_the_Planck_Satellite.jpg",
+    "checked": "2026-08-24"
+  },
+  "ikaros-2010": {
+    "credit": "Andrzej Mirecki, via Wikimedia Commons · CC BY-SA 3.0",
+    "license": "cc-by-sa-3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IKAROS_solar_sail.jpg",
+    "checked": "2026-08-24"
+  },
+  "gaia-2013": {
+    "credit": "Pline, via Wikimedia Commons · CC BY-SA 3.0",
+    "license": "cc-by-sa-3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Maquette_de_Gaia_salon_du_Bourget_2013_DSC_0191.JPG",
+    "checked": "2026-08-24"
+  },
+  "ligo-first-gravitational-wave-detection-2015": {
+    "credit": "LIGO Laboratory, via Wikimedia Commons · Public domain",
+    "license": "public-domain",
+    "source": "https://commons.wikimedia.org/wiki/File:LIGO_Hanford_aerial_05.jpg",
+    "checked": "2026-08-24"
+  },
+  "bepicolombo-2018": {
+    "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+    "license": "cc-by-sa-3.0-igo",
+    "source": "https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_stack_ESA380846.jpg",
+    "checked": "2026-08-24"
+  },
+  "chandrayaan-3-2023": {
+    "credit": "ISRO/Simeon Schmauß, via Wikimedia Commons · CC BY 2.0",
+    "license": "cc-by-2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chandrayaan_3_Vikram_lander_stereo_(53167467822)_crop.png",
+    "checked": "2026-08-24"
+  },
+  "astrosat-2015": {
+    "credit": "Indian Space Research Organisation, via Wikimedia Commons · GODL-India",
+    "license": "godl-india",
+    "source": "https://commons.wikimedia.org/wiki/File:Astrosat-1_in_deployed_configuration.png",
+    "checked": "2026-08-24"
+  },
+  "xposat-2024": {
+    "credit": "Indian Space Research Organisation, via Wikimedia Commons · GODL-India",
+    "license": "godl-india",
+    "source": "https://commons.wikimedia.org/wiki/File:PSLV-C58,_XPoSat_-_Render_of_XPoSat_satellite_in_deployed_configuration.png",
+    "checked": "2026-08-24"
+  },
+  "chang-e-3-yutu-2013": {
+    "credit": "Institute of High Energy Physics, Chinese Academy of Science, via Wikimedia Commons · CC BY 4.0",
+    "license": "cc-by-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yutu_rover.jpg",
+    "checked": "2026-08-24"
   }
 }

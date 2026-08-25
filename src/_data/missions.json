@@ -32,10 +32,10 @@
     "outcome": "Carried Laika, the first living creature to orbit Earth.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Photo: James Duncan, CC BY-SA 2.0, via Wikimedia Commons",
-      "license": "cc-by-sa-2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Laika_experimental_space_dog_space_suit.jpg",
-      "checked": "2026-08-22",
+      "credit": "Heritage Images—Hulton Archive/Getty Images",
+      "license": "rights-managed",
+      "source": "https://www.gettyimages.com",
+      "checked": "2026-08-24",
       "thumb": "assets/images/missions/sputnik-2-1957/photo.jpg"
     },
     "launch_date": "1957-11-03",
@@ -53,6 +53,13 @@
     "status": "Success",
     "outcome": "First U.S. satellite; discovered the Van Allen radiation belts.",
     "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/explorer-1-1958/photo.jpg"
+    },
     "launch_date": "1958-01-31",
     "launch_vehicle": "Juno I",
     "orbit_type": "Geocentric orbit",
@@ -68,6 +75,13 @@
     "status": "Success",
     "outcome": "Confirmed the existence of the trapped radiation belts discovered by Explorer 1.",
     "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "NASA Marshall Space Flight Center, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Wernher_von_Braun_(5801293).jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/explorer-3-1958/photo.jpg"
+    },
     "launch_date": "1958-02-01",
     "launch_vehicle": "Juno I",
     "orbit_type": "Geocentric orbit",
@@ -83,6 +97,13 @@
     "status": "Partial success",
     "outcome": "First U.S. lunar probe; failed to reach the Moon but returned radiation data.",
     "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Pioneer_able.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/pioneer-1-1958/photo.jpg"
+    },
     "launch_vehicle": "Thor DM 18-Able I"
   },
   {
@@ -95,6 +116,13 @@
     "status": "Failure",
     "outcome": "Third stage of the launch vehicle failed to ignite; did not reach orbit.",
     "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA23497",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/pioneer-2-1958/photo.jpg"
+    },
     "launch_vehicle": "Thor DM 18-Able I"
   },
   {
@@ -108,7 +136,7 @@
     "outcome": "First large Soviet scientific satellite; carried 12 instruments for upper-atmosphere, magnetic-field, radiation and cosmic-dust studies. Tape-recorder failure limited radiation-belt data.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Stolbovsky, via Wikimedia Commons — CC BY 4.0",
+      "credit": "Stolbovsky, via Wikimedia Commons · CC BY 4.0",
       "license": "cc-by-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Sputnik-3_in_Kaluga_2.jpg",
       "checked": "2026-08-23",
@@ -129,7 +157,7 @@
     "outcome": "Early geodesy satellite; long-lived orbital tracking improved Earth-shape studies.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Marcoaliaslama, via Wikimedia Commons — CC BY 4.0",
+      "credit": "Marcoaliaslama, via Wikimedia Commons · CC BY 4.0",
       "license": "cc-by-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:VANGUARD_1_(satellite).jpg",
       "checked": "2026-08-23",
@@ -150,6 +178,13 @@
     "status": "Success",
     "outcome": "Returned the first crude image of Earth from orbit.",
     "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Explorer_6_paddles_up.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/explorer-6-1959/photo.jpg"
+    },
     "launch_date": "1959-08-07",
     "launch_vehicle": "Thor DM-18 Able III",
     "orbit_type": "Geocentric orbit",
@@ -166,7 +201,7 @@
     "outcome": "First spacecraft to pass near the Moon.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "NASA/NSSDCA (public domain), via Wikimedia Commons — Public domain",
+      "credit": "NASA/NSSDCA (public domain), via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png",
       "checked": "2026-08-23",
@@ -188,7 +223,7 @@
     "outcome": "First human-made object to reach the Moon.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Gregory H. Revera, via Wikimedia Commons — CC BY-SA 3.0",
+      "credit": "Gregory H. Revera, via Wikimedia Commons · CC BY-SA 3.0",
       "license": "cc-by-sa-3.0",
       "source": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
       "checked": "2026-08-23",
@@ -232,7 +267,7 @@
     "outcome": "Returned Belka and Strelka safely after orbital flight.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "ViktoryaPolyanskaya, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "ViktoryaPolyanskaya, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Sputnik-5_foto_2020.jpg",
       "checked": "2026-08-23",
@@ -253,7 +288,7 @@
     "outcome": "First successful television weather satellite.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Wikimedia Commons, via Wikimedia Commons — Public domain",
+      "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:TIROS-1_image_(cropped).jpg",
       "checked": "2026-08-23",
@@ -274,7 +309,7 @@
     "outcome": "Lunar probe test mission; failed to leave low Earth orbit.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons — Public domain",
+      "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Ranger_1.jpg",
       "checked": "2026-08-23",
@@ -292,7 +327,7 @@
     "outcome": "Launch vehicle failed to restart; stranded in low Earth orbit.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons — Public domain",
+      "credit": "NASA Glenn Research Center (NASA-GRC), via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Ranger_2.jpg",
       "checked": "2026-08-23",
@@ -331,10 +366,10 @@
     "outcome": "Yuri Gagarin became the first person in space and in orbit.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Restored portrait via Wikimedia Commons",
+      "credit": "Tempe, via Wikimedia Commons · Public domain",
       "license": "public-domain",
-      "source": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_(1961)_-_Restoration.jpg",
-      "checked": "2026-08-22",
+      "source": "https://commons.wikimedia.org/wiki/File:Vostokpanel.JPG",
+      "checked": "2026-08-24",
       "thumb": "assets/images/missions/vostok-1-1961/photo.jpg"
     },
     "launch_date": "1961-04-12"
@@ -350,10 +385,10 @@
     "outcome": "First British satellite; conducted ionospheric research.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Another one of my pictures: This photograph was taken by Med, via Wikimedia Commons — CC BY-SA 4.0",
-      "license": "cc-by-sa-4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Ariel_-_La_Petite_Sirène_-_20150803_16h44_(10802).jpg",
-      "checked": "2026-08-23",
+      "credit": "Ryan Somma, via Wikimedia Commons · CC BY-SA 2.0",
+      "license": "cc-by-sa-2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ariel_1_(UK_1)_International_Satellite.jpg",
+      "checked": "2026-08-24",
       "thumb": "assets/images/missions/ariel-1-1962/photo.jpg"
     },
     "launch_vehicle": "Thor DM-19 Delta",
@@ -389,7 +424,14 @@
     "category": "Solar observatory",
     "status": "Success",
     "outcome": "First Orbiting Solar Observatory.",
-    "era": "1957–1969: Opening the Space Age"
+    "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "NASA, edited by SMasonGarrison, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Dr._Nancy_Roman_-_GPN-2002-000212_edited.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/oso-1-1962/photo.jpg"
+    }
   },
   {
     "id": "syncom-2-1963",
@@ -402,7 +444,7 @@
     "outcome": "First successful geosynchronous satellite; enabled space-environment observations.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "NASA, via Wikimedia Commons — Public domain",
+      "credit": "NASA, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Syncom_2_side.jpg",
       "checked": "2026-08-23",
@@ -421,7 +463,7 @@
     "outcome": "First Orbiting Geophysical Observatory.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "NASA, via Wikimedia Commons — Public domain",
+      "credit": "NASA, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Orbiting-Geophysical-Observatory-spacacraft-drawing.png",
       "checked": "2026-08-23",
@@ -499,6 +541,13 @@
     "status": "Success",
     "outcome": "First spacewalk (Alexei Leonov).",
     "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "NASA - just split Vostok and Voskhod diagrams., via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Voskhod_cutaway_crew_seating.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/voskhod-2-1965/photo.jpg"
+    },
     "launch_date": "1965-03-18",
     "mass_kg": 5686
   },
@@ -513,7 +562,7 @@
     "outcome": "First artificial satellite of the Moon.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Gregory H. Revera, via Wikimedia Commons — CC BY-SA 3.0",
+      "credit": "Gregory H. Revera, via Wikimedia Commons · CC BY-SA 3.0",
       "license": "cc-by-sa-3.0",
       "source": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
       "checked": "2026-08-23",
@@ -535,7 +584,7 @@
     "outcome": "First soft landing and first images from the lunar surface.",
     "era": "1957–1969: Opening the Space Age",
     "media": {
-      "credit": "Stolbovsky, via Wikimedia Commons — CC BY 4.0",
+      "credit": "Stolbovsky, via Wikimedia Commons · CC BY 4.0",
       "license": "cc-by-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Luna_9_Space_Probe.jpg",
       "checked": "2026-08-23",
@@ -576,7 +625,14 @@
     "category": "Lunar orbiter",
     "status": "Success",
     "outcome": "Completed global photographic mapping for Apollo site selection.",
-    "era": "1957–1969: Opening the Space Age"
+    "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/as14-66-09278",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/lunar-orbiter-5-1967/photo.jpg"
+    }
   },
   {
     "id": "venera-4-1967",
@@ -587,7 +643,14 @@
     "category": "Planetary probe",
     "status": "Partial success",
     "outcome": "First in-situ atmospheric data from Venus.",
-    "era": "1957–1969: Opening the Space Age"
+    "era": "1957–1969: Opening the Space Age",
+    "media": {
+      "credit": "Rave, via Wikimedia Commons · CC BY-SA 3.0",
+      "license": "cc-by-sa-3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Venera-4_capsule_in_museum.JPG",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/venera-4-1967/photo.jpg"
+    }
   },
   {
     "id": "apollo-8-1968",
@@ -618,7 +681,17 @@
     "status": "Success",
     "outcome": "First living organisms to travel around the Moon and return to Earth.",
     "era": "1957–1969: Opening the Space Age",
-    "launch_date": "1968-09-14"
+    "media": {
+      "credit": "USSR Post, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1969_CPA_3733_stamp_(Zond_5).png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/zond-5-1968/photo.jpg"
+    },
+    "launch_date": "1968-09-14",
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Geocentric",
+    "duration": "6 days, 18 hours, 24 minutes"
   },
   {
     "id": "apollo-11-1969",
@@ -637,7 +710,10 @@
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/apollo-11-1969/photo.jpg"
     },
-    "launch_date": "1969-07-16"
+    "launch_date": "1969-07-16",
+    "launch_vehicle": "Saturn V SA-505",
+    "orbit_type": "Selenocentric orbit",
+    "duration": "8&nbsp;days, 3&nbsp;minutes, 23&nbsp;seconds"
   },
   {
     "id": "mariner-6-1969",
@@ -655,7 +731,9 @@
       "source": "https://images.nasa.gov/details/101-KSC-69P-223",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/mariner-6-1969/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1A",
+    "mass_kg": 381
   },
   {
     "id": "mariner-7-1969",
@@ -673,7 +751,9 @@
       "source": "https://images.nasa.gov/details/PIA02989",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/mariner-7-1969/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1A",
+    "mass_kg": 381
   },
   {
     "id": "luna-16-1970",
@@ -704,6 +784,13 @@
     "status": "Success",
     "outcome": "First successful robotic rover on another world.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "NASA/GSFC/Arizona State University, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Lunokhod_1_Revisited_(LROC402_-_M175502049R_LR1_thumb).png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/lunokhod-1-1970/photo.jpg"
+    },
     "launch_date": "1970-11-10"
   },
   {
@@ -715,7 +802,14 @@
     "category": "X-ray astronomy",
     "status": "Success",
     "outcome": "First satellite dedicated to X-ray astronomy.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:X-Ray_Explorer_Satellite.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/uhuru-1970/photo.jpg"
+    }
   },
   {
     "id": "venera-7-1970",
@@ -728,7 +822,7 @@
     "outcome": "First successful transmission from the surface of another planet.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "Emerezhko, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Emerezhko, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Venera-7_spuskaemiy_apparat.jpg",
       "checked": "2026-08-23",
@@ -781,7 +875,7 @@
     "outcome": "First soft landing on Mars; contact was brief.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/, via Wikimedia Commons — CC BY-SA 3.0 igo",
+      "credit": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/, via Wikimedia Commons · CC BY-SA 3.0 igo",
       "license": "cc-by-sa-3.0-igo",
       "source": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg",
       "checked": "2026-08-23",
@@ -802,7 +896,7 @@
     "outcome": "World’s first space station; established orbital-station operations.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "Godai, via Wikimedia Commons — CC BY-SA 3.0",
+      "credit": "Godai, via Wikimedia Commons · CC BY-SA 3.0",
       "license": "cc-by-sa-3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Salyut_1_paper_model.JPG",
       "checked": "2026-08-23",
@@ -840,7 +934,14 @@
     "category": "Ultraviolet astronomy",
     "status": "Success",
     "outcome": "Major ultraviolet observatory.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "NASA's Scientific Visualization Studio - Advocates in Manpow, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:50th_Anniversary_of_NASA's_Copernicus_Mission_(SVS14189_-_70HC958_OAO_3_full).jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/copernicus-oao-3-1972/photo.jpg"
+    }
   },
   {
     "id": "landsat-1-1972",
@@ -851,7 +952,17 @@
     "category": "Earth observation",
     "status": "Success",
     "outcome": "First civilian Earth-resources satellite.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "none (Landsat), via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Lena_River_Delta_-_Landsat_2000.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/landsat-1-1972/photo.jpg"
+    },
+    "launch_date": "1972-07-23",
+    "launch_vehicle": "Delta 900",
+    "orbit_type": "Geocentric"
   },
   {
     "id": "pioneer-10-1972",
@@ -882,6 +993,13 @@
     "status": "Success",
     "outcome": "First flyby of Saturn (1979).",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "Don Davis for NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Pioneer_10-11_spacecraft.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/pioneer-11-1973/photo.jpg"
+    },
     "launch_date": "1973-04-05"
   },
   {
@@ -901,7 +1019,10 @@
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/skylab-1973/photo.jpg"
     },
-    "launch_date": "1973-05-14"
+    "launch_date": "1973-05-14",
+    "launch_vehicle": "Saturn IB SA-206",
+    "orbit_type": "Geocentric orbit",
+    "duration": "28&nbsp;days, 49&nbsp;minutes, 49&nbsp;seconds"
   },
   {
     "id": "helios-1-1974",
@@ -912,7 +1033,14 @@
     "category": "Solar physics",
     "status": "Success",
     "outcome": "Solar probe studying the inner heliosphere.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Helios_spacecraft_2.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/helios-1-1974/photo.jpg"
+    }
   },
   {
     "id": "mariner-10-1974",
@@ -924,7 +1052,15 @@
     "status": "Success",
     "outcome": "First Mercury mission and first gravity-assist trajectory.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
-    "launch_date": "1973-11-03"
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Mariner_10.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/mariner-10-1974/photo.jpg"
+    },
+    "launch_date": "1973-11-03",
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1A"
   },
   {
     "id": "apollo-soyuz-test-project-1975",
@@ -936,7 +1072,15 @@
     "status": "Success",
     "outcome": "First international crewed-spaceflight mission and first U.S.–Soviet docking.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
-    "launch_date": "1975-07-15"
+    "media": {
+      "credit": "Adam Cuerden, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_ASTP_crews_-_restoration.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/apollo-soyuz-test-project-1975/photo.jpg"
+    },
+    "launch_date": "1975-07-15",
+    "orbit_type": "Geocentric orbit"
   },
   {
     "id": "aryabhata-1975",
@@ -948,7 +1092,17 @@
     "status": "Partial success",
     "outcome": "India's first satellite; power failure limited scientific experiments to a few days.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
-    "launch_date": "1975-04-19"
+    "media": {
+      "credit": "LO-IV, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Aryabhata_LO-IV-073H_LTVT.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/aryabhata-1975/photo.jpg"
+    },
+    "launch_date": "1975-04-19",
+    "launch_vehicle": "Kosmos-3M",
+    "orbit_type": "Geocentric",
+    "duration": "''(Experiments ended during 5th day in orbit) ''"
   },
   {
     "id": "cos-b-1975",
@@ -960,6 +1114,13 @@
     "status": "Success",
     "outcome": "First ESA space mission; provided the first comprehensive gamma-ray map of the Milky Way.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:Checking_COS-B_model_ESA15632909.jpeg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/cos-b-1975/photo.jpg"
+    },
     "launch_date": "1975-08-09",
     "launch_vehicle": "Delta 2913",
     "mass_kg": 2775,
@@ -975,7 +1136,14 @@
     "category": "X-ray astronomy",
     "status": "Success",
     "outcome": "X-ray source localization mission.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:SAS-3_layout.gif",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/sas-3-1975/photo.jpg"
+    }
   },
   {
     "id": "venera-9-1975",
@@ -1049,10 +1217,10 @@
     "outcome": "Transformative flybys of the giant planets; both later entered interstellar space.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "Image credit: NASA",
+      "credit": "NASA/JPL, via Wikimedia Commons · Public domain",
       "license": "public-domain",
-      "source": "https://images.nasa.gov/details/PIA21741",
-      "checked": "2026-08-22",
+      "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg",
+      "checked": "2026-08-24",
       "thumb": "assets/images/missions/voyager-1-2-1977/photo.jpg"
     },
     "launch_date": "1977-08-20",
@@ -1069,7 +1237,7 @@
     "outcome": "First spacecraft placed at Sun–Earth L1; later flew by comet Giacobini–Zinner.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "Unknown authorUnknown author, via Wikimedia Commons — Public domain",
+      "credit": "Unknown authorUnknown author, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:ISEE-3.gif",
       "checked": "2026-08-23",
@@ -1089,6 +1257,13 @@
     "status": "Partial success",
     "outcome": "First satellite designed for global oceanographic remote sensing.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA18137",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/seasat-1978/photo.jpg"
+    },
     "launch_vehicle": "Atlas E",
     "orbit_type": "Geocentric"
   },
@@ -1101,7 +1276,14 @@
     "category": "Planetary probe",
     "status": "Partial success",
     "outcome": "Returned Venus atmospheric science during descent.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "Р. Стрельников, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Venus_12.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/venera-11-1978/photo.jpg"
+    }
   },
   {
     "id": "bhaskara-1-1979",
@@ -1112,7 +1294,9 @@
     "category": "Earth observation",
     "status": "Success",
     "outcome": "India's first low-orbit Earth observation satellite.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "launch_vehicle": "C-1 Intercosmos Launch Vehicle",
+    "duration": "10 years (Re-Entered in 1991)"
   },
   {
     "id": "einstein-observatory-1979",
@@ -1123,7 +1307,17 @@
     "category": "X-ray astronomy",
     "status": "Success",
     "outcome": "First fully imaging X-ray telescope.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:HEAO-2_High_Energy_Astronomy_Observatory_0102090.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/einstein-observatory-1979/photo.jpg"
+    },
+    "launch_vehicle": "Atlas SLV-3D Centaur-D1AR",
+    "orbit_type": "Geocentric",
+    "duration": "4 years"
   },
   {
     "id": "solar-maximum-mission-1980",
@@ -1157,7 +1351,7 @@
     "outcome": "Japan’s first solar observatory.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "Masahiko OHKUBO, via Wikimedia Commons — CC BY 2.0",
+      "credit": "Masahiko OHKUBO, via Wikimedia Commons · CC BY 2.0",
       "license": "cc-by-2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Kintetsu_80000_series_\"Hinotori\"_2022-04-02.jpg",
       "checked": "2026-08-23",
@@ -1233,7 +1427,10 @@
     "category": "X-ray astronomy",
     "status": "Success",
     "outcome": "Japanese X-ray astronomy satellite.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "launch_date": "1983-02-20",
+    "launch_vehicle": "M-3S",
+    "orbit_type": "Geocentric"
   },
   {
     "id": "venera-15-16-1983",
@@ -1244,7 +1441,16 @@
     "category": "Planetary orbiters",
     "status": "Success",
     "outcome": "Radar mapping of Venus’s northern hemisphere.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "Armael, via Wikimedia Commons · CC0",
+      "license": "cc0",
+      "source": "https://commons.wikimedia.org/wiki/File:Venera_4_(MMA_2011)_(1).JPG",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/venera-15-16-1983/photo.jpg"
+    },
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Cytherocentric"
   },
   {
     "id": "soviet-vega-1-1984",
@@ -1255,7 +1461,16 @@
     "category": "Planetary probe / balloon",
     "status": "Success",
     "outcome": "Venus lander-balloon and Halley flyby mission.",
-    "era": "1970–1985: Solar-System Firsts and Scientific Reach"
+    "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "NASA The original uploader was Ricmun at English Wikipedia., via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Vega-mission.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/soviet-vega-1-1984/photo.jpg"
+    },
+    "launch_vehicle": "Proton-K",
+    "orbit_type": "Heliocentric"
   },
   {
     "id": "soviet-vega-2-1984",
@@ -1268,7 +1483,7 @@
     "outcome": "Companion Venus and Halley mission.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
     "media": {
-      "credit": "Joris Wegner, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Joris Wegner, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Vega_balloon_probe.jpg",
       "checked": "2026-08-23",
@@ -1285,6 +1500,13 @@
     "status": "Success",
     "outcome": "First deep-space mission by ESA; close flyby of Halley’s Comet.",
     "era": "1970–1985: Solar-System Firsts and Scientific Reach",
+    "media": {
+      "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:Giotto_Whipple_shield_ESA239195.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/giotto-1985/photo.jpg"
+    },
     "launch_vehicle": "Ariane 1 V-14",
     "mass_kg": 960,
     "orbit_type": "Heliocentric"
@@ -1322,7 +1544,15 @@
     "category": "Space station science module",
     "status": "Success",
     "outcome": "Added astrophysics instruments to Mir.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "NASA, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Kvant-1_(1995-02-06)_cropped.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/kvant-1-1986/photo.jpg"
+    },
+    "launch_vehicle": "Proton-K"
   },
   {
     "id": "mir-1986",
@@ -1352,7 +1582,8 @@
     "category": "X-ray astronomy",
     "status": "Success",
     "outcome": "Japanese X-ray astronomy observatory.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "orbit_type": "Geocentric"
   },
   {
     "id": "phobos-1-1988",
@@ -1363,7 +1594,16 @@
     "category": "Planetary orbiter",
     "status": "Failure",
     "outcome": "Contact lost en route to Mars.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "NASA / JPL-Caltech / University of Arizona, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/phobos-1-1988/photo.jpg"
+    },
+    "launch_vehicle": "Proton-K 8K82K",
+    "orbit_type": "Areocentric"
   },
   {
     "id": "phobos-2-1988",
@@ -1374,7 +1614,18 @@
     "category": "Planetary orbiter",
     "status": "Partial success",
     "outcome": "Reached Mars orbit; contact lost before Phobos landing operations.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "NASA / JPL-Caltech / University of Arizona, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/phobos-2-1988/photo.jpg"
+    },
+    "launch_vehicle": "Proton-K rocket",
+    "mass_kg": 6220,
+    "orbit_type": "Areocentric",
+    "duration": "8 months, 15 days (launch until comm failure)"
   },
   {
     "id": "cobe-1989",
@@ -1385,7 +1636,18 @@
     "category": "Cosmology",
     "status": "Success",
     "outcome": "Measured the cosmic microwave background spectrum and anisotropy.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Cobe.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/cobe-1989/photo.jpg"
+    },
+    "launch_date": "1989-11-18",
+    "launch_vehicle": "Delta 5920-8",
+    "orbit_type": "Geocentric orbit",
+    "duration": "6 months (planned) (achieved)"
   },
   {
     "id": "galileo-1989",
@@ -1404,7 +1666,9 @@
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/galileo-1989/photo.jpg"
     },
-    "launch_date": "1989-10-18"
+    "launch_date": "1989-10-18",
+    "launch_vehicle": "STS-34",
+    "duration": "61.4 minutes"
   },
   {
     "id": "hipparcos-1989",
@@ -1415,7 +1679,18 @@
     "category": "Astrometry",
     "status": "Success",
     "outcome": "First space astrometry mission.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Michael Perryman, via Wikimedia Commons · CC BY-SA 3.0",
+      "license": "cc-by-sa-3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Hipparcos-testing-estec.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/hipparcos-1989/photo.jpg"
+    },
+    "launch_date": "1989-08-08",
+    "launch_vehicle": "Ariane 44LP H10",
+    "orbit_type": "Geocentric orbit",
+    "duration": "2.5 years (planned) 4 years (achieved)"
   },
   {
     "id": "magellan-1989",
@@ -1447,7 +1722,7 @@
     "outcome": "Japan’s first lunar probe and first Asian lunar mission.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
     "media": {
-      "credit": "Vasukrishnan57, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Vasukrishnan57, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Shilabalika_(celestial_maiden)_Chennakeshava_temple,_Belur.jpg",
       "checked": "2026-08-23",
@@ -1485,7 +1760,7 @@
     "outcome": "All-sky X-ray survey observatory.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
     "media": {
-      "credit": "Ralfvandebergh, via Wikimedia Commons — CC BY-SA 3.0",
+      "credit": "Ralfvandebergh, via Wikimedia Commons · CC BY-SA 3.0",
       "license": "cc-by-sa-3.0",
       "source": "https://commons.wikimedia.org/wiki/File:ROSAT_one_of_the_last_images_before_reentry.jpg",
       "checked": "2026-08-23",
@@ -1504,6 +1779,13 @@
     "status": "Success",
     "outcome": "First mission to study the heliosphere above and below the Sun’s poles.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/9015176",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/ulysses-1990/photo.jpg"
+    },
     "launch_date": "1990-10-06",
     "orbit_type": "Heliocentric orbit"
   },
@@ -1518,7 +1800,7 @@
     "outcome": "Observed solar flares and coronal activity.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
     "media": {
-      "credit": "NASA/MSFC, via Wikimedia Commons — Public domain",
+      "credit": "NASA/MSFC, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Yohkoh.jpg",
       "checked": "2026-08-23",
@@ -1537,6 +1819,13 @@
     "status": "Failure",
     "outcome": "Lost before Mars-orbit insertion.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA09343",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/mars-observer-1992/photo.jpg"
+    },
     "orbit_type": "Areocentric"
   },
   {
@@ -1550,7 +1839,7 @@
     "outcome": "Studied energetic particles in Earth’s magnetosphere.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
     "media": {
-      "credit": "NASA, via Wikimedia Commons — Public domain",
+      "credit": "NASA, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:SAMPEX_2.jpg",
       "checked": "2026-08-23",
@@ -1572,7 +1861,7 @@
     "outcome": "Precision ocean-altimetry mission; foundational climate and ocean data.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
     "media": {
-      "credit": "NASA/JPL, via Wikimedia Commons — Public domain",
+      "credit": "NASA/JPL, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:TOPEX-Poseidon-drawing.png",
       "checked": "2026-08-23",
@@ -1624,6 +1913,13 @@
     "status": "Success",
     "outcome": "Solar-wind and magnetospheric science mission.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Максим Яковлєв, via Wikimedia Commons · CC BY-SA 4.0",
+      "license": "cc-by-sa-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ковила,_Тарутинський_степ,_Україна.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/wind-1994/photo.jpg"
+    },
     "launch_date": "1994-11-01",
     "launch_vehicle": "Delta II 7925-10",
     "orbit_type": "Heliocentric orbit",
@@ -1640,7 +1936,7 @@
     "outcome": "Timing studies of X-ray sources.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
     "media": {
-      "credit": "Unknown authorUnknown author, via Wikimedia Commons — Public domain",
+      "credit": "Unknown authorUnknown author, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:RXTE_preparations.jpg",
       "checked": "2026-08-23",
@@ -1667,7 +1963,11 @@
       "source": "https://images.nasa.gov/details/PIA18170",
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/soho-1995/photo.jpg"
-    }
+    },
+    "launch_date": "1995-12-02",
+    "launch_vehicle": "Atlas IIAS",
+    "orbit_type": "Sun–Earth L1 orbit",
+    "duration": "3 years (planned) ''(in progress) ''"
   },
   {
     "id": "mars-global-surveyor-1996",
@@ -1685,7 +1985,9 @@
       "source": "https://images.nasa.gov/details/PIA17486",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/mars-global-surveyor-1996/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Delta II 7925D-239",
+    "orbit_type": "Areocentric"
   },
   {
     "id": "near-shoemaker-1996",
@@ -1696,7 +1998,17 @@
     "category": "Asteroid orbiter / lander",
     "status": "Success",
     "outcome": "First spacecraft to orbit and land on an asteroid.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Near_Shoemaker.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/near-shoemaker-1996/photo.jpg"
+    },
+    "launch_vehicle": "Delta II 7925-8",
+    "mass_kg": 805,
+    "duration": "5 years, 21 days"
   },
   {
     "id": "soho-1996",
@@ -1708,7 +2020,17 @@
     "status": "Success",
     "outcome": "Solar and heliospheric observatory.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
-    "launch_date": "1995-12-02"
+    "media": {
+      "credit": "Cgruda, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:NASA_SOHO_spacecraft.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/soho-1996/photo.jpg"
+    },
+    "launch_date": "1995-12-02",
+    "launch_vehicle": "Atlas IIAS",
+    "orbit_type": "Sun–Earth L1 orbit",
+    "duration": "3 years (planned) ''(in progress) ''"
   },
   {
     "id": "ace-1997",
@@ -1719,7 +2041,14 @@
     "category": "Heliophysics",
     "status": "Success",
     "outcome": "Solar wind and energetic particle observatory.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA18174",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/ace-1997/photo.jpg"
+    }
   },
   {
     "id": "cassini-huygens-1997",
@@ -1768,7 +2097,14 @@
     "category": "Technology / planetary flyby",
     "status": "Success",
     "outcome": "Ion-propulsion technology mission; flew by asteroid Braille and comet Borrelly.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA04242",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/deep-space-1-1998/photo.jpg"
+    }
   },
   {
     "id": "lunar-prospector-1998",
@@ -1798,6 +2134,13 @@
     "status": "Success",
     "outcome": "High-resolution solar transition-region and coronal imaging.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/iss074e0089803",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/trace-1998/photo.jpg"
+    },
     "launch_date": "1998-04-02",
     "launch_vehicle": "Pegasus XL",
     "orbit_type": "Geocentric orbit",
@@ -1853,6 +2196,13 @@
     "status": "Success",
     "outcome": "Far-ultraviolet spectroscopy observatory.",
     "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/KSC-99pp0657",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/fuse-1999/photo.jpg"
+    },
     "launch_date": "1999-06-24",
     "launch_vehicle": "Delta II 7320-10",
     "orbit_type": "Geocentric orbit",
@@ -1888,7 +2238,17 @@
     "category": "Magnetospheric science",
     "status": "Success",
     "outcome": "Four-spacecraft mission studying Earth’s magnetic environment.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/0101587",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/cluster-ii-2000/photo.jpg"
+    },
+    "launch_vehicle": "Soyuz-U",
+    "orbit_type": "Geocentric",
+    "duration": "Planned: 5 years Final:"
   },
   {
     "id": "image-2000",
@@ -1899,7 +2259,14 @@
     "category": "Magnetospheric science",
     "status": "Success",
     "outcome": "Imaged Earth’s magnetosphere and aurora.",
-    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories"
+    "era": "1986–2000: Stations, Global Partnerships and Flagship Observatories",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA00432",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/image-2000/photo.jpg"
+    }
   },
   {
     "id": "genesis-2001",
@@ -1910,7 +2277,14 @@
     "category": "Solar-wind sample return",
     "status": "Partial success",
     "outcome": "Collected solar-wind samples; capsule crash limited recovery but useful material was retrieved.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/KSC-01pp1179",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/genesis-2001/photo.jpg"
+    }
   },
   {
     "id": "mars-odyssey-2001",
@@ -1928,7 +2302,9 @@
       "source": "https://images.nasa.gov/details/PIA24915",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/mars-odyssey-2001/photo.jpg"
-    }
+    },
+    "mass_kg": 725,
+    "orbit_type": "Areocentric"
   },
   {
     "id": "timed-2001",
@@ -1946,7 +2322,11 @@
       "source": "https://images.nasa.gov/details/KSC-03pd2881",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/timed-2001/photo.jpg"
-    }
+    },
+    "launch_date": "2001-12-07",
+    "launch_vehicle": "Delta II 7920-10",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 2 years Elapsed:"
   },
   {
     "id": "aqua-2002",
@@ -1975,7 +2355,14 @@
     "category": "Gamma-ray astronomy",
     "status": "Success",
     "outcome": "International gamma-ray observatory.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/iss037e012572",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/integral-2002/photo.jpg"
+    }
   },
   {
     "id": "hayabusa-2003",
@@ -1987,7 +2374,16 @@
     "status": "Success",
     "outcome": "First asteroid sample-return mission; returned particles in 2010.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
-    "launch_date": "2003-05-09"
+    "media": {
+      "credit": "Wikimedia Commons, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Hayabusa(Muses-C)_sampling.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/hayabusa-2003/photo.jpg"
+    },
+    "launch_date": "2003-05-09",
+    "launch_vehicle": "M-V",
+    "mass_kg": 510
   },
   {
     "id": "mars-express-beagle-2-2003",
@@ -1998,7 +2394,16 @@
     "category": "Orbiter / lander",
     "status": "Partial success",
     "outcome": "Mars Express remains a major orbiter; Beagle 2 failed to fully deploy.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Photograph by Mike Peel (www.mikepeel.net) ., via Wikimedia Commons · CC BY-SA 4.0",
+      "license": "cc-by-sa-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Beagle_2_model_at_Liverpool_Spaceport.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/mars-express-beagle-2-2003/photo.jpg"
+    },
+    "launch_vehicle": "Soyuz-FG",
+    "duration": "6 months (planned)"
   },
   {
     "id": "sirtf-spitzer-2003",
@@ -2011,7 +2416,7 @@
     "outcome": "Great Observatory infrared mission.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
     "media": {
-      "credit": "Credit: NASA/JPL-Caltech/S. Stolovy (Spitzer Science Center/, via Wikimedia Commons — Public domain",
+      "credit": "Credit: NASA/JPL-Caltech/S. Stolovy (Spitzer Science Center/, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:Milky_Way_IR_Spitzer.jpg",
       "checked": "2026-08-23",
@@ -2031,6 +2436,13 @@
     "status": "Success",
     "outcome": "Electric-propulsion lunar science mission.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:SMART-1_sees_total_lunar_eclipse_from_space_ESA240685.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/smart-1-2003/photo.jpg"
+    },
     "launch_vehicle": "Ariane 5G",
     "orbit_type": "Selenocentric",
     "duration": "2 years, 11 months, 6 days, 6 hours, 27 minutes, 36 seconds"
@@ -2046,7 +2458,7 @@
     "outcome": "First Chinese crewed spaceflight.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
     "media": {
-      "credit": "Shujianyang, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Shujianyang, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Shenzhou-5_mockup_and_parachute_at_NMC.jpg",
       "checked": "2026-08-23",
@@ -2086,7 +2498,7 @@
     "outcome": "First privately funded crewed spacecraft to reach space twice.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
     "media": {
-      "credit": "Don Ramey Logan, via Wikimedia Commons — CC BY-SA 3.0",
+      "credit": "Don Ramey Logan, via Wikimedia Commons · CC BY-SA 3.0",
       "license": "cc-by-sa-3.0",
       "source": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Takeoff_photo_Don_Ramey_Logan.jpg",
       "checked": "2026-08-23",
@@ -2161,6 +2573,13 @@
     "status": "Success",
     "outcome": "Solar magnetic-field and corona mission.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/0601385",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/hinode-2005/photo.jpg"
+    },
     "launch_vehicle": "H-IIA 202",
     "mass_kg": 310,
     "orbit_type": "Heliocentric orbit"
@@ -2246,7 +2665,14 @@
     "category": "Exoplanet / stellar science",
     "status": "Success",
     "outcome": "Early space exoplanet and asteroseismology mission.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Blue straggler, via Wikimedia Commons · CC BY-SA 3.0",
+      "license": "cc-by-sa-3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:COROT_integration.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/corot-2006/photo.jpg"
+    }
   },
   {
     "id": "chang-e-1-2007",
@@ -2259,7 +2685,7 @@
     "outcome": "First Chinese lunar mission; inaugurated the Chang’e exploration programme.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
     "media": {
-      "credit": "Shujianyang, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Shujianyang, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Chang'e-1_mockup_at_BASM.jpg",
       "checked": "2026-08-23",
@@ -2280,6 +2706,13 @@
     "status": "Success",
     "outcome": "First spacecraft to orbit two extraterrestrial bodies.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/PIA12033",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/dawn-2007/photo.jpg"
+    },
     "launch_vehicle": "Delta II 7925HD-327",
     "orbit_type": "Ceres"
   },
@@ -2293,6 +2726,13 @@
     "status": "Success",
     "outcome": "High-definition lunar mapping and science.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaguya_impact_site_ESA200870.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/kaguya-selene-2007/photo.jpg"
+    },
     "launch_vehicle": "H-IIA 2022 F13",
     "orbit_type": "Selenocentric",
     "duration": "1 year and 9 months (launch date to decay date)"
@@ -2313,7 +2753,12 @@
       "source": "https://images.nasa.gov/details/KSC-07PD-0072",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/themis-2007/photo.jpg"
-    }
+    },
+    "launch_date": "2007-02-17",
+    "launch_vehicle": "Delta II 7925-10C",
+    "mass_kg": 126,
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 2 years Elapsed:"
   },
   {
     "id": "chandrayaan-1-2008",
@@ -2325,7 +2770,17 @@
     "status": "Success",
     "outcome": "Confirmed widespread lunar water/hydroxyl signatures.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
-    "launch_date": "2008-10-22"
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/KSC-08pd0149",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/chandrayaan-1-2008/photo.jpg"
+    },
+    "launch_date": "2008-10-22",
+    "launch_vehicle": "PSLV-XL C11",
+    "orbit_type": "Selenocentric",
+    "duration": "Planned: 2 years Final:"
   },
   {
     "id": "fermi-gamma-ray-space-telescope-2008",
@@ -2343,7 +2798,9 @@
       "source": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001548",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/fermi-gamma-ray-space-telescope-2008/photo.jpg"
-    }
+    },
+    "orbit_type": "Geocentric",
+    "duration": "Planned: 5-10 years Elapsed:"
   },
   {
     "id": "phoenix-2008",
@@ -2361,7 +2818,9 @@
       "source": "https://images.nasa.gov/details/PIA11383",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/phoenix-2008/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Delta II 7925",
+    "mass_kg": 670
   },
   {
     "id": "herschel-2009",
@@ -2372,7 +2831,16 @@
     "category": "Infrared astronomy",
     "status": "Success",
     "outcome": "Far-infrared and submillimetre observatory.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "ESA/NASA/JPL-Caltech/STScI, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Large_Magellanic_Cloud.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/herschel-2009/photo.jpg"
+    },
+    "launch_vehicle": "Ariane 5 ECA",
+    "duration": "Planned: 3 years Final:"
   },
   {
     "id": "kepler-2009",
@@ -2384,7 +2852,17 @@
     "status": "Success",
     "outcome": "Revolutionized exoplanet discovery and occurrence-rate studies.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
-    "launch_date": "2009-03-07"
+    "media": {
+      "credit": "NASA/JPL-CalTech, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Kepler-186f_39x27_CMYK-1.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/kepler-2009/photo.jpg"
+    },
+    "launch_date": "2009-03-07",
+    "launch_vehicle": "Delta II",
+    "orbit_type": "Heliocentric",
+    "duration": "Planned: 3.5 years Final: 9 years, 7 months, 23 days"
   },
   {
     "id": "planck-2009",
@@ -2395,7 +2873,17 @@
     "category": "Cosmology",
     "status": "Success",
     "outcome": "Precision cosmic microwave background mission.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Photograph by Mike Peel (www.mikepeel.net) ., via Wikimedia Commons · CC BY-SA 4.0",
+      "license": "cc-by-sa-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Model_of_the_Planck_Satellite.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/planck-2009/photo.jpg"
+    },
+    "launch_vehicle": "Ariane 5 ECA",
+    "orbit_type": "Sun-Earth L2 orbit ()",
+    "duration": "Planned: >15 months Final:"
   },
   {
     "id": "akatsuki-2010",
@@ -2406,7 +2894,16 @@
     "category": "Planetary orbiter",
     "status": "Partial success",
     "outcome": "Entered Venus orbit in 2015 after an initial insertion failure; studies Venus’s atmosphere.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "宇宙航空研究開発機構・宇宙科学研究所(JAXA/ISAS) 、https://www.isas.jaxa.jp/en/r, via Wikimedia Commons · CC BY 4.0",
+      "license": "cc-by-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Akatsuki_CG01.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/akatsuki-2010/photo.jpg"
+    },
+    "launch_vehicle": "H-IIA 202",
+    "orbit_type": "Cytherocentric"
   },
   {
     "id": "cryosat-2-2010",
@@ -2417,7 +2914,17 @@
     "category": "Earth science",
     "status": "Success",
     "outcome": "Ice-sheet and sea-ice elevation monitoring.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:CryoSat_model_ESA384323.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/cryosat-2-2010/photo.jpg"
+    },
+    "launch_vehicle": "Dnepr",
+    "orbit_type": "Geocentric",
+    "duration": "3 years (planned) Elapsed:"
   },
   {
     "id": "ikaros-2010",
@@ -2428,7 +2935,17 @@
     "category": "Solar-sail technology",
     "status": "Success",
     "outcome": "First interplanetary solar-sail demonstration.",
-    "era": "2001–2012: Planetary Exploration Becomes Persistent"
+    "era": "2001–2012: Planetary Exploration Becomes Persistent",
+    "media": {
+      "credit": "Andrzej Mirecki, via Wikimedia Commons · CC BY-SA 3.0",
+      "license": "cc-by-sa-3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:IKAROS_solar_sail.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/ikaros-2010/photo.jpg"
+    },
+    "launch_vehicle": "H-IIA 202",
+    "mass_kg": 310,
+    "orbit_type": "Heliocentric orbit"
   },
   {
     "id": "grail-2011",
@@ -2446,7 +2963,10 @@
       "source": "https://images.nasa.gov/details/PIA16622",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/grail-2011/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Delta II 7920H-10D-356",
+    "mass_kg": 202,
+    "orbit_type": "Selenocentric"
   },
   {
     "id": "juno-2011",
@@ -2479,7 +2999,7 @@
     "outcome": "Failed to leave Earth orbit; included the Yinghuo-1 payload.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
     "media": {
-      "credit": "MKonair, via Wikimedia Commons — CC BY-SA 2.0",
+      "credit": "MKonair, via Wikimedia Commons · CC BY-SA 2.0",
       "license": "cc-by-sa-2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Cebit_2011-fobos-grunt_together_with_upper_stage.jpg",
       "checked": "2026-08-23",
@@ -2501,7 +3021,7 @@
     "outcome": "First Chinese space-laboratory module.",
     "era": "2001–2012: Planetary Exploration Becomes Persistent",
     "media": {
-      "credit": "Steed Yu, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Steed Yu, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Tiangong_1_in_Beijing_20180401.jpg",
       "checked": "2026-08-23",
@@ -2545,7 +3065,11 @@
       "source": "https://images.nasa.gov/details/PIA15777",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/nustar-2012/photo.jpg"
-    }
+    },
+    "launch_date": "2012-06-13",
+    "launch_vehicle": "Pegasus XL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "2 years (planned) ''(in progress) ''"
   },
   {
     "id": "chang-e-3-yutu-2013",
@@ -2557,6 +3081,13 @@
     "status": "Success",
     "outcome": "First soft lunar landing since 1976 and first Chinese lunar surface mission.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "Institute of High Energy Physics, Chinese Academy of Science, via Wikimedia Commons · CC BY 4.0",
+      "license": "cc-by-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yutu_rover.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/chang-e-3-yutu-2013/photo.jpg"
+    },
     "launch_date": "2013-12-01"
   },
   {
@@ -2568,7 +3099,14 @@
     "category": "Space observatory",
     "status": "Success",
     "outcome": "Created an unprecedented 3D map of the Milky Way.",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "Pline, via Wikimedia Commons · CC BY-SA 3.0",
+      "license": "cc-by-sa-3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Maquette_de_Gaia_salon_du_Bourget_2013_DSC_0191.JPG",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/gaia-2013/photo.jpg"
+    }
   },
   {
     "id": "iris-2013",
@@ -2586,7 +3124,11 @@
       "source": "https://images.nasa.gov/details/KSC-2013-2727",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/iris-2013/photo.jpg"
-    }
+    },
+    "launch_date": "2013-06-28",
+    "launch_vehicle": "Pegasus-XL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "2 years (planned) ''(in progress) ''"
   },
   {
     "id": "mars-orbiter-mission-mangalyaan-2013",
@@ -2599,7 +3141,7 @@
     "outcome": "India’s first interplanetary mission and first successful Mars mission on its first attempt.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
     "media": {
-      "credit": "Nesnad, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Nesnad, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Mars_Orbiter_Mission_-_India_-_ArtistsConcept.jpg",
       "checked": "2026-08-23",
@@ -2620,7 +3162,7 @@
     "outcome": "Returned asteroid samples to Earth in 2020.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
     "media": {
-      "credit": "DLR German Aerospace Center, via Wikimedia Commons — CC BY 2.0",
+      "credit": "DLR German Aerospace Center, via Wikimedia Commons · CC BY 2.0",
       "license": "cc-by-2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Hayabusa2_and_Earth.jpg",
       "checked": "2026-08-23",
@@ -2681,6 +3223,13 @@
     "status": "Success",
     "outcome": "India’s first dedicated multiwavelength space observatory.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "Indian Space Research Organisation, via Wikimedia Commons · GODL-India",
+      "license": "godl-india",
+      "source": "https://commons.wikimedia.org/wiki/File:Astrosat-1_in_deployed_configuration.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/astrosat-2015/photo.jpg"
+    },
     "launch_vehicle": "PSLV-C30",
     "orbit_type": "Near-equatorial",
     "duration": "Planned: 5 years Elapsed :"
@@ -2694,7 +3243,14 @@
     "category": "Astronomy milestone",
     "status": "Success",
     "outcome": "Opened gravitational-wave astronomy (included as a cross-disciplinary space-science milestone).",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "LIGO Laboratory, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:LIGO_Hanford_aerial_05.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/ligo-first-gravitational-wave-detection-2015/photo.jpg"
+    }
   },
   {
     "id": "lisa-pathfinder-2015",
@@ -2707,7 +3263,7 @@
     "outcome": "Demonstrated precision technology for space gravitational-wave observatories.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
     "media": {
-      "credit": "NASA, via Wikimedia Commons — Public domain",
+      "credit": "NASA, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:LISA_Pathfinder_spacecraft_model.png",
       "checked": "2026-08-23",
@@ -2734,7 +3290,9 @@
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/new-horizons-2015/photo.jpg"
     },
-    "launch_date": "2006-01-19"
+    "launch_date": "2006-01-19",
+    "launch_vehicle": "Atlas V",
+    "duration": "9.5 years (planned) (elapsed)"
   },
   {
     "id": "exomars-trace-gas-orbiter-schiaparelli-2016",
@@ -2747,12 +3305,16 @@
     "outcome": "TGO entered Mars orbit successfully; Schiaparelli crashed during descent.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
     "media": {
-      "credit": "P.Fisxo, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "P.Fisxo, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:ExoMars_2016.png",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/exomars-trace-gas-orbiter-schiaparelli-2016/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Proton-M",
+    "mass_kg": 4332,
+    "orbit_type": "Circular",
+    "duration": "Planned: 7 years Elapsed:"
   },
   {
     "id": "osiris-rex-2016",
@@ -2787,7 +3349,7 @@
     "outcome": "Supported China’s crewed-spaceflight and in-orbit refuelling demonstrations.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
     "media": {
-      "credit": "Leebrandoncremer, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Leebrandoncremer, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Model_of_the_Chinese_Tiangong_Shenzhou.jpg",
       "checked": "2026-08-23",
@@ -2826,6 +3388,13 @@
     "status": "In transit",
     "outcome": "Joint mission en route to investigate Mercury and its environment.",
     "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "European Space Agency, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_stack_ESA380846.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/bepicolombo-2018/photo.jpg"
+    },
     "launch_date": "2018-10-20",
     "launch_vehicle": "Ariane 5 ECA"
   },
@@ -2892,7 +3461,19 @@
     "category": "Exoplanet astronomy",
     "status": "Operational",
     "outcome": "Characterizes known exoplanets.",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "The Cosmonaut, via Wikimedia Commons · CC BY-SA 2.5 ca",
+      "license": "cc-by-sa-2.5-ca",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheops_Mountain_seen_the_Sir_Donald_Trail.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/cheops-2019/photo.jpg"
+    },
+    "launch_date": "2019-12-18",
+    "launch_vehicle": "Soyuz-ST-A",
+    "mass_kg": 273,
+    "orbit_type": "Geocentric orbit",
+    "duration": "3.5 years (nominal) + 3 years (extended) Elapsed: ''(in progress) ''"
   },
   {
     "id": "chandrayaan-2-2019",
@@ -2903,7 +3484,14 @@
     "category": "Orbiter / lander / rover",
     "status": "Partial success",
     "outcome": "Orbiter remains productive; Vikram lander was lost during descent.",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "Lamid58, via Wikimedia Commons · CC BY-SA 4.0",
+      "license": "cc-by-sa-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chandrayaan-2.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/chandrayaan-2-2019/photo.jpg"
+    }
   },
   {
     "id": "chang-e-4-2019",
@@ -2914,7 +3502,14 @@
     "category": "Lander / rover",
     "status": "Success",
     "outcome": "First soft landing on the lunar far side.",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Sci, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Yangtzee_River_(ASTER).jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/chang-e-4-2019/photo.jpg"
+    }
   },
   {
     "id": "chang-e-5-2020",
@@ -2925,7 +3520,17 @@
     "category": "Lunar sample return",
     "status": "Success",
     "outcome": "First lunar samples returned since 1976.",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "China News Service, via Wikimedia Commons · CC BY 4.0",
+      "license": "cc-by-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Launch_of_Chang'e_5.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/chang-e-5-2020/photo.jpg"
+    },
+    "launch_date": "2020-11-23",
+    "launch_vehicle": "Long March 5",
+    "mass_kg": 8200
   },
   {
     "id": "hope-emirates-mars-mission-2020",
@@ -2943,7 +3548,11 @@
       "source": "https://commons.wikimedia.org/wiki/File:Mars_Orbit_23_-_Hope_Mission_(51570485500).png",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/hope-emirates-mars-mission-2020/photo.png"
-    }
+    },
+    "launch_date": "2020-07-20",
+    "launch_vehicle": "H-IIA",
+    "mass_kg": 1350,
+    "duration": "(''since orbital insertion'') 2 years (planned)"
   },
   {
     "id": "perseverance-ingenuity-2020",
@@ -2962,7 +3571,8 @@
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/perseverance-ingenuity-2020/photo.jpg"
     },
-    "launch_date": "2020-07-30"
+    "launch_date": "2020-07-30",
+    "launch_vehicle": "Atlas V 541"
   },
   {
     "id": "tianwen-1-2020",
@@ -2973,7 +3583,17 @@
     "category": "Orbiter / lander / rover",
     "status": "Success",
     "outcome": "Successful Mars orbiter and Zhurong rover mission.",
-    "era": "2013–2020: New Spacefaring Nations and Sample Return"
+    "era": "2013–2020: New Spacefaring Nations and Sample Return",
+    "media": {
+      "credit": "中新网, via Wikimedia Commons · CC BY 4.0",
+      "license": "cc-by-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tianwen-1_launch_01.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/tianwen-1-2020/photo.jpg"
+    },
+    "launch_date": "2025-05-28",
+    "launch_vehicle": "Long March 3B",
+    "duration": "10 years (planned) (elapsed)"
   },
   {
     "id": "ixpe-2021",
@@ -2984,7 +3604,18 @@
     "category": "X-ray astronomy",
     "status": "Operational",
     "outcome": "X-ray polarimetry observatory.",
-    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science"
+    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "NASA / Jarrod S. Bales, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Imaging_X-ray_Polarimetry_Explorer_(IXPE)_logo.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/ixpe-2021/photo.jpg"
+    },
+    "launch_date": "2021-12-09",
+    "launch_vehicle": "Falcon 9 B1061-5",
+    "orbit_type": "Geocentric orbit",
+    "duration": "5 years (planned) (''in progress'')"
   },
   {
     "id": "james-webb-space-telescope-2021",
@@ -3003,7 +3634,8 @@
       "checked": "2026-08-22",
       "thumb": "assets/images/missions/james-webb-space-telescope-2021/photo.jpg"
     },
-    "launch_date": "2021-12-25"
+    "launch_date": "2021-12-25",
+    "orbit_type": "Sun–Earth L2 orbit"
   },
   {
     "id": "nauka-and-prichal-2021",
@@ -3056,7 +3688,7 @@
     "outcome": "Core module launched; China established a permanently inhabited modular station.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "Shujianyang, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "Shujianyang, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Tianhe_core_module_mockup_at_CSTM_02.jpg",
       "checked": "2026-08-23",
@@ -3132,7 +3764,7 @@
     "outcome": "India’s first solar observatory; entered halo orbit in January 2024.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "Debapratim and Chinakpradhan, via Wikimedia Commons — CC BY-SA 2.0",
+      "credit": "Debapratim and Chinakpradhan, via Wikimedia Commons · CC BY-SA 2.0",
       "license": "cc-by-sa-2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Aditya_L1.jpg",
       "checked": "2026-08-23",
@@ -3152,6 +3784,13 @@
     "status": "Success",
     "outcome": "First Indian soft landing on the Moon; first near the lunar south polar region.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "ISRO/Simeon Schmauß, via Wikimedia Commons · CC BY 2.0",
+      "license": "cc-by-2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chandrayaan_3_Vikram_lander_stereo_(53167467822)_crop.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/chandrayaan-3-2023/photo.jpg"
+    },
     "launch_date": "2023-07-14",
     "launch_vehicle": "LVM3 M4"
   },
@@ -3165,6 +3804,13 @@
     "status": "Operational",
     "outcome": "Maps the dark universe through a wide extragalactic survey.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "ESA (acknowledgement: work performed by ATG under contract t, via Wikimedia Commons · CC BY-SA 3.0 igo",
+      "license": "cc-by-sa-3.0-igo",
+      "source": "https://commons.wikimedia.org/wiki/File:Euclid_launch_kit_cover.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/euclid-2023/photo.jpg"
+    },
     "launch_date": "2023-07-01",
     "launch_vehicle": "Falcon 9",
     "orbit_type": "Sun–Earth L2",
@@ -3186,7 +3832,9 @@
       "source": "https://images.nasa.gov/details/PIA24024",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/juice-2023/photo.jpg"
-    }
+    },
+    "launch_date": "2023-04-14",
+    "duration": "{{ubli|Cruise phase:8 years|Science phase:3.5 years|Elapsed:}}"
   },
   {
     "id": "luna-25-2023",
@@ -3198,7 +3846,15 @@
     "status": "Failure",
     "outcome": "Reached lunar orbit but crashed during landing attempt; first Russian lunar mission since the Soviet era.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
-    "launch_date": "2023-08-10"
+    "media": {
+      "credit": "Pline, via Wikimedia Commons · CC BY-SA 4.0",
+      "license": "cc-by-sa-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/luna-25-2023/photo.jpg"
+    },
+    "launch_date": "2023-08-10",
+    "duration": "{{ubl|1 year (planned) | Actual: c. 9 days (mission failure) }}"
   },
   {
     "id": "osiris-rex-sample-return-2023",
@@ -3211,12 +3867,16 @@
     "outcome": "Delivered Bennu samples to Earth.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "NASA/Goddard/University of Arizona/Lockheed Martin, via Wikimedia Commons — Public domain",
+      "credit": "NASA/Goddard/University of Arizona/Lockheed Martin, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:OSIRIS-REx_SRC_and_Bennu.png",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/osiris-rex-sample-return-2023/photo.jpg"
-    }
+    },
+    "launch_date": "2016-09-08",
+    "launch_vehicle": "Atlas V 411",
+    "orbit_type": "Bennu-centric",
+    "duration": "7 years (planned) at asteroid (actual) (elapsed)"
   },
   {
     "id": "psyche-2023",
@@ -3250,7 +3910,7 @@
     "outcome": "High-resolution X-ray spectroscopy observatory.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab, via Wikimedia Commons — Public domain",
+      "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab, via Wikimedia Commons · Public domain",
       "license": "public-domain",
       "source": "https://commons.wikimedia.org/wiki/File:XRISM_001.png",
       "checked": "2026-08-23",
@@ -3272,7 +3932,7 @@
     "outcome": "First samples returned from the lunar far side.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "BugWarp, via Wikimedia Commons — CC BY-SA 4.0",
+      "credit": "BugWarp, via Wikimedia Commons · CC BY-SA 4.0",
       "license": "cc-by-sa-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Chang'e_6_lunar_samples_at_IAC_2024_01.jpg",
       "checked": "2026-08-23",
@@ -3297,7 +3957,9 @@
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/europa-clipper-2024/photo.jpg"
     },
-    "launch_date": "2024-10-14"
+    "launch_date": "2024-10-14",
+    "launch_vehicle": "Falcon Heavy Block 5",
+    "duration": "Cruise: 5.5 yearsScience phase: 4 yearsElapsed:"
   },
   {
     "id": "hera-2024",
@@ -3310,7 +3972,7 @@
     "outcome": "Launched to examine the outcome of DART’s asteroid deflection.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "Patrick Michel, Michael Küppers, Adriano Campo Bagatin, Beno, via Wikimedia Commons — CC BY 4.0",
+      "credit": "Patrick Michel, Michael Küppers, Adriano Campo Bagatin, Beno, via Wikimedia Commons · CC BY 4.0",
       "license": "cc-by-4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Hera_spacecraft_design.jpg",
       "checked": "2026-08-23",
@@ -3330,10 +3992,10 @@
     "outcome": "First U.S. soft lunar landing since 1972 and first commercial lunar soft landing.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
     "media": {
-      "credit": "Image credit: NASA",
+      "credit": "NASA/GSFC/Arizona State University, via Wikimedia Commons · Public domain",
       "license": "public-domain",
-      "source": "https://images.nasa.gov/details/RGM_4276",
-      "checked": "2026-08-23",
+      "source": "https://commons.wikimedia.org/wiki/File:Image_(M1463440322L)_of_Intuitive_Machines_IM-1_Nova-C,_known_as_Odysseus_landing_site_captured_by_Lunar_Reconnaissance_Orbiter_Camera_(LROC)_(without_arrow).png",
+      "checked": "2026-08-24",
       "thumb": "assets/images/missions/im-1-odysseus-2024/photo.jpg"
     },
     "launch_date": "2024-02-15",
@@ -3371,6 +4033,13 @@
     "status": "Success",
     "outcome": "Demonstrated a precision lunar landing.",
     "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "Hms1103, via Wikimedia Commons · CC BY-SA 4.0",
+      "license": "cc-by-sa-4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:SLIM_half_scale_model.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/slim-2024/photo.jpg"
+    },
     "launch_vehicle": "H-IIA 202"
   },
   {
@@ -3382,7 +4051,18 @@
     "category": "Space observatory",
     "status": "Operational",
     "outcome": "India’s X-ray polarimetry observatory.",
-    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science"
+    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "Indian Space Research Organisation, via Wikimedia Commons · GODL-India",
+      "license": "godl-india",
+      "source": "https://commons.wikimedia.org/wiki/File:PSLV-C58,_XPoSat_-_Render_of_XPoSat_satellite_in_deployed_configuration.png",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/xposat-2024/photo.jpg"
+    },
+    "launch_date": "2024-01-01",
+    "launch_vehicle": "PSLV-DL",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned : 5 years"
   },
   {
     "id": "blue-ghost-mission-1-2025",
@@ -3400,7 +4080,8 @@
       "source": "https://images.nasa.gov/details/KSC-20250114-PH-KLS01_0014",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/blue-ghost-mission-1-2025/photo.jpg"
-    }
+    },
+    "launch_vehicle": "Falcon 9 Block 5"
   },
   {
     "id": "nisar-2025",
@@ -3418,7 +4099,11 @@
       "source": "https://images.nasa.gov/details/PIA26285",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/nisar-2025/photo.jpg"
-    }
+    },
+    "launch_date": "2025-07-30",
+    "launch_vehicle": "GSLV F16",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 5 years Duration:"
   },
   {
     "id": "punch-2025",
@@ -3429,7 +4114,17 @@
     "category": "Heliophysics",
     "status": "Operational",
     "outcome": "Four-spacecraft mission imaging the corona and solar wind.",
-    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science"
+    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "NASA Kennedy Space Center / USSF 30th Space Wing/Alex Valdez, via Wikimedia Commons · Public domain",
+      "license": "public-domain",
+      "source": "https://commons.wikimedia.org/wiki/File:PUNCH_Satellites_Solar_Array_Deployment_Test_(KSC-20250121-PH-ANV01_0028).jpg",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/punch-2025/photo.jpg"
+    },
+    "launch_date": "2025-03-12",
+    "launch_vehicle": "Falcon 9 Block 5",
+    "orbit_type": "Geocentric orbit"
   },
   {
     "id": "spherex-2025",
@@ -3447,7 +4142,11 @@
       "source": "https://images.nasa.gov/details/PIA26533",
       "checked": "2026-08-23",
       "thumb": "assets/images/missions/spherex-2025/photo.jpg"
-    }
+    },
+    "launch_date": "2025-03-12",
+    "launch_vehicle": "Falcon 9 Block 5",
+    "orbit_type": "Geocentric orbit",
+    "duration": "Planned: 25 months Elapsed:"
   },
   {
     "id": "artemis-ii-2026",
@@ -3458,6 +4157,15 @@
     "category": "Human spaceflight",
     "status": "Success",
     "outcome": "Crewed lunar flyby; first people around the lunar far side since Apollo.",
-    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science"
+    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "credit": "Image credit: NASA",
+      "license": "public-domain",
+      "source": "https://images.nasa.gov/details/KSC-01172026-Artemis II_Rollout-9",
+      "checked": "2026-08-24",
+      "thumb": "assets/images/missions/artemis-ii-2026/photo.jpg"
+    },
+    "launch_date": "2026-04-01",
+    "launch_vehicle": "Space Launch System"
   }
 ]

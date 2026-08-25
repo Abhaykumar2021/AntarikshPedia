@@ -4,3 +4,4 @@ dist/
 PLAN.docx
 copyright_guidelines.md
 Bugs
+__pycache__/

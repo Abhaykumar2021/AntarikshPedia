@@ -9,7 +9,6 @@ export default function (eleventyConfig) {
     'src/assets': 'assets',
     'src/styles': 'styles',
     'src/scripts': 'scripts',
-    'src/admin': 'admin',
   });
 
   // ---------- filters ----------
@@ -17,6 +16,11 @@ export default function (eleventyConfig) {
   /** Look up a mission record by id. */
   eleventyConfig.addFilter('missionById', (missions, id) =>
     missions.find(m => m.id === id)
+  );
+
+  /** Look up an agency record by slug (for rendering proper names). */
+  eleventyConfig.addFilter('agencyBySlug', (agencies, slug) =>
+    agencies.find(a => a.slug === slug)
   );
 
   /** Mutating push for building arrays inside njk loops. */
@@ -115,6 +119,30 @@ export default function (eleventyConfig) {
     return missions.filter(
       m => m.launch_date && m.launch_date.slice(5) === mmdd
     );
+  });
+
+  /** The launch anniversaries closest to today's date (any year).
+      Fallback so the homepage history section is never empty just
+      because no famous launch happened on today's exact date. */
+  eleventyConfig.addFilter('nearestAnniversaries', (missions, limit = 4) => {
+    const dayOfYear = s => {
+      const [, mm, dd] = s.split('-').map(Number);
+      return Math.round(
+        (Date.UTC(2001, mm - 1, dd) - Date.UTC(2001, 0, 1)) / 86400000
+      );
+    };
+    const now = new Date();
+    const today = dayOfYear(
+      `2001-${String(now.getMonth() + 1).padStart(2, '0')}-${String(
+        now.getDate()
+      ).padStart(2, '0')}`
+    );
+    return missions
+      .filter(m => m.launch_date)
+      .map(m => ({ m, delta: Math.abs(dayOfYear(m.launch_date) - today) }))
+      .sort((a, b) => a.delta - b.delta)
+      .slice(0, limit)
+      .map(x => x.m);
   });
 
   /** Era accent CSS variable by era prefix. */

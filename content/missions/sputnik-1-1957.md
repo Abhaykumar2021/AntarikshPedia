@@ -6,7 +6,7 @@ The Soviet Union had publicly committed to launching a satellite as part of
 the International Geophysical Year (1957–58). Two satellites were planned:
 Object D, a heavy scientific laboratory that kept slipping behind schedule,
 and a simpler probe that could be finished first. That simpler probe became
-Sputnik 1 — an 83.6 kg polished aluminum sphere with four whip antennas and
+Sputnik 1, an 83.6 kg polished aluminum sphere with four whip antennas and
 a radio transmitter, launched on an R-7 rocket adapted from the Soviet
 intercontinental ballistic missile program.
 
@@ -29,7 +29,7 @@ The sphere burned up on re-entry on 4 January 1958, having completed about
 Tracking Sputnik's orbit gave scientists their first measurement of the
 upper atmosphere's density, derived from how drag changed the orbit over
 time. Meteorologists studying the signal noticed its fade patterns were
-tied to ionospheric electron content — data that fed early ionospheric
+tied to ionospheric electron content, data that fed early ionospheric
 research.
 
 The political consequence was larger than the scientific one. Sputnik's

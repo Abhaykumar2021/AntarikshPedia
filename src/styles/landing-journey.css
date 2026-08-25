@@ -80,7 +80,26 @@
   margin-top: var(--space-6);
 }
 
-.facts-wrap { padding-block: var(--space-5); }
+/* breathing room between the CTAs and the telemetry strip */
+.journey-hero .facts-strip {
+  margin-top: var(--space-8);
+}
+
+/* image credit, tucked into the hero's bottom-right corner */
+.hero-credit {
+  position: absolute;
+  right: var(--space-5);
+  bottom: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  color: rgba(242, 242, 240, 0.55);
+  text-shadow: 0 1px 8px rgba(4, 6, 10, 0.8);
+}
+
+.hero-credit:hover {
+  color: rgba(242, 242, 240, 0.85);
+}
 
 /* on this day */
 .otd {
@@ -93,151 +112,239 @@
   color: var(--color-muted);
 }
 
-/* journey milestones */
-.journey-strip {
+.otd-note {
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  margin-top: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+/* ============================================================
+   The evolution — milestones as one lineage, 1957 to today.
+   A central spine "grows" down the section as you scroll (JS
+   sets --growth 0→1); each milestone branches off it, era-colored.
+   ============================================================ */
+
+.evo-strip {
   max-width: var(--max-width);
   margin-inline: auto;
   padding: var(--space-8) var(--space-5) var(--space-6);
   text-align: center;
 }
 
-.milestones {
+.evo-lede {
+  max-width: 62ch;
+  margin: var(--space-4) auto 0;
+  color: var(--color-muted);
+  font-size: var(--text-lg);
+  line-height: 1.65;
+}
+
+.evolution {
+  --growth: 1;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: var(--space-4);
-  margin-block: var(--space-6);
-  counter-reset: milestone;
-}
-
-.milestone a {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-  height: 100%;
-  padding: var(--space-4);
-  border: 1px solid var(--color-border);
-  border-top: 3px solid var(--era-accent, var(--color-accent));
-  border-radius: var(--radius-md);
-  background: var(--color-surface);
-  color: var(--color-text);
+  max-width: 920px;
+  margin: var(--space-7) auto var(--space-6);
+  padding-block: var(--space-4);
   text-align: left;
-  transition:
-    transform var(--transition-med),
-    border-color var(--transition-med),
-    box-shadow var(--transition-med);
 }
 
-.milestone a:hover {
-  transform: translateY(-5px);
-  border-color: var(--era-accent, var(--color-accent));
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 20px var(--accent-soft);
+/* the full lineage track (dim) */
+.evolution::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    180deg,
+    transparent,
+    var(--color-border) 4%,
+    var(--color-border) 96%,
+    transparent
+  );
 }
 
-.m-year {
+/* the grown part of the lineage (bright, era-colored) — JS drives it */
+.evolution::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  transform: translateX(-50%) scaleY(var(--growth));
+  transform-origin: top;
+  background: linear-gradient(
+    180deg,
+    var(--era-1),
+    var(--era-2),
+    var(--era-2),
+    var(--era-3),
+    var(--era-4),
+    var(--era-5),
+    var(--era-6)
+  );
+  box-shadow: 0 0 14px var(--accent-glow);
+}
+
+.evo-item {
+  position: relative;
+  width: 50%;
+  padding: var(--space-4) var(--space-6) var(--space-6);
+}
+
+.evo-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.evo-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
+}
+
+/* connector from the spine to the card */
+.evo-item::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  height: 2px;
+  width: var(--space-6);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--era-accent, var(--color-accent))
+  );
+}
+
+.evo-item:nth-child(odd)::before {
+  right: 0;
+}
+
+.evo-item:nth-child(even)::before {
+  left: 0;
+  transform: scaleX(-1);
+}
+
+/* node on the spine */
+.evo-node {
+  position: absolute;
+  top: 22px;
+  z-index: 1;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 2px solid var(--era-accent, var(--color-accent));
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.evo-node::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: var(--era-accent, var(--color-accent));
+}
+
+.evo-item:nth-child(odd) .evo-node {
+  right: -8px;
+}
+
+.evo-item:nth-child(even) .evo-node {
+  left: -8px;
+}
+
+.evo-item a {
+  display: block;
+  color: var(--color-text);
+}
+
+.evo-year {
+  display: block;
   font-family: var(--font-mono);
   font-size: var(--text-sm);
   letter-spacing: 0.2em;
   color: var(--era-accent, var(--color-accent));
+  margin-bottom: var(--space-2);
 }
 
-.milestone img {
-  aspect-ratio: 4 / 3;
+.evo-media {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border-strong);
+  margin-bottom: var(--space-3);
+}
+
+.evo-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
-  border-radius: var(--radius-sm);
+  object-position: 50% 18%;
+  filter: saturate(0.92);
+  transition: transform var(--transition-med), filter var(--transition-med);
 }
 
-.m-name {
+.evo-item a:hover .evo-media img {
+  transform: scale(1.04);
+  filter: saturate(1.05);
+}
+
+.evo-name {
+  display: block;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: var(--text-md);
-}
-
-.m-outcome {
-  color: var(--color-muted);
-  font-size: var(--text-xs);
-}
-
-.center-cta { margin-top: var(--space-5); }
-
-/* mission page shared bits reused by vision/catalog pages */
-.page-head { padding-block: var(--space-7) var(--space-5); }
-
-.mp-section {
-  padding-block: var(--space-6);
-  max-width: 860px;
-  margin-inline: auto;
-}
-
-.mp-section h2 {
-  font-size: var(--text-xl);
-  text-transform: uppercase;
-  margin-bottom: var(--space-4);
-}
-
-.context-note {
-  color: var(--color-muted);
-  font-style: italic;
-}
-
-.chain {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  align-items: center;
-  justify-content: center;
-}
-
-.chain li:not(.chain-arrow) {
-  padding: var(--space-2) var(--space-4);
-  border: 1px solid var(--color-border-strong);
-  border-radius: var(--pill);
-  font-family: var(--font-display);
-  font-weight: 600;
-  transition:
-    border-color var(--transition-fast),
-    box-shadow var(--transition-fast);
-}
-
-.chain li:not(.chain-arrow):hover {
-  border-color: var(--color-accent);
-  box-shadow: 0 0 18px var(--accent-glow);
-}
-
-.chain-arrow {
-  color: var(--color-muted);
-}
-
-.principle-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: var(--space-5);
-}
-
-.principle-card.now {
-  border-color: rgba(232, 163, 61, 0.55);
-}
-
-.phase-tag {
-  display: inline-block;
-  margin-bottom: var(--space-3);
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-accent);
-}
-
-.standard blockquote {
-  border-left: 3px solid var(--color-accent);
-  padding-left: var(--space-4);
   font-size: var(--text-lg);
 }
 
-.standard-note {
-  color: var(--color-muted);
-  margin-block: var(--space-4) var(--space-5);
+.evo-item a:hover .evo-name {
+  color: var(--era-accent, var(--color-accent));
 }
+
+.evo-outcome {
+  display: block;
+  margin-top: var(--space-1);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .evolution::before,
+  .evolution::after {
+    left: 9px;
+    transform: none;
+  }
+  .evolution::after {
+    transform-origin: top;
+    transform: scaleY(var(--growth));
+  }
+  .evo-item,
+  .evo-item:nth-child(odd),
+  .evo-item:nth-child(even) {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: var(--space-3) 0 var(--space-5) var(--space-7);
+  }
+  .evo-item:nth-child(odd)::before,
+  .evo-item:nth-child(even)::before {
+    left: 17px;
+    right: auto;
+    width: var(--space-4);
+    transform: none;
+  }
+  .evo-item:nth-child(odd) .evo-node,
+  .evo-item:nth-child(even) .evo-node {
+    left: 2px;
+    right: auto;
+  }
+}
+
+.center-cta { margin-top: var(--space-6); }

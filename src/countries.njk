@@ -32,7 +32,8 @@ eleventyComputed:
         {% if country.note %}<p class="card-outcome">{{ country.note }}</p>{% endif %}
         <div class="card-chips">
           {% for aid in country.agency_ids %}
-            <a class="chip" href="/agencies/{{ aid }}/">{{ aid | replace('-', ' ') }}</a>
+            {% set agency = agencies | agencyBySlug(aid) %}
+            <a class="chip chip-link" href="/agencies/{{ aid }}/">{{ agency.name if agency else (aid | replace('-', ' ')) }}</a>
           {% endfor %}
           <a class="chip chip-link" href="/countries/{{ country.slug }}/">View timeline →</a>
         </div>
