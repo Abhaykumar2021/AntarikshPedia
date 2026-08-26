@@ -2,7 +2,7 @@
 
 > **Purpose:** Complete context for the AntarikshPedia codebase so a fresh
 > model session can resume work without re-reading the whole repo.
-> Last updated: 2026-08-26 (Execution #16).
+> Last updated: 2026-08-26 (Execution #17).
 
 ## 0. Laws (from the user — always in force)
 
@@ -59,12 +59,14 @@ site uses `src/assets/images/carina-nebula.jpg`.
 - **Auto-deploy:** every push to `main` → Cloudflare builds
   `npm run build` (Python 3 available in its build image) → live on
   `https://antarikshpedia.space`.
-- **Deploy command gotcha (Execution #16):** the project's deploy step
-  MUST be `npx wrangler pages deploy dist --project-name=antarikshpedia`
-  (set in the Cloudflare dashboard, Settings > Build). A plain
-  `npx wrangler deploy` fails with "Missing entry-point" — it expects a
-  Worker script or `[assets]` config, and `pages_build_output_dir` in
-  wrangler.toml does not apply to it.
+- **Deploy command gotcha (Executions #16–#17):** the project lives in
+  Cloudflare's Workers build flow with deploy command
+  `npx wrangler deploy`. `wrangler.toml` is therefore a Workers
+  static-assets config (`[assets] directory = "./dist"`), NOT a Pages
+  config — do not reintroduce `pages_build_output_dir`, and do not switch
+  the deploy command to `wrangler pages deploy` (its token lacks Pages
+  permission, auth error 10000). Site serves as a Worker with static
+  assets; custom domain attaches via Workers & Pages > Custom domains.
 - **Nightly rebuild:** `.github/workflows/daily-rebuild.yml` cron
   (`30 19 * * *` = 01:00 IST) POSTs to the Cloudflare build hook stored in
   the GitHub repo secret `CF_BUILD_HOOK` (workflow skips gracefully if

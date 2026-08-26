@@ -865,3 +865,40 @@ require custom-domain reattachment for antarikshpedia.space.
 ### Status: awaiting user to update the dashboard setting and retry.
 
 ---
+
+## Execution #17 — 2026-08-26 IST
+
+### Issue
+Two further failed deploys after Execution #16:
+1. Deploy command corrected to
+   `npx wrangler pages deploy dist --project-name=antarikshpedia`, but it
+   failed with "Authentication error [code: 10000]" against the Pages API:
+   the build environment's CLOUDFLARE_API_TOKEN (injected by the Workers
+   build flow) has no Cloudflare Pages permission.
+2. A true Pages "Connect to Git" project was not reachable either; the
+   user's dashboard forces a required deploy command field.
+
+### Fix (Plan B, user-approved)
+Converted `wrangler.toml` from a Pages config to a Workers static-assets
+config so the ORIGINAL deploy command (`npx wrangler deploy`) works with
+the token the build already has:
+
+```toml
+name = "antarikshpedia"
+compatibility_date = "2026-08-24"
+
+[assets]
+directory = "./dist"
+```
+
+Verified locally: `npx wrangler deploy --dry-run` reads all 1037 files
+from dist/ with no Worker script. Consequence: the site serves as a
+Worker with static assets instead of a Pages project; the custom domain
+antarikshpedia.space must be attached to this worker in the dashboard
+(Workers & Pages > antarikshpedia > Custom domains). The nightly build
+hook keeps working.
+
+### Status: change in working tree; committed and pushed after approval;
+awaiting next build result.
+
+---
