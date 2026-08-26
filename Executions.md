@@ -832,3 +832,36 @@ flow (no deploy command; output dir read directly).
 ### Status: fix committed to working tree; awaiting commit approval.
 
 ---
+
+## Execution #16 — 2026-08-26 IST
+
+### Issue
+Second Cloudflare deploy failed. Build succeeded (247 files written,
+validation OK) but the deploy step ran
+`Executing user deploy command: npx wrangler deploy` and aborted with
+"[ERROR] Missing entry-point to Worker script or to assets directory".
+Wrangler warned that `wrangler deploy` was run on a Pages project.
+
+### Diagnosis
+The Cloudflare project still carries the Workers-style deploy command
+from before Execution #15. Pinning `pages_build_output_dir = "dist"` in
+`wrangler.toml` fixed nothing because the failing command never reads it:
+`wrangler deploy` expects a Worker entry-point or an `[assets]` block,
+neither of which this repo has (correctly).
+
+### Fix (user-approved)
+Change the deploy command in the Cloudflare dashboard
+(Settings > Build > Deploy command) to:
+
+```
+npx wrangler pages deploy dist --project-name=antarikshpedia
+```
+
+No repo changes required. The alternative (converting `wrangler.toml`
+to a Workers static-assets config with `[assets] directory = "./dist"`)
+was considered and rejected: it would serve the site as a Worker and
+require custom-domain reattachment for antarikshpedia.space.
+
+### Status: awaiting user to update the dashboard setting and retry.
+
+---
