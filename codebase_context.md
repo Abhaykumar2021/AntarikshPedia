@@ -2,7 +2,7 @@
 
 > **Purpose:** Complete context for the AntarikshPedia codebase so a fresh
 > model session can resume work without re-reading the whole repo.
-> Last updated: 2026-08-24 (Execution #5).
+> Last updated: 2026-08-26 (Execution #14).
 
 ## 0. Laws (from the user — always in force)
 
@@ -23,10 +23,15 @@ Also standing: before executing any task, write a summary + expected output
 in `Executions.md` with a timestamp; never get stuck in a loop — terminate a
 stuck task and find another method or skip it with a note in `Executions.md`.
 
-Commit history of note: `6ae5c32` (2026-08-24) — flip-book removal, dark-only
-theme, vision page redesign, Carina Nebula hero, context/log docs. The root
-`Carina Nebula.jpg` original is intentionally untracked; the site uses
-`src/assets/images/carina-nebula.jpg`.
+Commit history of note:
+- `3f48b6e` (2026-08-25) — Executions #4–#13: site-wide style fixes,
+  humanized copy, /admin removal, home redesign (evolution timeline,
+  on-this-day fallback), brand assets, 57 new mission thumbnails
+  (202/209), related-rail thumbnail fix.
+- `6ae5c32` (2026-08-24) — flip-book removal, dark-only theme, vision
+  page redesign, Carina Nebula hero, context/log docs.
+The root `Carina Nebula.jpg` original is intentionally untracked; the
+site uses `src/assets/images/carina-nebula.jpg`.
 
 ## 14. Brand assets (added 2026-08-24, Execution #3)
 
@@ -41,6 +46,26 @@ theme, vision page redesign, Carina Nebula hero, context/log docs. The root
     absolute if a canonical domain is ever configured).
 - To regenerate: re-run the sips crop/resize chain documented in
   `Executions.md` Execution #3.
+
+## 15. Deployment (set up 2026-08-26, Execution #14)
+
+- **Target:** Cloudflare Pages, free tier (chosen over Netlify: Netlify's
+  2026 credit pricing allows only ~20 production deploys/month free, which
+  daily rebuilds would exceed; Cloudflare gives 500 builds + unlimited
+  bandwidth, no credit card). Repo stays PRIVATE.
+- **Auto-deploy:** every push to `main` → Cloudflare builds
+  `npm run build` (Python 3 available in its build image) → live on
+  `https://antarikshpedia.space`.
+- **Nightly rebuild:** `.github/workflows/daily-rebuild.yml` cron
+  (`30 19 * * *` = 01:00 IST) POSTs to the Cloudflare build hook stored in
+  the GitHub repo secret `CF_BUILD_HOOK` (workflow skips gracefully if
+  unset). Keeps "Around this date in space history" current.
+- **DNS:** `antarikshpedia.space` must be a Cloudflare zone (registrar
+  nameservers pointed at Cloudflare) for the apex domain; SSL auto-issued.
+- **og:image is an absolute URL** (`https://antarikshpedia.space/...`) —
+  keep it absolute; relative URLs break social scrapers.
+- Fallback if Cloudflare's build image ever lacks Python 3: build in
+  GitHub Actions and deploy with `wrangler pages deploy` (still $0).
 
 ---
 

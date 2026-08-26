@@ -207,6 +207,7 @@ Stuck tasks are terminated and solved another way or skipped with a note.
 ---
 ## NEXT: awaiting user approval for further plans (stopped as requested).
 
+
 ---
 
 ## Execution #4 — 2026-08-24 17:45 IST
@@ -741,5 +742,93 @@ Verified in dist: the Zarya page's four related cards all reference real
 
 ---
 ## NEXT: awaiting user approval for further plans (stopped as requested).
+
+---
+
+## Execution #14 — 2026-08-25 21:35 IST
+
+### Requested Tasks
+1. Rewrite README.md: explain architecture, data, and the vision — stating
+   the site is built with agentic engineering (vibe coding) and is in its
+   first phase.
+2. Proceed with the deployment task (Cloudflare Pages plan from Execution
+   planning): og:image absolute URL + nightly rebuild workflow.
+
+### Plan
+1. Full README rewrite (humanized voice, per Law 4): project overview,
+   phase status + agentic-engineering vision, architecture diagram, data
+   documentation, commands, deployment section, licensing.
+2. base.njk: absolute og:image URL.
+3. New .github/workflows/daily-rebuild.yml: nightly cron (19:30 UTC =
+   01:00 IST) POSTing to the Cloudflare Pages build hook stored in repo
+   secret CF_BUILD_HOOK.
+4. Build verify; update codebase_context.md (Law 3); ask before committing
+   (Law 2).
+
+### Anti-loop rule
+Stuck tasks are terminated and solved another way or skipped with a note.
+
+### Results
+_(appended as work completes)_
+
+---
+
+### Results (Execution #14)
+
+**1. README.md rewritten: DONE (12:45 IST).** New structure: project
+overview with Phase 1 status, "Built with agentic engineering" section
+(vibe coding: human-directed, AI-built, logged in Executions.md +
+codebase_context.md), architecture diagram (dataset → Python pipeline →
+Eleventy → dist) with key design decisions, full data documentation
+(missions, agencies/countries, related links, launch dates, specs, images
++ licensing, stories), local dev commands, Cloudflare deployment section,
+and the Phase 1–3 roadmap. Humanized voice throughout (no em dashes, no
+puffery).
+
+**2. Deployment prep: DONE (12:48 IST).**
+- `base.njk`: og:image now absolute
+  (`https://antarikshpedia.space/assets/brand/og-image.jpg`) — verified in
+  built HTML.
+- New `.github/workflows/daily-rebuild.yml`: nightly cron 19:30 UTC
+  (01:00 IST) POSTs to the Cloudflare Pages build hook from repo secret
+  `CF_BUILD_HOOK` (skips gracefully if unset); manual trigger available.
+- Build passes (247 files).
+- codebase_context.md updated per Law 3: README note + new §15
+  (deployment: platform choice rationale, auto-deploy, nightly workflow,
+  DNS requirement, og:image rule, Python fallback).
+
+**Anti-loop notes:** none.
+
+---
+## NEXT: awaiting user approval to commit (Law 2), then user performs the
+Cloudflare dashboard + DNS steps documented in codebase_context.md §15.
+
+---
+
+## Execution #15 — 2026-08-26 13:10 IST
+
+### Issue
+First Cloudflare deploy failed: "[ERROR] The directory specified by the
+assets.directory field in your configuration file does not exist".
+
+### Diagnosis
+The project was created through the unified **Workers** Git flow (config
+shows `Deploy command: npx wrangler deploy`), which deploys a Worker with
+static assets and needs an `assets.directory` in a Wrangler config.
+AntarikshPedia is a plain static site and should use the classic **Pages**
+flow (no deploy command; output dir read directly).
+
+### Fix
+- Added `wrangler.toml` at repo root pinning the Pages output:
+  `name = "antarikshpedia"`, `compatibility_date`, and
+  `pages_build_output_dir = "dist"`.
+- User instructed to delete the Workers-style project and recreate via the
+  Pages tab (no deploy command field should appear); build cmd
+  `npm run build`, output `dist`.
+- Alternative kept in reserve: stay on the Workers flow with an
+  `[assets] directory = "./dist"` wrangler.toml and switch the nightly
+  workflow to wrangler deploys via API token.
+
+### Status: fix committed to working tree; awaiting commit approval.
 
 ---

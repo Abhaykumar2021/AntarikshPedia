@@ -1,0 +1,24 @@
+name: Nightly rebuild
+
+# The "On this day" / "Around this date" sections are computed at build
+# time. This workflow pings the Cloudflare Pages build hook once a night
+# so those sections stay current without a manual commit.
+
+on:
+  schedule:
+    - cron: '30 19 * * *' # 19:30 UTC = 01:00 IST nightly
+  workflow_dispatch: # allow manual runs from the Actions tab
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Cloudflare Pages build hook
+        env:
+          HOOK: ${{ secrets.CF_BUILD_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "CF_BUILD_HOOK secret is not set; skipping."
+            exit 0
+          fi
+          curl -sS -X POST "$HOOK" -o /dev/null -w 'build hook status: %{http_code}\n'
