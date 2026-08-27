@@ -902,3 +902,39 @@ hook keeps working.
 awaiting next build result.
 
 ---
+
+## Execution #18 — 2026-08-27
+
+### Requested Tasks
+1. Remove the top navbar and replace it with a SpaceX-style hidden right
+   sidebar containing search + navigation links.
+
+### Execution Summary
+1. **base.njk** — Replaced the sticky `<header class="site-header">` with:
+   - A fixed transparent `.top-bar` (brand logo left, hamburger button right).
+   - A right sidebar `<aside class="sidebar">` containing search input,
+     nav links (Home/Catalog/Agencies/Countries/Vision), and an ESC hint.
+   - A `.sidebar-overlay` backdrop behind the sidebar.
+2. **tokens.css** — Added `--sidebar-w: 320px`, `--ease-out-expo`, and
+   `--z-sidebar: 100`. Changed `--header-h` from 64px to 56px.
+3. **components.css** — Removed all old header/nav/search styles (~150 lines).
+   Added: `.top-bar` (fixed transparent strip), `.menu-btn` (hamburger with
+   3-line → X animation), `.sidebar` (slides from right), `.sidebar-overlay`
+   (dark backdrop with blur), `.sidebar__search`, `.sidebar__nav` (large
+   uppercase links with active state), `.sidebar__footer` (ESC hint),
+   `body.sidebar-open` (scroll lock).
+4. **landing-journey.css** — Changed hero `::before` and `::after` from
+   `top: calc(-1 * var(--header-h))` to `top: 0` (no sticky header to
+   bleed behind anymore).
+5. **main.js** — Added sidebar toggle logic: hamburger click toggles
+   sidebar + overlay; Escape closes; Cmd/Ctrl+K opens and focuses search;
+   `body.sidebar-open` locks scroll.
+6. **global-search.js** — Updated click-outside selector from
+   `.header-search` to `.sidebar__search`.
+7. **codebase_context.md** — Updated: base.njk layout description,
+   tokens.css tokens, components.css component list, JS descriptions,
+   gotcha #15 (sidebar nav pattern).
+8. **Build** — `npm run build` succeeded (247 files, 1.03s). Verified
+   sidebar markup present in dist/index.html; no old `.site-header` classes.
+
+### Status: ready for commit after user approval.

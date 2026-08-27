@@ -1,5 +1,5 @@
 /**
- * global-search.js — header search available on every page.
+ * global-search.js — sidebar search available on every page.
  *
  * Fuzzy-searches the mission record (Fuse.js) and links results straight
  * to mission pages. Keyboard: ↓/↑ to move, Enter to open, Esc to close.
@@ -76,6 +76,6 @@ if (form && input && list) {
   });
 
   document.addEventListener('click', e => {
-    if (!e.target.closest('.header-search')) close();
+    if (!e.target.closest('.sidebar__search')) close();
   });
 }

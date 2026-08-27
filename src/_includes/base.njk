@@ -45,13 +45,28 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="/">
-        <img class="brand-mark" src="/assets/brand/logo-mark.png" alt="" width="28" height="28">
-        <span>Antariksh<b>Pedia</b></span>
-      </a>
-      <form class="header-search" role="search" id="global-search-form">
+  {#- minimal top bar: brand left, hamburger right -#}
+  <header class="top-bar" role="banner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/brand/logo-mark.png" alt="" width="28" height="28">
+      <span>Antariksh<b>Pedia</b></span>
+    </a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="sidebar">
+      <span class="menu-btn__line"></span>
+      <span class="menu-btn__line"></span>
+      <span class="menu-btn__line"></span>
+    </button>
+  </header>
+
+  {#- right sidebar (SpaceX-style) -#}
+  <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
+  <aside class="sidebar" id="sidebar" aria-hidden="true" aria-label="Navigation">
+    <div class="sidebar__inner">
+      <button class="sidebar__close" id="sidebar-close" type="button" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <form class="sidebar__search" role="search" id="global-search-form">
         <input
           type="search"
           id="global-search-input"
@@ -61,15 +76,20 @@
         />
         <ul class="search-results" id="global-results" role="listbox" aria-label="Search results"></ul>
       </form>
-      <nav class="site-nav" aria-label="Primary">
+
+      <nav class="sidebar__nav" aria-label="Primary">
         <a href="/" {% if section == 'home' %}aria-current="page"{% endif %}>Home</a>
         <a href="/catalog/" {% if section == 'catalog' %}aria-current="page"{% endif %}>Catalog</a>
         <a href="/agencies/" {% if section == 'agencies' %}aria-current="page"{% endif %}>Agencies</a>
         <a href="/countries/" {% if section == 'countries' %}aria-current="page"{% endif %}>Countries</a>
         <a href="/vision/" {% if section == 'vision' %}aria-current="page"{% endif %}>Vision</a>
       </nav>
+
+      <div class="sidebar__footer">
+        <span class="sidebar__kbd">ESC</span> to close
+      </div>
     </div>
-  </header>
+  </aside>
 
   <main id="main">
     {{ content | safe }}

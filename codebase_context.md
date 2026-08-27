@@ -2,7 +2,7 @@
 
 > **Purpose:** Complete context for the AntarikshPedia codebase so a fresh
 > model session can resume work without re-reading the whole repo.
-> Last updated: 2026-08-26 (Execution #17).
+> Last updated: 2026-08-27 (Execution #18).
 
 ## 0. Laws (from the user — always in force)
 
@@ -166,11 +166,13 @@ codebase_context.md                 THIS FILE
 - Stylesheets always loaded: `/styles/tokens.css`, `base.css`, `components.css`;
   then `{% for sheet in extraStyles %}` loop for page-specific CSS.
 - Optional JSON-LD via `{% if schema %}`.
-- Body: skip-link → sticky header (brand, global search form
-  `#global-search-form`/`#global-search-input`/results `#global-results`,
-  nav Home/Catalog/Agencies/Countries/Vision with `aria-current` driven by
-  `section` variable, `#theme-toggle`) → `<main>{{ content }}</main>` → footer
-  (links incl. /admin/, credits).
+- Body: skip-link → fixed top bar (`.top-bar`: brand left, hamburger button
+  right) → right sidebar panel (`.sidebar`: search `#global-search-form`/
+  `#global-search-input`/results `#global-results`, nav Home/Catalog/
+  Agencies/Countries/Vision with `aria-current` driven by `section` variable,
+  ESC hint footer) + overlay backdrop → `<main>{{ content }}</main>` → footer
+  (links incl. /admin/, credits). Sidebar opened/closed via `main.js` toggle;
+  keyboard shortcut Cmd/Ctrl+K opens sidebar and focuses search.
 - Injects search dataset snapshot: `<script type="application/json"
   id="all-missions">{{ missions | sortByYear | dump | safe }}</script>`.
 - Loads `/scripts/main.js` (defer) + `/scripts/global-search.js` (module).
@@ -261,9 +263,11 @@ spec-overrides.json (e.g. isee-3-1978).
 
 ## 9. Client scripts (`src/scripts/`)
 
-- `main.js` (all pages, defer): IntersectionObserver scroll-reveals
-  (`.reveal` → `.visible`; reduced-motion aware). The theme toggle was
-  removed with the light theme (2026-08-24).
+- `main.js` (all pages, defer): sidebar toggle (`.menu-btn` opens/
+  closes `.sidebar` + `.sidebar-overlay`; Escape closes; Cmd/Ctrl+K opens
+  and focuses search; `body.sidebar-open` locks scroll) +
+  IntersectionObserver scroll-reveals (`.reveal` → `.visible`; reduced-motion
+  aware). The theme toggle was removed with the light theme (2026-08-24).
 - `vision.js` (vision page module): canvas starfield (twinkle + slow drift,
   paused off-screen via IO, reduced-motion → static frame) + count-up
   animation for `.stat-num[data-count]` (ease-out, reduced-motion → instant).
@@ -274,8 +278,9 @@ spec-overrides.json (e.g. isee-3-1978).
 - `search.js`: exports `createSearchIndex(missions)` (Fuse weights name:3,
   lead_partner:1, target:1, category:.5, outcome:.5; threshold .34,
   ignoreLocation) + `fuzzySearch(index,q,limit=8)`.
-- `global-search.js` (all pages, module): wires header search to `#all-missions`
-  JSON; up to 7 results, ↓/↑ keyboard nav, Enter opens `/missions/{id}/`.
+- `global-search.js` (all pages, module): wires sidebar search to
+  `#all-missions` JSON; up to 7 results, ↓/↑ keyboard nav, Enter opens
+  `/missions/{id}/`. Click-outside closes dropdown.
 - `vendor/fuse.mjs`: vendored Fuse.js 7.5.0 ESM.
 - `src/admin/admin.js` (admin page): localStorage CRUD overlay key
   `'ap-staged-changes'` shape `{creates:[],updates:{},deletes:[]}`;
@@ -289,14 +294,19 @@ spec-overrides.json (e.g. isee-3-1978).
   single amber accent `#e8a33d` (+ oklch variant, glow, soft), status
   palette, six era accents `--era-1..6`, type scale
   (`--text-hero: clamp(2.6rem,7vw,5rem)`), font stacks, spacing scale,
-  radii/pill, `--max-width:1160px`, `--header-h:64px`, motion tokens,
-  z-layers. Convention: **no raw hex/px in component CSS for anything
+  radii/pill, `--max-width:1160px`, `--header-h:56px`, `--sidebar-w:320px`,
+  motion tokens (incl. `--ease-out-expo`), z-layers (`--z-header:50`,
+  `--z-sidebar:100`, `--z-overlay:90`).
+  Convention: **no raw hex/px in component CSS for anything
   tunable — use tokens.**
 - `base.css`: reset, smooth scroll, display-font headings, accent links,
   `.skip-link`, `.container` (max-width var), `.reveal` primitive,
   reduced-motion overrides. (The faint grid background `body::before` was
   removed in Execution #6 — user wants no grid texture.)
-- `components.css` (~880 lines): header/nav/search dropdown, buttons
+- `components.css` (~940 lines): top bar (`.top-bar`, fixed transparent
+  strip with brand + hamburger), hamburger button (`.menu-btn` with
+  3-line → X animation), sidebar panel (`.sidebar`, slides from right,
+  contains search + nav links), overlay (`.sidebar-overlay`), buttons
   (`.btn/.btn-solid/.btn-ghost`), `.status-badge.status-{success,partial-success,failure,in-transit,operational}`,
   `.chip`, `.hero` family (mission pages; ken-burns `hero-drift`), `.facts-strip`,
   `.mission-card` family, `.card-grid` (auto-fill minmax 280px), `.rail`,
@@ -321,7 +331,8 @@ spec-overrides.json (e.g. isee-3-1978).
   one of these or the card link swallows the click (#6).
 - `landing-journey.css`: homepage-only (via front-matter
   `extraStyles`). `.journey-hero` (78vh, Carina Nebula full-bleed
-  background via `::before` + dark scrim `::after`, see §11), `.otd` +
+  background via `::before` + dark scrim `::after`, starts at top:0 — no
+  sticky header bleed since Execution #18), `.otd` +
   `.otd-note`, `.evo-strip`/`.evolution` timeline (dim track `::before`,
   era-gradient grown line `::after` scaled by `--growth`, `.evo-item`
   alternating sides with `.evo-node` dots + connectors, mobile ≤760px
@@ -415,3 +426,7 @@ spec-overrides.json (e.g. isee-3-1978).
 14. Agency/country chips that link out must carry `chip-link` (or sit in a
     `.has-stretched-link .card-title-row a`) or the card's stretched link
     swallows the click.
+15. Navigation: **no top navbar** — a fixed transparent `.top-bar` (brand +
+    hamburger) sits at the top. All nav links + search live in the right
+    sidebar (`.sidebar`). Open via hamburger `.menu-btn`, Cmd/Ctrl+K, or
+    close with Escape/click overlay. `body.sidebar-open` locks scroll.

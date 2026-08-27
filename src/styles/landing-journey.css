@@ -14,14 +14,14 @@
 }
 
 /* Carina Nebula backdrop — full-bleed behind the centered container,
-   reaching up under the translucent sticky header */
+   reaches up behind the transparent fixed top bar */
 .journey-hero::before {
   content: "";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 100vw;
-  top: calc(-1 * var(--header-h));
+  top: 0;
   bottom: 0;
   background: url("/assets/images/carina-nebula.jpg") center 32% / cover no-repeat;
   z-index: -2;
@@ -35,7 +35,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100vw;
-  top: calc(-1 * var(--header-h));
+  top: 0;
   bottom: 0;
   background: linear-gradient(
     180deg,
