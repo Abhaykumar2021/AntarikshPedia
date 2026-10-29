@@ -1065,3 +1065,22 @@ Sputnik 1 last. git diff --check passed.
 
 ### Status
 Complete locally; no commit or deployment.
+
+
+---
+
+## Execution #24 — 2026-10-29 13:37 IST
+
+### Requested task and expected output
+Reverse the homepage journey timeline to newest first. Preserve all ten
+milestones and the scroll animation; update the introduction and accessible
+label to match the reading order. Verify generated link order and build.
+
+### Results
+Reversed the highlightIds render loop, updated introduction and accessible
+label. Build:fast passed (248 pages). Parsed generated timeline links and
+verified the exact ten-mission descending sequence, Roman then JWST through
+Sputnik 1. git diff --check passed.
+
+### Status
+Complete locally; no commit or deployment.

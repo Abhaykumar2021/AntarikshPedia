@@ -7,7 +7,7 @@ extraStyles:
 ---
 
 {#- ============================================================
-   Homepage: the scroll-driven journey from Sputnik to Roman.
+   Homepage: the scroll-driven journey from Roman back to Sputnik.
    "On this day" appears between hero and journey when there is a match.
    ============================================================ -#}
 
@@ -63,14 +63,14 @@ extraStyles:
   {% set span = (missions | sortByYear | last).year - (missions | first).year + 1 %}
   <h2 class="section-title reveal">{{ span }} years. One journey.</h2>
   <p class="evo-lede reveal">
-    Ten milestones trace the journey from Sputnik to modern space observatories.
+    Ten milestones trace the journey back from modern space observatories to Sputnik.
     Webb studies distant galaxies in infrared light. Launched in 2026, the
     Nancy Grace Roman Space Telescope is preparing to survey much wider
     areas of the sky.
   </p>
-  <ol class="evolution" id="evolution" aria-label="Milestone missions, 1957 to today">
+  <ol class="evolution" id="evolution" aria-label="Milestone missions, newest to oldest">
     {% set highlightIds = ['sputnik-1-1957', 'sputnik-2-1957', 'vostok-1-1961', 'apollo-11-1969', 'pioneer-10-1972', 'voyager-1-2-1977', 'hubble-space-telescope-1990', 'zarya-international-space-station-assembly-begins-1998', 'james-webb-space-telescope-2021', 'nancy-grace-roman-space-telescope-2026'] %}
-    {% for hid in highlightIds %}
+    {% for hid in highlightIds | reverse %}
       {% set m = missions | missionById(hid) %}
       {% if m %}
     <li class="evo-item reveal" style="--era-accent: {{ m.era | eraAccent }}">

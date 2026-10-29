@@ -2,7 +2,7 @@
 
 > **Purpose:** Complete context for the AntarikshPedia codebase so a fresh
 > model session can resume work without re-reading the whole repo.
-> Last updated: 2026-10-29 (Execution #23).
+> Last updated: 2026-10-29 (Execution #24).
 
 ## 0. Laws (from the user — always in force)
 
@@ -503,3 +503,11 @@ appears first and mission cards descend by year within each era. Same-year
 records use reversed canonical order. Intro and metadata describe newest-first
 browsing. All 210 unique generated cards checked against expected order
 (Roman first, Sputnik 1 last); build:fast passed with 248 pages.
+
+
+## 21. Journey newest first (2026-10-29, Execution #24)
+
+Homepage renders `highlightIds | reverse`: Roman, JWST, ISS, Hubble, Voyager,
+Pioneer 10, Apollo 11, Vostok 1, Sputnik 2, Sputnik 1. The introduction and
+accessible label reflect newest-to-oldest order. Scroll animation remains
+applicable. Build:fast passed with 248 pages; exact generated link order checked.
