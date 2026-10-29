@@ -1045,3 +1045,23 @@ git diff --check. The preceding build passed with 248 pages. Commit the
 completed changes on navbar-modify, switch to main and fast-forward merge.
 Verify a clean working tree and identical branch tips. No remote push or
 deployment is part of this operation.
+
+
+---
+
+## Execution #23 — 2026-10-29 13:25 IST
+
+### Requested task and expected output
+Reverse the catalog to show latest missions first. Reverse both era groups
+and the mission order within each group, using the existing year sort.
+Verify generated mission-card order and preserve all records.
+
+### Results
+Catalog now reverses the existing year-sorted mission array, which also
+reverses era order. Updated its introduction and replaced the stale 209-mission
+meta description. Build:fast passed (248 pages). Parsed all generated catalog
+cards: 210 unique records in expected descending order, Roman first and
+Sputnik 1 last. git diff --check passed.
+
+### Status
+Complete locally; no commit or deployment.

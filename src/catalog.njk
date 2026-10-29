@@ -4,17 +4,17 @@ section: catalog
 permalink: /catalog/
 eleventyComputed:
   title: "Mission Catalog"
-  description: "Browse all 209 missions by era — the full AntarikshPedia record on one page."
+  description: "Browse missions by era, newest first."
 ---
 
 <section class="container page-head">
   <p class="hero-kicker">The record</p>
   <h1>Every mission, {{ (missions | first).year }}–{{ (missions | last).year }}</h1>
-  <p class="hook">The complete dataset, grouped by era. Open any mission
+  <p class="hook">The complete dataset, grouped by era from newest to oldest. Open any mission
      for its full story.</p>
 </section>
 
-{% set sortedMissions = missions | sortByYear %}
+{% set sortedMissions = missions | sortByYear | reverse %}
 {% set eras = [] %}
 {% for m in sortedMissions %}
   {% if m.era not in eras %}{% set eras = (eras | push(m.era)) %}{% endif %}

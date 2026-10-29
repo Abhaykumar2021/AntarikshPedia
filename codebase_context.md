@@ -2,7 +2,7 @@
 
 > **Purpose:** Complete context for the AntarikshPedia codebase so a fresh
 > model session can resume work without re-reading the whole repo.
-> Last updated: 2026-10-29 (Execution #22).
+> Last updated: 2026-10-29 (Execution #23).
 
 ## 0. Laws (from the user — always in force)
 
@@ -494,3 +494,12 @@ on navbar-modify followed by a fast-forward merge into local main. Includes
 Roman’s catalog/story/image/journey addition, restored top navbar, generated
 data and project documentation. The existing 248-page build passed. No remote
 push or deployment is requested.
+
+
+## 20. Catalog newest first (2026-10-29, Execution #23)
+
+`src/catalog.njk` uses `missions | sortByYear | reverse` so the newest era
+appears first and mission cards descend by year within each era. Same-year
+records use reversed canonical order. Intro and metadata describe newest-first
+browsing. All 210 unique generated cards checked against expected order
+(Roman first, Sputnik 1 last); build:fast passed with 248 pages.
