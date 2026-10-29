@@ -2,7 +2,7 @@
 
 > **Purpose:** Complete context for the AntarikshPedia codebase so a fresh
 > model session can resume work without re-reading the whole repo.
-> Last updated: 2026-08-27 (Execution #18).
+> Last updated: 2026-10-29 (Execution #22).
 
 ## 0. Laws (from the user — always in force)
 
@@ -430,3 +430,67 @@ spec-overrides.json (e.g. isee-3-1978).
     hamburger) sits at the top. All nav links + search live in the right
     sidebar (`.sidebar`). Open via hamburger `.menu-btn`, Cmd/Ctrl+K, or
     close with Escape/click overlay. `body.sidebar-open` locks scroll.
+
+
+## 16. Project orientation verification (2026-10-29, Execution #19)
+
+- Local `npm run build` passed with Eleventy 3.1.6: 247 generated pages,
+  209 missions, 18 agencies, 15 countries, 202 media overrides, specification
+  fields merged for 150 missions, seven long-form stories. Generated JSON
+  showed no tracked changes after rebuilding.
+- Use actual source/configuration when older prose conflicts: README calls
+  hosting Pages, but wrangler.toml configures Worker static assets. Earlier
+  sections here still mention removed admin/theme code; base.njk and main.js
+  confirm dark-only sidebar navigation without an admin interface.
+- docs/data-model-notes.md is historical and has outdated paths, coverage,
+  and schema descriptions.
+- Observed implementation gaps: missions.njk ignores compiled story.results
+  and renders mission.outcome in Results; canonical dataset source link points
+  to https://github.com/ rather than a specific repository record.
+- Validation confirms schema, references, and media metadata/file presence;
+  it does not establish historical accuracy or comprehensive mission coverage.
+- Orientation involved local source review and build only, with no browser
+  inspection or live deployment verification.
+
+
+## 17. Roman addition (2026-10-29, Execution #20)
+
+Current counts supersede historical sections above: 210 mission records, 203
+with images, eight stories, 248 generated pages. Roman’s id is
+`nancy-grace-roman-space-telescope-2026`. Its canonical record and spec/media
+overrides generate the mission page and catalog/search/agency integration.
+NASA confirms launch on 2026-08-30 aboard Falcon Heavy. Status is In transit,
+with science commissioning described as of 2026-10-29 and planned Sun–Earth L2
+orbit. Sources are linked in its story and Execution #20. MPIA participation
+is in the narrative, avoiding the mapper’s Germany-to-DLR attribution.
+
+Homepage highlightIds now has ten milestones, with Roman directly after JWST.
+The journey introduction reflects that extension. NASA’s Goddard Space Flight
+Center/Conceptual Image Lab illustration is stored under the Roman mission
+asset folder and credited in media-overrides.json and docs/image-credits.md.
+Build, rendered HTML/link checks and Fuse search checks passed. No browser
+was connected for visual layout verification. No commit or deployment made.
+
+
+## 18. Navbar restored (2026-10-29, Execution #21)
+
+At user request, restored the navbar files from the parent of 979bb1d.
+Current shared layout uses sticky `.site-header` / `.header-inner`, brand,
+`.header-search` and `.site-nav` with Home/Catalog/Agencies/Countries/Vision.
+Search click-outside uses `.header-search`. Desktop search is hidden below
+860px, matching the original responsive behavior. Header height is 64px;
+home hero pseudo-elements extend upward beneath the header. Sidebar UI,
+tokens and handlers are removed; main.js handles scroll reveals only.
+Earlier sidebar descriptions in this document are historical. Roman’s
+mission and tenth journey milestone remain intact. Build passed with 248
+pages; generated navbar/search markup checked on all pages, JS syntax and
+diff checks passed. No commit or deployment.
+
+
+## 19. Local main integration (2026-10-29, Execution #22)
+
+User requested merging the completed work into main. Integration uses a commit
+on navbar-modify followed by a fast-forward merge into local main. Includes
+Roman’s catalog/story/image/journey addition, restored top navbar, generated
+data and project documentation. The existing 248-page build passed. No remote
+push or deployment is requested.

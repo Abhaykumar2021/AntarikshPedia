@@ -7,7 +7,7 @@ extraStyles:
 ---
 
 {#- ============================================================
-   Homepage: the scroll-driven journey from Sputnik to JWST.
+   Homepage: the scroll-driven journey from Sputnik to Roman.
    "On this day" appears between hero and journey when there is a match.
    ============================================================ -#}
 
@@ -63,13 +63,13 @@ extraStyles:
   {% set span = (missions | sortByYear | last).year - (missions | first).year + 1 %}
   <h2 class="section-title reveal">{{ span }} years. One journey.</h2>
   <p class="evo-lede reveal">
-    Every spacecraft below descends from an earlier one. The beep led to
-    Laika, Laika to Gagarin, Gagarin to the Moon. Two machines kept going
-    and have now left the Solar System. The newest, a gold mirror,
-    photographs the first galaxies. Nine milestones tell the story.
+    Ten milestones trace the journey from Sputnik to modern space observatories.
+    Webb studies distant galaxies in infrared light. Launched in 2026, the
+    Nancy Grace Roman Space Telescope is preparing to survey much wider
+    areas of the sky.
   </p>
   <ol class="evolution" id="evolution" aria-label="Milestone missions, 1957 to today">
-    {% set highlightIds = ['sputnik-1-1957', 'sputnik-2-1957', 'vostok-1-1961', 'apollo-11-1969', 'pioneer-10-1972', 'voyager-1-2-1977', 'hubble-space-telescope-1990', 'zarya-international-space-station-assembly-begins-1998', 'james-webb-space-telescope-2021'] %}
+    {% set highlightIds = ['sputnik-1-1957', 'sputnik-2-1957', 'vostok-1-1961', 'apollo-11-1969', 'pioneer-10-1972', 'voyager-1-2-1977', 'hubble-space-telescope-1990', 'zarya-international-space-station-assembly-begins-1998', 'james-webb-space-telescope-2021', 'nancy-grace-roman-space-telescope-2026'] %}
     {% for hid in highlightIds %}
       {% set m = missions | missionById(hid) %}
       {% if m %}

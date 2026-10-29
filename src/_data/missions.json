@@ -4167,5 +4167,27 @@
     },
     "launch_date": "2026-04-01",
     "launch_vehicle": "Space Launch System"
+  },
+  {
+    "id": "nancy-grace-roman-space-telescope-2026",
+    "name": "Nancy Grace Roman Space Telescope",
+    "year": 2026,
+    "lead_partner": "NASA / ESA / JAXA / CNES",
+    "target": "Sun–Earth L2",
+    "category": "Infrared astronomy / cosmology / exoplanets",
+    "status": "In transit",
+    "outcome": "Launched for wide-field infrared surveys of dark energy and exoplanets; undergoing commissioning en route to Sun–Earth L2.",
+    "era": "2021–Present: Lunar Return, New Stations and Deep-Space Science",
+    "media": {
+      "thumb": "assets/images/missions/nancy-grace-roman-space-telescope-2026/photo.jpg",
+      "credit": "NASA’s Goddard Space Flight Center/Conceptual Image Lab · Artist’s illustration",
+      "license": "public-domain",
+      "source": "https://science.nasa.gov/gallery/roman-space-telescope-illustrations/",
+      "checked": "2026-10-29"
+    },
+    "launch_date": "2026-08-30",
+    "launch_vehicle": "Falcon Heavy",
+    "orbit_type": "Transfer to Sun–Earth L2 (planned orbit)",
+    "duration": "5 years (planned science mission)"
   }
 ]

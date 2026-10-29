@@ -1,6 +1,6 @@
 # AntarikshPedia
 
-A connected encyclopedia of humanity's journey into space. 209 missions,
+A connected encyclopedia of humanity's journey into space. 210 missions,
 1957 to today, each with its own page, linked to its agency, its country,
 and the missions around it.
 
@@ -47,13 +47,13 @@ src/                                templates, styles, scripts, assets
 ├── _includes/                      base layout, partials (cards, roster, marks)
 ├── index.njk                       home: hero, date section, evolution timeline
 ├── catalog.njk                     every mission grouped by era
-├── missions.njk                    209 mission pages (paginated)
+├── missions.njk                    210 mission pages (paginated)
 ├── agencies.njk + agency-pages.njk 18 agency pages
 ├── countries.njk + country-pages.njk 15 country pages
 ├── vision.njk                      project vision
 ├── styles/                         tokens.css (design system), base, components
 ├── scripts/                        search (Fuse.js), theme, home, vision
-└── assets/images/missions/         202 licensed mission photos
+└── assets/images/missions/         203 licensed mission photos
         │
         ▼
 dist/                               BUILD OUTPUT — the only deployed directory
@@ -63,7 +63,7 @@ Key design decisions:
 
 - **One source of truth.** Missions are edited only in
   `data-sources/missions_timeline.md`. Everything else is derived, so the
-  209 records can never drift apart.
+  210 records can never drift apart.
 - **Validation as a guardrail.** `validate-data.py` checks required
   fields, allowed statuses, referential integrity, and image licenses on
   every build. Bad data fails the deploy instead of publishing.
@@ -76,7 +76,7 @@ Key design decisions:
 
 ## The data
 
-- **Missions (209).** Name, year, lead partner, target, category, outcome,
+- **Missions (210).** Name, year, lead partner, target, category, outcome,
   status (Success, Partial success, Failure, In transit, Operational), and
   era (six eras from 1957 to present). Stored as one markdown line per
   mission in `data-sources/missions_timeline.md`.
@@ -90,12 +90,12 @@ Key design decisions:
 - **Specifications.** Launch vehicle, mass, orbit, and duration for ~150
   missions, researched from Wikipedia infoboxes into
   `scripts/build/spec-overrides.json`.
-- **Images.** 202 of 209 missions have photos: NASA Image Library (public
+- **Images.** 203 of 210 missions have photos: NASA Image Library (public
   domain) and Wikimedia Commons (PD/CC licenses), each with a five-field
   license record (credit, license, source, check date). Two ISRO missions
   use GODL-India; one uses a rights-managed Getty photo by explicit
   decision (see `docs/image-credits.md`).
-- **Stories.** Seven long-form mission histories so far
+- **Stories.** Eight long-form mission histories so far
   (`content/missions/*.md`). Missions without one say so honestly instead
   of inventing copy.
 

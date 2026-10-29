@@ -73,6 +73,7 @@
       "mars-odyssey-2001",
       "mars-pathfinder-sojourner-1997",
       "mars-reconnaissance-orbiter-2005",
+      "nancy-grace-roman-space-telescope-2026",
       "near-shoemaker-1996",
       "new-horizons-2015",
       "nicer-2017",
@@ -224,6 +225,7 @@
       "juice-2023",
       "lisa-pathfinder-2015",
       "mars-express-beagle-2-2003",
+      "nancy-grace-roman-space-telescope-2026",
       "planck-2009",
       "rosetta-2004",
       "rosetta-philae-2014",
@@ -276,6 +278,7 @@
       "hiten-1990",
       "ikaros-2010",
       "kaguya-selene-2007",
+      "nancy-grace-roman-space-telescope-2026",
       "sakigake-1985",
       "slim-2024",
       "suisei-1985",
@@ -317,6 +320,7 @@
     "mission_ids": [
       "calipso-2006",
       "corot-2006",
+      "nancy-grace-roman-space-telescope-2026",
       "topex-poseidon-1992"
     ]
   },

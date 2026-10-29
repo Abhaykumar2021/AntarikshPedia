@@ -84,3 +84,13 @@ commercial reuse.
    beneath embeds (vision page).
 5. Rerun `python3 scripts/build/enrich-missions.py` to backfill gaps —
    it is resumable and skips already-sourced missions.
+
+
+## Nancy Grace Roman Space Telescope (added 2026-10-29)
+
+- File: `src/assets/images/missions/nancy-grace-roman-space-telescope-2026/photo.jpg`.
+- Subject: artist’s illustration of the Roman observatory, also used after JWST in the homepage journey.
+- Credit: NASA’s Goddard Space Flight Center/Conceptual Image Lab.
+- Terms: public-domain NASA artwork; verified 2026-10-29.
+- Source: https://science.nasa.gov/gallery/roman-space-telescope-illustrations/
+- Asset: https://assets.science.nasa.gov/dynamicimage/assets/science/missions/rst/spacecraft-illustrations/Roman2025_360Spin_Still.jpg

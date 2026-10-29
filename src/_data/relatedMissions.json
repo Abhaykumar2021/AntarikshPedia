@@ -3281,15 +3281,15 @@
       "type": "same_target"
     },
     {
+      "id": "nancy-grace-roman-space-telescope-2026",
+      "type": "same_target"
+    },
+    {
       "id": "gaia-2013",
       "type": "same_target"
     },
     {
       "id": "herschel-2009",
-      "type": "same_target"
-    },
-    {
-      "id": "planck-2009",
       "type": "same_target"
     }
   ],
@@ -3443,15 +3443,15 @@
       "type": "same_target"
     },
     {
+      "id": "nancy-grace-roman-space-telescope-2026",
+      "type": "same_target"
+    },
+    {
       "id": "gaia-2013",
       "type": "same_target"
     },
     {
       "id": "xposat-2024",
-      "type": "same_program"
-    },
-    {
-      "id": "spherex-2025",
       "type": "same_program"
     }
   ],
@@ -3759,6 +3759,24 @@
     {
       "id": "luna-25-2023",
       "type": "same_target"
+    }
+  ],
+  "nancy-grace-roman-space-telescope-2026": [
+    {
+      "id": "euclid-2023",
+      "type": "same_target"
+    },
+    {
+      "id": "james-webb-space-telescope-2021",
+      "type": "same_target"
+    },
+    {
+      "id": "artemis-ii-2026",
+      "type": "competitor"
+    },
+    {
+      "id": "blue-ghost-mission-1-2025",
+      "type": "competitor"
     }
   ]
 }

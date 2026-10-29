@@ -938,3 +938,110 @@ awaiting next build result.
    sidebar markup present in dist/index.html; no old `.site-header` classes.
 
 ### Status: ready for commit after user approval.
+
+
+---
+
+## Execution #19 — 2026-10-29 12:34 IST
+
+### Requested task and expected output
+Understand the project by reviewing its documentation, data pipeline, templates,
+client scripts, and deployment configuration. Produce a concise architecture
+summary, verify the local build, and record material documentation discrepancies.
+
+### Findings and verification
+- Reviewed project memory, README, build configuration, pipeline, shared layout,
+  mission template, search/navigation scripts, tokens, and deployment workflow.
+- `npm run build` passed: 209 missions, 18 agencies, 15 countries, 202 media
+  records, specification fields merged for 150 missions, seven stories, 247 pages.
+- Generated data remained unchanged after rebuilding.
+- README deployment terminology is stale: wrangler.toml and latest execution
+  notes configure a Worker serving static assets from dist/.
+- docs/data-model-notes.md describes an older schema and coverage.
+- Mission template compiles but does not render story.results; Results currently
+  repeats mission.outcome. Mission record source link points to github.com root.
+- Build validation checks structure and media metadata, not historical accuracy
+  or registry completeness. No browser or live deployment verification performed.
+
+### Status
+Complete. Updated execution log and project context only; no application edits
+or commits.
+
+
+---
+
+## Execution #20 — 2026-10-29 12:41 IST
+
+### Requested task and expected output
+Add Nancy Grace Roman Space Telescope with verified NASA launch facts, credited
+imagery, and a mission page. Place Roman immediately after JWST in the homepage
+journey. Regenerate the catalogs and verify the build and rendered links.
+
+### Implementation and verification
+- Added canonical Roman record, dated 2026-08-30, with In transit status and
+  commissioning context checked against NASA’s 2026-10-22 update.
+- Added Falcon Heavy, planned L2 destination and five-year science duration in
+  spec-overrides.json; added a NASA illustration and complete media credit.
+- Added sourced mission prose with inline NASA links. Regenerated all JSON
+  through the existing Python pipeline; retained the project’s canonical format.
+- Added Roman immediately after JWST and rewrote the journey introduction for
+  ten milestones. Updated README counts and image-credit ledger.
+- NASA/ESA/JAXA/CNES map to existing agencies. German MPIA participation is
+  documented in the narrative; omitted Germany from lead tokens because the
+  current mapper would incorrectly attribute MPIA’s contribution to DLR.
+- npm run build passed: 210 missions, 203 media records, eight stories,
+  248 pages. HTML checks verified ten ordered journey links, mission date,
+  image, citations, catalog and agency links. Fuse searches for Roman and
+  Nancy Grace passed. git diff --check passed.
+- Illustration inspected directly. Browser layout verification unavailable:
+  no connected browsers. Local preview served at http://127.0.0.1:8080.
+
+### Sources
+- https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/
+- https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/
+- https://science.nasa.gov/mission/roman-space-telescope/observatory-technical/
+- https://science.nasa.gov/gallery/roman-space-telescope-illustrations/
+
+### Status
+Complete locally; no commit or deployment.
+
+
+---
+
+## Execution #21 — 2026-10-29 13:08 IST
+
+### Requested task and expected output
+Restore the top navbar from before the sidebar change, including inline search,
+responsive styles, and original hero/header spacing. Preserve Roman mission
+and journey changes. Verify the build and generated navigation.
+
+### Results
+Restored base.njk, components.css, tokens.css, landing-journey.css, main.js,
+and global-search.js from 979bb1d’s parent, the revision before the sidebar.
+This restores the sticky top header, brand, inline desktop search, five nav
+links, responsive rules, original 64px header token and hero backdrop spacing.
+Removed sidebar UI and its event handlers through the same restoration.
+
+npm run build passed (248 pages). HTML checks verified the five navigation
+links and search field on every page, absence of sidebar/menu markup, and
+Roman’s continued placement after JWST. JavaScript syntax and diff checks
+passed. Browser visual verification was not available in this session.
+
+### Status
+Complete locally; no commit or deployment.
+
+
+---
+
+## Execution #22 — 2026-10-29 13:11 IST
+
+### Requested task and expected output
+Merge the completed work into main. User’s merge instruction authorizes the
+commit needed to preserve the uncommitted Roman and navbar changes.
+
+### Execution
+Verified main is an ancestor of navbar-modify and the working diff passes
+git diff --check. The preceding build passed with 248 pages. Commit the
+completed changes on navbar-modify, switch to main and fast-forward merge.
+Verify a clean working tree and identical branch tips. No remote push or
+deployment is part of this operation.

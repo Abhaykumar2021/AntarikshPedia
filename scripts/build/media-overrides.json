@@ -1242,5 +1242,12 @@
     "license": "cc-by-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Yutu_rover.jpg",
     "checked": "2026-08-24"
+  },
+  "nancy-grace-roman-space-telescope-2026": {
+    "thumb": "assets/images/missions/nancy-grace-roman-space-telescope-2026/photo.jpg",
+    "credit": "NASA’s Goddard Space Flight Center/Conceptual Image Lab · Artist’s illustration",
+    "license": "public-domain",
+    "source": "https://science.nasa.gov/gallery/roman-space-telescope-illustrations/",
+    "checked": "2026-10-29"
   }
 }

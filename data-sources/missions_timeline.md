@@ -231,3 +231,4 @@ src/_data/*.json. Never hand-edit the generated JSON. One line per mission:
 - **PUNCH** (2025) — United States · Earth orbit · Heliophysics — Four-spacecraft mission imaging the corona and solar wind. [Operational]
 - **SPHEREx** (2025) — United States · Earth orbit · Space observatory — All-sky near-infrared spectral survey of galaxies, stars and cosmic ices. [Operational]
 - **Artemis II** (2026) — United States / international · Moon · Human spaceflight — Crewed lunar flyby; first people around the lunar far side since Apollo. [Success]
+- **Nancy Grace Roman Space Telescope** (2026) — NASA / ESA / JAXA / CNES · Sun–Earth L2 · Infrared astronomy / cosmology / exoplanets — Launched for wide-field infrared surveys of dark energy and exoplanets; undergoing commissioning en route to Sun–Earth L2. [In transit]

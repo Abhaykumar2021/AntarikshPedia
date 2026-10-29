@@ -703,5 +703,11 @@
     "launch_vehicle": "H-IIA 202",
     "mass_kg": 310,
     "orbit_type": "Heliocentric orbit"
+  },
+  "nancy-grace-roman-space-telescope-2026": {
+    "launch_date": "2026-08-30",
+    "launch_vehicle": "Falcon Heavy",
+    "orbit_type": "Transfer to Sun–Earth L2 (planned orbit)",
+    "duration": "5 years (planned science mission)"
   }
 }

@@ -65,16 +65,13 @@
 
   /* ---- layout ---- */
   --max-width: 1160px;
-  --header-h: 56px;
-  --sidebar-w: 320px;
+  --header-h: 64px;
 
   /* ---- motion ---- */
   --transition-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-med: 320ms cubic-bezier(0.4, 0, 0.2, 1);
-  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 
   /* ---- z-layers ---- */
   --z-header: 50;
-  --z-sidebar: 100;
   --z-overlay: 90;
 }
